@@ -1,0 +1,13 @@
+{
+  "mesh": "/Game/VariantZero/Guardians/SM_GuardianLeaf",
+  "dimensions_cm": [
+    104.7773208618164,
+    10.319620311260223,
+    100.2376937866211
+  ],
+  "material_slots": [
+    "JadeLeaf",
+    "LivingVeins"
+  ],
+  "collision": "none; gameplay remains on guardian core"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SW_Conservatory",
+    "seconds": 89.42857142857143,
+    "peak": 0.3262878358364105,
+    "seam_jump": 0.0101470947265625,
+    "source": "D:\\Projects\\零号变种\\玻璃下的春天\\02-WAV无损\\01-原初之息-84BPM.wav",
+    "sha256": "464aacff1357c40472a9870da1b00ed9c3fecf413c866678db43b84e3f9ee596"
+  },
+  {
+    "name": "SW_Alert",
+    "seconds": 69.11111111111111,
+    "peak": 0.4702697694301605,
+    "seam_jump": 0.001922607421875,
+    "source": "D:\\Projects\\零号变种\\玻璃下的春天\\02-WAV无损\\04-共生前线-108BPM.wav",
+    "sha256": "977058a73d80e25f56e77c49d5d01919bf609d27c2fb8f856607551eea6c6138"
+  },
+  {
+    "name": "SW_Pulse",
+    "seconds": 0.17,
+    "peak": 0.11943863939093377,
+    "seam_jump": 0.0,
+    "source": "Original synthesized cue",
+    "sha256": "a426d9faa9274bc2c48442e340799ae5f8537526907e1c5627d07a58041de494"
+  },
+  {
+    "name": "SW_Shield",
+    "seconds": 0.65,
+    "peak": 0.1518691873311409,
+    "seam_jump": 0.0,
+    "source": "Original synthesized cue",
+    "sha256": "99b9de3aaf70b26f3cb9df42240c679d88e4e8c0f5defc9c9241d2b293bd92e0"
+  },
+  {
+    "name": "SW_Repair",
+    "seconds": 1.3999773242630384,
+    "peak": 0.1587851885887121,
+    "seam_jump": 0.0,
+    "source": "Original synthesized cue",
+    "sha256": "7638cae9ceae30727f590e24b24ffacc0d1ed91965a290c610f1818ed82e4044"
+  },
+  {
+    "name": "SW_Hit",
+    "seconds": 0.19,
+    "peak": 0.1577344787121977,
+    "seam_jump": 0.0,
+    "source": "Original synthesized cue",
+    "sha256": "e7e0b1af95ada7af02ffb86669bd164125e582aa851cc5b837f3751cfb42570f"
+  }
+]

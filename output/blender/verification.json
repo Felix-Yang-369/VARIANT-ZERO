@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "official_scene_name": true,
+    "official_character_name": true,
+    "official_file_name": true,
+    "single_scene": true,
+    "three_subjects_have_geometry": true,
+    "three_reference_images_packed": true,
+    "three_cameras": true,
+    "main_camera_active": true,
+    "reference_boards_hidden": true,
+    "no_external_file_textures": true
+  },
+  "passed": true,
+  "objects": 20810,
+  "collections": {
+    "01 • 原初生态研究所 | 温室建筑": 188,
+    "04 • Glass podium | 玻璃培养台": 167,
+    "05 • V-001 原豆母体 | 豆科": 143
+  }
+}

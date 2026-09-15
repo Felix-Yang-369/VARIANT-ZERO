@@ -1,0 +1,22 @@
+[
+  {
+    "instance": "环境 • 原初生态研究所",
+    "source_file": "原初生态研究所_V-001_原豆母体_v1.blend",
+    "source_collection": "原初生态研究所 • 环境资产"
+  },
+  {
+    "instance": "角色 • V-001 原豆母体",
+    "source_file": "原初生态研究所_V-001_原豆母体_v1.blend",
+    "source_collection": "05 • V-001 原豆母体 | 豆科"
+  },
+  {
+    "instance": "角色 • 苔行者",
+    "source_file": "characters/enemy0_苔行者/苔行者_enemy0_v1.blend",
+    "source_collection": "苔行者 • 角色资产"
+  },
+  {
+    "instance": "角色 • 疾藤潜行者",
+    "source_file": "characters/enemy2_疾藤潜行者/疾藤潜行者_enemy2_v1.blend",
+    "source_collection": "疾藤潜行者 • 角色资产"
+  }
+]

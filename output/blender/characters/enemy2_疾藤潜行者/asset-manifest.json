@@ -1,0 +1,11 @@
+{
+  "name": "疾藤潜行者",
+  "key": "enemy2",
+  "file": "D:\\Projects\\零号变种\\output\\blender\\characters\\enemy2_疾藤潜行者\\疾藤潜行者_enemy2_v1.blend",
+  "objects": 475,
+  "mesh_objects": 79,
+  "vertices": 679450,
+  "reference_packed": true,
+  "renderer": "Cycles / OptiX / RTX 5060",
+  "rigged": false
+}

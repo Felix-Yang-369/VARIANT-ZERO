@@ -1,0 +1,44 @@
+{
+  "stage": "P0 cooperative combat prototype",
+  "packagedExecutable": "BuildOutput-P0-Combat/Windows/VariantZeroUE.exe",
+  "build": {
+    "success": true,
+    "log": "combat-packaging.log"
+  },
+  "nativeTests": {
+    "passed": 3,
+    "failed": 0,
+    "report": "TestResults/Native/index.json",
+    "createdOn": "2026.09.15-06.37.35"
+  },
+  "runtimeChecks": [
+    "VZ_COMBAT_INPUT",
+    "VZ_OCCLUSION",
+    "VZ_AUTO_ATTACK",
+    "VZ_COMBAT",
+    "VZ_MATERIAL",
+    "VZ_NAV",
+    "VZ_RIG",
+    "VZ_SMOKE"
+  ],
+  "runtimeResult": "All listed markers PASS",
+  "runtimeLogs": [
+    "combat-runtime.log",
+    "combat-smoke.log"
+  ],
+  "preview": {
+    "path": "Previews/零号变种-P0-协作战斗.png",
+    "source": "Actual packaged game, scripted camera and existing abilities",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "78811F31A0724AF37337E75AE5037AD388638518E0592EDF68DA518804337890",
+    "log": "combat-preview.log"
+  },
+  "limitations": [
+    "P0 incomplete; not the P1 story sample",
+    "Quinn template protagonist; candidate companion and environment art",
+    "Prototype weapon and effects; no finished combat animation or sound",
+    "No full controller UI or input rebinding",
+    "No 60 FPS or two-hour stability certification"
+  ]
+}

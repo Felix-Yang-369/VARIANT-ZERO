@@ -1,0 +1,10 @@
+{
+  "map": "/Game/VariantZero/Maps/P0_Conservatory_Garden",
+  "walkable_extension_m": [
+    26,
+    57
+  ],
+  "mirrors": 3,
+  "ferns": 80,
+  "status": "authored gameplay blockout; runtime navigation verification required"
+}

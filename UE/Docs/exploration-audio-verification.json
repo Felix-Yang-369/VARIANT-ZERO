@@ -1,0 +1,56 @@
+[
+  {
+    "test": "VZChuyaStoryTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\exploration-audio-VZChuyaStoryTest.log"
+  },
+  {
+    "test": "VZTravelTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\exploration-audio-VZTravelTest.log"
+  },
+  {
+    "test": "VZGardenTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\exploration-audio-VZGardenTest.log"
+  },
+  {
+    "test": "VZStoryTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\exploration-audio-VZStoryTest.log"
+  },
+  {
+    "test": "VZHeroTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\exploration-audio-VZHeroTest.log"
+  },
+  {
+    "test": "VZSmokeTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\exploration-audio-VZSmokeTest.log"
+  },
+  {
+    "test": "VZCombatTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\exploration-audio-VZCombatTest.log"
+  },
+  {
+    "test": "VZOrderTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\exploration-audio-VZOrderTest.log"
+  },
+  {
+    "test": "VZMenuTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\exploration-audio-VZMenuTest.log"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "stage": "P0 foundation integration; full 1.0 remains in progress",
+  "package": "BuildOutput-P0-Foundation/Windows/VariantZeroUE.exe",
+  "map": "/Game/VariantZero/Maps/P0_Conservatory_Foundation2",
+  "native": {
+    "passed": 4,
+    "failed": 0,
+    "time": "2026.09.15-07.53.32"
+  },
+  "runtime": {
+    "orders": "PASS",
+    "smoke": "PASS",
+    "combat": "PASS",
+    "menuRebindingAndAudio": "PASS",
+    "exitCodes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "logs": [
+      "foundation-orders.log",
+      "foundation-smoke.log",
+      "foundation-combat.log",
+      "foundation-menu.log"
+    ]
+  },
+  "environment": "Rebuilt from verified authoring recipe; backdrop geometry excluded from navigation; actual detour retested",
+  "audio": "Six cooked original wave assets; offline calm/alert state mix and references verified; final listening acceptance pending",
+  "input": "15 keyboard actions and 11 gamepad buttons; reserved keys, conflicts, settings persistence, future-version rejection, actual rebound key dispatch verified",
+  "preview": {
+    "file": "Previews/零号变种-P0-基础整合.png",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "4AE72BB35CC753D0E5B566D90B47A0DC8638EF2CDAB0C9D4E808D5D6028AD907",
+    "source": "Actual packaged game"
+  },
+  "externalStep": "Selected rigged female asset requires Epic login in opened browser",
+  "remaining": "Docs/1.0交付门槛.md"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Primary_Fire_Fast",
+    "length": 0.6000000238418579,
+    "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+    "skeleton": "/Game/ParagonLtBelica/Characters/Heroes/Belica/Meshes/Belica_Skeleton.Belica_Skeleton"
+  },
+  {
+    "name": "Cast",
+    "length": 0.9666666388511658,
+    "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+    "skeleton": "/Game/ParagonLtBelica/Characters/Heroes/Belica/Meshes/Belica_Skeleton.Belica_Skeleton"
+  },
+  {
+    "name": "HitReact_Front",
+    "length": 0.8666666746139526,
+    "additive": "<AdditiveAnimationType.AAT_LOCAL_SPACE_BASE: 1>",
+    "skeleton": "/Game/ParagonLtBelica/Characters/Heroes/Belica/Meshes/Belica_Skeleton.Belica_Skeleton"
+  },
+  {
+    "name": "E_Ability_Start",
+    "length": 1.100000023841858,
+    "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+    "skeleton": "/Game/ParagonLtBelica/Characters/Heroes/Belica/Meshes/Belica_Skeleton.Belica_Skeleton"
+  },
+  {
+    "name": "Q_Ability_Start",
+    "length": 1.2000000476837158,
+    "additive": "<AdditiveAnimationType.AAT_NONE: 0>",
+    "skeleton": "/Game/ParagonLtBelica/Characters/Heroes/Belica/Meshes/Belica_Skeleton.Belica_Skeleton"
+  }
+]

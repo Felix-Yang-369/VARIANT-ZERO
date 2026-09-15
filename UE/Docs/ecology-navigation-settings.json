@@ -1,0 +1,17 @@
+{
+  "/Game/VariantZero/Maps/P0_Conservatory_Foundation2": {
+    "runtime_generation": "<RuntimeGenerationType.DYNAMIC: 2>",
+    "force_rebuild_on_load": "True",
+    "can_be_main_nav_data": "True",
+    "agent_radius": "35.0",
+    "agent_height": "144.0"
+  },
+  "/Game/VariantZero/Maps/P0_Conservatory_Ecology": {
+    "runtime_generation": "<RuntimeGenerationType.DYNAMIC: 2>",
+    "force_rebuild_on_load": "True",
+    "can_be_main_nav_data": "True",
+    "agent_radius": "35.0",
+    "agent_height": "144.0",
+    "detour_after_rebuild": true
+  }
+}

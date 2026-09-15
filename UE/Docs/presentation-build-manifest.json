@@ -1,0 +1,18 @@
+{
+  "previousPackage": "BuildOutput-Guardian retained",
+  "binary": "D:\\Projects\\零号变种\\UE\\BuildOutput-Presentation\\Windows\\VariantZeroUE\\Binaries\\Win64\\VariantZeroUE.exe",
+  "performanceAcceptance": "not measured",
+  "features": [
+    "independent music and effects gain",
+    "18/24/30 dialogue and journal font",
+    "persistent settings preserve bindings",
+    "reset confirmation and invalid value normalization"
+  ],
+  "packagedChecksPassed": 8,
+  "mainVoice": "not implemented",
+  "nativeSuitesPassed": 7,
+  "verifiedAt": "2026-09-15T10:57:29.9346976-07:00",
+  "stage": "P1 prototype presentation settings; full 1.0 incomplete",
+  "sha256": "5E48603473B047A7516DD9703CA76B0C0E40304EC972AAE03E9394DCE3637F83",
+  "launcher": "D:\\Projects\\零号变种\\开始游戏.bat"
+}

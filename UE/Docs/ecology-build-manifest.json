@@ -1,0 +1,12 @@
+{
+  "assetLicense": "Poly Haven CC0",
+  "preview": "Previews/零号变种-P0-生态美术候选.png",
+  "status": "P0 art candidate; not approved P0 or 1.0",
+  "previewPassed": true,
+  "generationCreditsUsed": 0,
+  "binary": "D:\\Projects\\VariantZeroUE\\BuildOutput-P0-Ecology\\Windows\\VariantZeroUE\\Binaries\\Win64\\VariantZeroUE.exe",
+  "featureTestsPassed": 5,
+  "sha256": "EA159086776155A7A00877BCB2986EA20D83F08C180B33194EEBD2ACC16EE3D9",
+  "verifiedAt": "2026-09-15T08:40:26.3477110-07:00",
+  "map": "/Game/VariantZero/Maps/P0_Conservatory_Ecology"
+}

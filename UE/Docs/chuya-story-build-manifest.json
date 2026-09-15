@@ -1,0 +1,15 @@
+{
+  "stage": "P1 optional companion story prototype; full 1.0 incomplete",
+  "localChoices": 2,
+  "observations": 3,
+  "packagedChecksPassed": 9,
+  "launcher": "D:\\Projects\\零号变种\\开始游戏.bat",
+  "previousPackage": "BuildOutput-Presentation retained",
+  "mainVoice": "not implemented",
+  "nativeSuitesPassed": 8,
+  "story": "Chuya - First Rain",
+  "performanceAcceptance": "not measured",
+  "verifiedAt": "2026-09-15T11:24:55.2302569-07:00",
+  "binary": "D:\\Projects\\零号变种\\UE\\BuildOutput-ChuyaStory\\Windows\\VariantZeroUE\\Binaries\\Win64\\VariantZeroUE.exe",
+  "sha256": "AE0103928A719B86CAA2F29A7362273F7E6146F9FC28B2A02264537F380EF3A0"
+}

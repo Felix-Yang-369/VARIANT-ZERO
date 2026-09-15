@@ -1,0 +1,7 @@
+{
+  "map": "/Game/VariantZero/Maps/P0_Conservatory_Ecology",
+  "fern_actors": 100,
+  "rock_actors": 44,
+  "terrain": "250m visual backdrop only; not open-world traversable area",
+  "nav": "Original obstruction and bounds preserved; backdrop does not affect navigation"
+}

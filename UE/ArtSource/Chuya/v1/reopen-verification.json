@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "armature_modifier": true,
+    "all_vertices_weighted": true,
+    "eleven_bones": true,
+    "uv_present": true,
+    "textures_packed": true,
+    "fbx_exports_present": true,
+    "animation_deforms_mesh": true,
+    "finite_deformation": true,
+    "bounded_deformation": true
+  },
+  "passed": true
+}

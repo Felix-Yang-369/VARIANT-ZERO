@@ -1,0 +1,10 @@
+{
+  "scope": "P0 technical prototype only; production assets pending",
+  "engine": "5.8.2",
+  "nativeSuitesPassed": 2,
+  "nativeSuitesFailed": 0,
+  "runtimePass": true,
+  "packagingPass": true,
+  "fixtureSpecies": 45,
+  "fixtureBattles": 45
+}

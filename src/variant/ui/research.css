@@ -1,0 +1,169 @@
+/* Shared presentation for the hub, archive and laboratory only. */
+body:is([data-page=hub],[data-page=archive],[data-page=lab]) {
+ --research-ink:#edf2e6;--research-muted:#b5cdc1;--research-cyan:#98dfcc;--research-edge:#9fcfbe40;
+ --research-panel:#102c25f5;--research-shadow:0 16px 45px #00140e38,inset 0 1px #e0fff00c;
+ --research-radius:10px;
+}
+body:is([data-page=archive],[data-page=lab]) #screen {background:radial-gradient(ellipse at 70% 0,#649a7c22,transparent 55%),#0a211b;padding-top:22px;}
+body:is([data-page=archive],[data-page=lab]) .page-heading {margin-bottom:20px;padding-left:14px;border-color:var(--research-cyan);}
+body:is([data-page=archive],[data-page=lab]) .page-heading h1 {font:30px/1.3 'Songti SC',SimSun,serif;letter-spacing:1px;margin:7px 0;}
+body:is([data-page=archive],[data-page=lab]) .page-heading p {font-size:14px;}
+body:is([data-page=archive],[data-page=lab]) .page-heading .eyebrow {font-size:10px;letter-spacing:2px;}
+body:is([data-page=hub],[data-page=archive],[data-page=lab]) :is(button,input,select,summary,[tabindex]):focus-visible {outline:2px solid var(--research-cyan);outline-offset:3px;}
+body:is([data-page=archive],[data-page=lab]) :is(button,label,select) {font-size:13px;}
+body:is([data-page=archive],[data-page=lab]) .sidebar .nav-label {font-size:14px;}
+body:is([data-page=archive],[data-page=lab]) button.primary {background:linear-gradient(120deg,#d9eee1,#91d5c1);border-color:#b0e6d4;color:#12392d;}
+.research-art {display:block;position:relative;width:100%;height:100%;}
+.research-art>.organism {width:100%;height:100%;object-fit:contain;transform:scale(var(--art-scale));transform-origin:var(--art-foot-x) var(--art-foot-y);filter:drop-shadow(0 5px 5px #00160c55);}
+body[data-page=archive] .archive-tools {background:#17362df2;border-color:var(--research-edge);gap:12px;margin-bottom:16px;padding:12px;}
+.view-switch,.zoom-controls {display:flex;align-items:center;gap:4px;flex-wrap:wrap;}
+.zoom-controls {margin-left:auto;}
+body[data-page=archive] .archive-tools button {min-height:36px;}
+body[data-page=archive] .archive-layout {grid-template-columns:minmax(0,1fr) 320px;gap:18px;}
+body[data-page=archive] .archive-detail {background:var(--research-panel);border-color:var(--research-edge);border-radius:var(--research-radius);padding:20px;box-shadow:var(--research-shadow);}
+body[data-page=archive] .detail-specimen {position:relative;height:212px;background:radial-gradient(ellipse at 50% 60%,#b0e9ce20,transparent 70%);padding:10px 20px 16px;isolation:isolate;}
+.detail-orbit {position:absolute;bottom:10px;left:18%;width:64%;height:22px;border:1px solid #a4d5c342;border-radius:50%;box-shadow:0 5px 0 #031d1566;z-index:-1;}
+body[data-page=archive] .archive-detail h2 {font:24px/1.5 'Songti SC',SimSun,serif;margin:8px 0;}
+.stage-badge,.outcome-badge {display:inline-block;font-size:12px;color:var(--research-cyan);padding:4px 8px;border:1px solid var(--research-edge);border-radius:4px;background:#91d8bd0a;}
+body[data-page=archive] .archive-detail p {font-size:14px;line-height:1.8;}
+.detail-stats {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--research-edge);border:1px solid var(--research-edge);border-radius:6px;overflow:hidden;margin:18px 0;}
+.detail-stats div {padding:10px 12px;background:#102b24;}
+.detail-stats dt {font-size:12px;color:var(--research-muted);}
+.detail-stats dd {font-size:17px;font-variant-numeric:tabular-nums;margin:5px 0 0;}
+.relations h3 {display:flex;justify-content:space-between;font-size:14px;margin:18px 0 10px;}
+.relations h3 small {font-size:12px;}
+.relation-card {display:flex;width:100%;text-align:left;justify-content:flex-start;padding:6px 10px;gap:10px;margin:5px 0;background:#17382c88;}
+.relation-card>.research-art,.relation-card>.organism {width:44px;height:50px;flex:none;}
+.relation-card>span:not(.research-art) {flex:1;min-width:0;}
+.relation-card small {display:block;font:11px ui-monospace,monospace;}
+.relation-card b {display:block;font-size:13px;line-height:1.5;overflow-wrap:anywhere;}
+.relation-card>.ui-icon {width:14px;}
+.relations summary {font-size:12px;color:var(--research-cyan);padding:12px 0;cursor:pointer;}
+body[data-page=archive] .archive-footnote {font-size:12px;margin-top:18px;color:#9fb9ab;}
+.network-caption {display:flex;justify-content:space-between;gap:10px;padding:0 4px 10px;font-size:12px;color:var(--research-muted);}
+body[data-page=archive] .network-viewport {height:calc(100svh - 262px);min-height:400px;background:radial-gradient(circle,#9ee9cf18 1px,transparent 1px) 0 0 / 24px 24px,#0b241e;border-color:var(--research-edge);}
+.network-family {position:absolute;top:25px;color:#a8cabe;font-size:13px;letter-spacing:3px;}
+body[data-page=archive] .network-node {width:148px;height:108px;padding:8px 10px;display:grid;grid-template-columns:48px 1fr;grid-template-rows:24px 1fr;gap:5px 8px;opacity:.55;background:#15352c;border:1px solid #86b49e42;border-radius:9px;box-shadow:none;}
+body[data-page=archive] .network-node>.organism,body[data-page=archive] .network-node>.research-art {grid-row:1/3;width:48px;height:72px;align-self:center;}
+body[data-page=archive] .network-node>span:not(.organism):not(.research-art) {font:11px ui-monospace,monospace;align-self:end;}
+body[data-page=archive] .network-node>b {font-size:13px;line-height:1.5;align-self:start;}
+body[data-page=archive] .network-node.related {opacity:1;background:#193d31;}
+body[data-page=archive] .network-node.selected {opacity:1;background:linear-gradient(130deg,#32624f,#163e32);border-color:#a7e5ce;box-shadow:0 0 0 3px #a7e5ce15,0 8px 24px #00180d55;}
+body[data-page=archive] .network-node.unseen {border-style:dashed;}
+body[data-page=archive] .network-lines path {stroke:#759c8b;stroke-width:1;opacity:.12;stroke-dasharray:none;}
+body[data-page=archive] .network-lines path.related {stroke:#92d9bc;stroke-width:2;opacity:.85;}
+body[data-page=archive] .network-lines path.hybrid-line.related {stroke:#b8a0ce;stroke-dasharray:5 7;opacity:.65;}
+body[data-page=archive] .species-card {background:linear-gradient(145deg,#1b3b30,#102b24);border-color:var(--research-edge);}
+body[data-page=archive] .species-card :is(.specimen-code,.specimen-code span,.growth-stage,.tags span,.species-stats,.species-stats b) {font-size:12px;}
+body[data-page=archive] .species-card p {font-size:14px;}
+body[data-page=archive] .specimen-visual>.research-art {width:95%;height:150px;}
+body[data-page=archive] .species-grid>div>button {font-size:12px;min-height:42px;}
+body[data-page=lab] .lab-layout {grid-template-columns:220px minmax(0,1fr) 270px;gap:16px;align-items:start;}
+body[data-page=lab] :is(.lab-selection,.lab-stage,.lab-summary,.research-log) {background:var(--research-panel);border:1px solid var(--research-edge);border-radius:var(--research-radius);box-shadow:var(--research-shadow);}
+body[data-page=lab] :is(.lab-selection,.lab-summary) {padding:18px;}
+body[data-page=lab] .lab-stage {padding:0;overflow:hidden;}
+body[data-page=lab] .lab-stage>h3 {padding:18px 20px 0;}
+body[data-page=lab] .lab-layout h3 {font-size:15px;letter-spacing:.5px;margin:0 0 16px;}
+body[data-page=lab] .lab-layout h3 small {font:12px ui-monospace,monospace;color:#98c4b3;margin-right:8px;}
+body[data-page=lab] .lab-selection .archive-tools {display:grid;grid-template-columns:1fr 1fr;border:0;background:none;padding:0;gap:6px;margin-bottom:22px;}
+body[data-page=lab] .lab-selection [data-compatibility] {grid-column:1/3;background:transparent;border-color:transparent;justify-content:space-between;font-size:12px;}
+body[data-page=lab] .lab-selection .archive-tools button {padding:9px 6px;}
+body[data-page=lab] .recipe-label {display:block;font-size:13px;}
+body[data-page=lab] #recipe-select {display:block;width:100%;margin:10px 0 0;padding:10px 5px;font-size:12px;}
+.material-slots {display:grid;gap:8px;margin-top:18px;}
+.material-slots>div {display:flex;gap:10px;align-items:center;padding:10px 8px;background:#0c241d;border:1px solid var(--research-edge);border-radius:6px;}
+.material-slots .research-art,.material-slots .organism {width:40px;height:48px;flex:none;}
+.material-slots small {display:block;font-size:12px;margin-bottom:5px;}
+.material-slots b {display:block;font-size:13px;font-weight:500;overflow-wrap:anywhere;}
+.material-slots .ui-icon {width:24px;margin:0 8px;color:var(--research-cyan);}
+body[data-page=lab] .reagent-inventory {display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px;align-items:center;}
+body[data-page=lab] .reagent-inventory>span {font-size:12px;padding:6px 10px;border-color:#d5c39430;background:#2d382516;color:#e1d7b5;}
+body[data-page=lab] .reagent-inventory>.inventory-label {padding-left:0;border:0;color:var(--research-muted);}
+body[data-page=lab] .parent-chamber,.research-preview .parent-chamber {display:flex;align-items:flex-end;justify-content:center;gap:16px;min-height:290px;padding:20px 20px 28px;background:linear-gradient(0deg,#102c25,transparent 70%),linear-gradient(#0e291bb3,#0e291b80),url('/art/immersive-lab-v1.png') center/cover;}
+.material-organism {position:relative;display:flex;flex-direction:column;align-items:center;min-width:0;flex:1;max-width:210px;}
+.material-organism:before {content:'';position:absolute;bottom:65px;left:8%;width:84%;height:20px;border:1px solid #b6e4d444;border-radius:50%;background:#b7dece08;}
+body[data-page=lab] .material-organism>.research-art,body[data-page=lab] .material-organism>.organism,.research-preview .material-organism>.research-art,.research-preview .material-organism>.organism {height:190px;width:100%;margin:0 0 12px;z-index:1;}
+.material-organism>span:not(.research-art) {font:12px ui-monospace,monospace;color:#b0cfc1;}
+.material-organism b {font-size:16px;font-weight:500;margin:5px 0;}
+.material-organism small {font-size:12px;}
+.material-join {align-self:center;color:#a4d9c4;}
+.candidate-heading {display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px;padding:18px 18px 12px;font-size:14px;}
+.candidate-heading small {font-size:12px;}
+body[data-page=lab] .experiment-results,.research-preview .experiment-results {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:0 16px 18px;}
+body[data-page=lab] .experiment-results .candidate-card,.research-preview .candidate-card {display:flex;flex-direction:column;align-items:stretch;gap:0;padding:12px;background:#18382d;border:1px solid var(--research-edge);border-radius:8px;min-width:0;}
+.candidate-visual {height:106px;background:radial-gradient(ellipse,#9cdbc715,transparent 70%);}
+.candidate-visual>.organism,.candidate-visual>.research-art {height:100%;width:100%;}
+.candidate-card>div:last-child {display:flex;flex-direction:column;gap:5px;}
+.candidate-card small {font-size:12px;}
+.candidate-card b {font-size:14px;font-weight:500;overflow-wrap:anywhere;}
+.candidate-card strong {font:25px/1.5 Georgia,serif;color:var(--research-cyan);}
+.candidate-card em {font:12px sans-serif;margin-left:3px;}
+.failure-candidate .failure-symbol {display:grid;place-items:center;height:100%;color:#c59aa9;}
+.failure-candidate .ui-icon {width:36px;height:36px;opacity:.6;}
+.failure-candidate strong {color:#d4adb8;}
+body[data-page=lab] .risk-summary,.research-preview .risk-summary {display:block;margin:20px 0;}
+.probability-labels {display:flex;justify-content:space-between;gap:12px;}
+.probability-labels>span {font-size:13px;color:var(--research-muted);}
+.probability-labels b {display:block;font:28px/1.4 Georgia,serif;color:var(--research-cyan);margin-top:5px;}
+.probability-labels>span:last-child {text-align:right;}
+.probability-labels>span:last-child b {color:#d4a8b6;}
+.probability-bar {display:flex;height:6px;border-radius:5px;overflow:hidden;margin:12px 0 14px;}
+.probability-bar span {background:#89cbb5;}.probability-bar i {background:#b48398;}
+body[data-page=lab] .abnormal-note,.research-preview .abnormal-note {display:flex;align-items:center;flex-wrap:wrap;gap:6px;font-size:12px;margin:0;color:#c5aed8;}
+.abnormal-note small {font-size:12px;color:#acb7b1;}.abnormal-note .ui-icon {width:14px;}
+.cost-breakdown {border-top:1px solid var(--research-edge);margin:20px 0;}
+.cost-head {display:flex;justify-content:space-between;font-size:12px;color:#a7bfb2;padding:12px 0;}
+.cost-row {display:grid;grid-template-columns:1fr auto;gap:6px;padding:10px 0;border-top:1px solid #99cbb51c;font-size:13px;}
+.cost-row b {font-variant-numeric:tabular-nums;font-weight:500;}.cost-row small {grid-column:1/3;font-size:12px;color:#98cbbb;}.cost-row.insufficient small,.cost-row.insufficient b {color:#edb0bb;}
+body[data-page=lab] .experiment-rules p,.research-preview .experiment-rules p {font-size:12px;line-height:1.8;margin:8px 0;color:#b4c8bd;}
+.lab-confirm {padding-top:12px;}.lab-confirm>button {width:100%;min-height:46px;}
+body[data-page=lab] .lab-summary {position:sticky;top:18px;}
+body[data-page=lab] .research-log {margin-top:22px;padding:22px;}
+body[data-page=lab] .research-log h2 {font:23px 'Songti SC',SimSun,serif;margin:8px 0 20px;}
+.research-log-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;}
+body[data-page=lab] .research-log-grid>article {display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding:16px;border:1px solid var(--research-edge);border-radius:8px;margin:0;background:#0b251d;}
+.research-log-grid b {font-size:16px;font-weight:500;}.research-log-grid p {font-size:14px;}.research-log-grid small {font-size:12px;line-height:1.7;}.research-log-grid .log-empty {grid-column:1/-1;font-size:14px;}
+.log-duplicate .outcome-badge {color:#deca94;}.log-failure .outcome-badge {color:#d9acba;}
+.lab-empty {padding:32px;font-size:14px;}
+body[data-page=lab] .modal-card {background:#102c25f7;border-color:var(--research-edge);width:min(720px,100%);}
+body[data-page=lab] .modal-actions {background:#102c25fa;}
+body[data-page=lab] .modal-card p {font-size:14px;}
+body[data-page=lab] .modal-card .species-card .specimen-visual>.research-art {height:150px;width:100%;}
+body[data-page=lab] .modal-card .species-card :is(.specimen-code,.growth-stage,.tags span,.species-stats,.species-stats b) {font-size:12px;}
+body[data-page=lab] .modal-card .research-preview .parent-chamber {min-height:180px;background:#163b2b70;}
+body[data-page=lab] .modal-card .research-preview .material-organism>.research-art,body[data-page=lab] .modal-card .research-preview .material-organism>.organism {height:130px;}
+@supports(backdrop-filter:blur(12px)){body:is([data-page=archive],[data-page=lab]) :is(.archive-detail,.lab-summary,.lab-selection){background:#102c25ed;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);}}
+@media(max-width:1280px){body[data-page=lab] .lab-layout{grid-template-columns:200px minmax(0,1fr) 246px;gap:12px}body[data-page=lab] :is(.lab-selection,.lab-summary){padding:14px}.research-log-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:801px) and (max-width:1100px){body[data-page=lab] .lab-layout{grid-template-columns:190px minmax(0,1fr)}body[data-page=lab] .lab-summary{grid-column:1/-1;position:static}body[data-page=archive] .archive-layout{grid-template-columns:minmax(0,1fr) 280px}}
+@media(max-width:800px){body:is([data-page=archive],[data-page=lab]) #screen{padding:22px 18px 32px}body:is([data-page=archive],[data-page=lab]) .page-heading h1{font-size:27px}body[data-page=archive] .archive-layout{grid-template-columns:1fr}body[data-page=archive] .archive-detail{position:static;max-height:none}body[data-page=archive] .network-viewport{height:460px;min-height:0}.network-caption{font-size:12px;flex-wrap:wrap}.zoom-controls{margin-left:0}body[data-page=archive] .archive-tools{gap:10px}body[data-page=archive] .archive-main .species-grid{grid-template-columns:1fr}body[data-page=lab] .lab-layout{display:flex;flex-direction:column}body[data-page=lab] .lab-layout>section{width:100%}body[data-page=lab] .lab-summary{position:static}.material-slots{grid-template-columns:1fr 1fr}.material-slots>div{min-width:0;padding:8px}.material-slots b{font-size:12px}body[data-page=lab] .lab-selection .archive-tools{grid-template-columns:1fr 1fr}.research-log-grid{grid-template-columns:1fr}body[data-page=lab] .modal-card{padding:18px}body[data-page=lab] .modal-actions{bottom:-18px}.research-preview .experiment-results{padding:0}.research-preview .candidate-card{padding:10px}}
+@media(prefers-reduced-motion:reduce){body:is([data-page=hub],[data-page=archive],[data-page=lab]) *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+body:is([data-page=archive],[data-page=lab]) .research-art>.organism {width:100%;height:100%;}
+body[data-page=lab] .experiment-results .candidate-visual,.research-preview .experiment-results .candidate-visual {display:block;height:106px;flex:none;}
+body[data-page=lab] .candidate-card>div:last-child,.research-preview .candidate-card>div:last-child {align-items:flex-start;}
+body[data-page=archive] .network-node.selected {outline:none;}
+body[data-page=archive] .network-node:focus-visible {outline:2px solid var(--research-cyan);}
+/* Structural rules live with their page styles, rather than the global HUD sheet. */
+body[data-page=archive] .archive-tools {display:flex;flex-wrap:wrap;align-items:center;border:1px solid var(--research-edge);border-radius:10px;}
+body[data-page=archive] .archive-layout {display:grid;align-items:start;}
+.archive-main {min-width:0;}.archive-detail {position:sticky;top:18px;max-height:calc(100svh - 40px);overflow:auto;border:1px solid var(--research-edge);}
+.network-viewport {overflow:auto;border:1px solid var(--research-edge);border-radius:10px;cursor:grab;}
+.network-space {position:relative;}.network-plane {position:absolute;left:0;top:0;transform-origin:0 0;}
+.network-lines {position:absolute;pointer-events:none;}.network-lines path {fill:none;}
+.network-node {position:absolute;text-align:left;}.network-node span{color:var(--research-cyan);}
+body[data-page=archive] .archive-main .species-grid {grid-template-columns:repeat(2,minmax(0,1fr));}
+body[data-page=lab] .lab-layout {display:grid;}.lab-layout>section{min-width:0;}
+.parent-chamber .material-organism{text-align:center;}
+body[data-page=lab] .reagent-inventory>span {border:1px solid #d5c39430;border-radius:6px;}
+@media(max-width:800px){body[data-page=lab] .lab-layout{display:flex}body[data-page=archive] .archive-main .species-grid{grid-template-columns:1fr}.archive-detail{position:static;max-height:none;}}
+
+.research-art {display:flex;align-items:center;justify-content:center;}
+.research-art.art-node {--sprite-size:40px;}.research-art.art-card {--sprite-size:106px;}.research-art.art-detail {--sprite-size:190px;}
+.research-art>.sprite-window {display:block;width:var(--sprite-size);height:var(--sprite-size);flex:none;}
+.research-art>.sprite-window>.organism {width:100%;height:100%;}
+body[data-page=archive] .network-node .sprite-window>.organism {width:100%;height:100%;}
+body[data-page=archive] .specimen-visual .research-art {--sprite-size:150px;}
+.material-organism>.research-art.art-card {--sprite-size:160px;}
+.research-preview .material-organism>.research-art.art-card {--sprite-size:120px;}
+.detail-stats>div:last-child:nth-child(odd) {grid-column:1/-1;}
+.candidate-visual .research-art {margin:auto;}

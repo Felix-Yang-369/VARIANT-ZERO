@@ -1,0 +1,12 @@
+{
+  "nativeSuitesPassed": 7,
+  "verifiedAt": "2026-09-15T10:30:06.0162679-07:00",
+  "performanceAcceptance": "not measured",
+  "launcher": "D:\\Projects\\零号变种\\开始游戏.bat",
+  "sha256": "BDF30C26A20F38DA354720191D011C1EDDFF31A523C5DDE9B7C507BC9902FE7F",
+  "mainVoice": "not implemented",
+  "binary": "D:\\Projects\\零号变种\\UE\\BuildOutput-Travel\\Windows\\VariantZeroUE\\Binaries\\Win64\\VariantZeroUE.exe",
+  "stage": "Travel and research journal prototype; full 1.0 incomplete",
+  "packagedChecksPassed": 8,
+  "previousPackage": "BuildOutput-Garden retained"
+}

@@ -1,0 +1,15 @@
+{
+  "sha256": "89183FAD0E4CBF2D6EB9C08BB4F43EACC6611A6FCA21FF8D3D25D00ED113F553",
+  "binary": "D:\\Projects\\零号变种\\UE\\BuildOutput-SharedSave\\Windows\\VariantZeroUE\\Binaries\\Win64\\VariantZeroUE.exe",
+  "packagedChecksPassed": 9,
+  "nativeSuitesPassed": 11,
+  "previousPackage": "BuildOutput-Growth retained",
+  "performanceAcceptance": "not measured",
+  "userSavePath": "%LOCALAPPDATA%\\VariantZero\\SaveGames\\Story",
+  "stage": "Shared story saves; full 1.0 incomplete",
+  "playerSavesMigrated": 0,
+  "finalChange": "Explicit missing legacy source protected; native suite and menu retested",
+  "verifiedAt": "2026-09-15T13:40:32.2532536-07:00",
+  "version": "0.2.24",
+  "versionAssignment": "Retrospective estimate from 24 existing stage packages; no binary rebuild"
+}

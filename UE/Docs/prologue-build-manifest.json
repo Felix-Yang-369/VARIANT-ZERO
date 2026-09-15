@@ -1,0 +1,14 @@
+{
+  "sha256": "D56D7474757454A0B98A8D71C71EEEB7D3B958361B7CBCD0685DFDA3EB4F1667",
+  "preview": "Previews/零号变种-开场流程档案.png",
+  "launch": "打开开场流程试玩.bat",
+  "nativeReport": "TestResults/Native/index.json",
+  "packageVerification": "Docs/prologue-verification.json",
+  "version": "Prologue prototype",
+  "arguments": "-VZStory",
+  "binary": "D:\\Projects\\VariantZeroUE\\BuildOutput-Prologue\\Windows\\VariantZeroUE\\Binaries\\Win64\\VariantZeroUE.exe",
+  "verifiedAt": "2026-09-15T09:04:58.9666213-07:00",
+  "isRelease1_0": false,
+  "remainingGate": "P1 complete chapter and human playtest; Hyper3D moth download awaits explicit request",
+  "map": "/Game/VariantZero/Maps/P0_Conservatory_Ecology"
+}

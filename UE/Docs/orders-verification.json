@@ -1,0 +1,50 @@
+{
+  "stage": "P0 companion ground orders prototype",
+  "package": "BuildOutput-P0-Orders/Windows/VariantZeroUE.exe",
+  "build": "BUILD SUCCESSFUL",
+  "native": {
+    "passed": 3,
+    "failed": 0,
+    "reportTime": "2026.09.15-07.19.52"
+  },
+  "runtime": {
+    "orders": "PASS",
+    "smoke": "PASS",
+    "combat": "PASS",
+    "menu": "PASS",
+    "exitCodes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "logs": [
+      "orders-runtime.log",
+      "orders-smoke.log",
+      "orders-combat.log",
+      "orders-menu.log"
+    ]
+  },
+  "verified": [
+    "Reject distant or unsupported ground and down companions",
+    "Recall cancels without cooldown cost",
+    "Companion actually walks around planter and executes on arrival",
+    "Area skill hits from navigable ground beside node",
+    "Cooldown shared with direct skill",
+    "Respawn clears transient commands and keeps individual identity"
+  ],
+  "preview": {
+    "file": "Previews/零号变种-P0-伙伴指挥.png",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "6A9388028ED8FD187A0DB3CB7259BDBD339262D6D374B50AF0F4F4FCABFA4988",
+    "source": "Unedited packaged game screenshot"
+  },
+  "limitations": [
+    "First companion only",
+    "No final character art, skill animation or audio",
+    "Physical gamepad and all complex terrain not manually certified",
+    "Not P1 story sample",
+    "No performance or long-run certification"
+  ]
+}

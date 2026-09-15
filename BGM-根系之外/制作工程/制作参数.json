@@ -1,0 +1,11 @@
+{
+  "bpm": 72,
+  "length": 128,
+  "vocal_pitch_estimate_midi": 71.05677469009426,
+  "sources": [
+    "C:\\Program Files\\Image-Line\\FL Studio 2026\\Data\\Patches\\Packs\\Vocals\\Laurie Webb Ahh D.wav",
+    "C:\\Program Files\\Image-Line\\FL Studio 2026\\Data\\Patches\\Packs\\Vocals\\Laurie Webb Mmh.wav"
+  ],
+  "bird_source": "https://freesound.org/people/Magnesus/sounds/723913/",
+  "note": "Vocal source files remain in FL Studio installation. No isolated vocal samples distributed."
+}

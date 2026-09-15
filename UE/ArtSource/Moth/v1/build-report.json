@@ -1,0 +1,36 @@
+{
+  "triangles": 24048,
+  "vertices": 12946,
+  "bones": 8,
+  "unweighted": 0,
+  "textures": {
+    "BaseColor": {
+      "file": "T_Moth_BaseColor.png",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    "ORM": {
+      "file": "T_Moth_ORM.png",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    "Normal": {
+      "file": "T_Moth_Normal.png",
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  },
+  "uv_layers": 1,
+  "span_m": 0.7,
+  "animations": [
+    "A_Moth_Hover",
+    "A_Moth_Fly"
+  ],
+  "status": "rigged candidate, engine validation pending"
+}

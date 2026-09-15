@@ -1,0 +1,15 @@
+/Binaries/
+/Intermediate/
+/Saved/
+/DerivedDataCache/
+/BuildOutput/
+/BuildOutput-P0/
+/BuildOutput-P0-Next/
+/BuildOutput-P0-Combat/
+**/node_modules/
+/TestResults/
+*.log
+.vs/
+/BuildOutput-P0-Menu/
+/BuildOutput-P0-Orders/
+/BuildOutput-P0-Foundation/

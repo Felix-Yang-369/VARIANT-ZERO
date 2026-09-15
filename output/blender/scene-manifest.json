@@ -1,0 +1,23 @@
+{
+  "scene": "原初生态研究所 · V-001 原豆母体",
+  "file": "原初生态研究所_V-001_原豆母体_v1.blend",
+  "objects": 20810,
+  "mesh_objects": 19551,
+  "cameras": [
+    "CAM 01 • 原初生态研究所全景",
+    "CAM 02 • 原豆母体与培养台",
+    "CAM 03 • 原豆母体正面"
+  ],
+  "packed_images": [
+    "home-legume-v3.png",
+    "home-podium-v4.png",
+    "immersive-home-v3.png"
+  ],
+  "character": {
+    "id": "V-001",
+    "name": "原豆母体",
+    "family": "豆科",
+    "family_key": "legume",
+    "stage": "原初母体"
+  }
+}

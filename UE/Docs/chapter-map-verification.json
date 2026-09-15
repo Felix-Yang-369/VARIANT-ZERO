@@ -1,0 +1,56 @@
+[
+  {
+    "passed": true,
+    "exitCode": 0,
+    "test": "VZChuyaStoryTest",
+    "log": "D:\\Projects\\VariantZeroUE\\chapter-map-VZChuyaStoryTest.log"
+  },
+  {
+    "passed": true,
+    "exitCode": 0,
+    "test": "VZTravelTest",
+    "log": "D:\\Projects\\VariantZeroUE\\chapter-map-VZTravelTest.log"
+  },
+  {
+    "passed": true,
+    "exitCode": 0,
+    "test": "VZGardenTest",
+    "log": "D:\\Projects\\VariantZeroUE\\chapter-map-VZGardenTest.log"
+  },
+  {
+    "passed": true,
+    "exitCode": 0,
+    "test": "VZStoryTest",
+    "log": "D:\\Projects\\VariantZeroUE\\chapter-map-VZStoryTest.log"
+  },
+  {
+    "passed": true,
+    "exitCode": 0,
+    "test": "VZHeroTest",
+    "log": "D:\\Projects\\VariantZeroUE\\chapter-map-VZHeroTest.log"
+  },
+  {
+    "passed": true,
+    "exitCode": 0,
+    "test": "VZSmokeTest",
+    "log": "D:\\Projects\\VariantZeroUE\\chapter-map-VZSmokeTest.log"
+  },
+  {
+    "passed": true,
+    "exitCode": 0,
+    "test": "VZCombatTest",
+    "log": "D:\\Projects\\VariantZeroUE\\chapter-map-VZCombatTest.log"
+  },
+  {
+    "passed": true,
+    "exitCode": 0,
+    "test": "VZOrderTest",
+    "log": "D:\\Projects\\VariantZeroUE\\chapter-map-VZOrderTest.log"
+  },
+  {
+    "passed": true,
+    "exitCode": 0,
+    "test": "VZMenuTest",
+    "log": "D:\\Projects\\VariantZeroUE\\chapter-map-VZMenuTest.log"
+  }
+]

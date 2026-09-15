@@ -1,0 +1,13 @@
+{
+  "scope": "P0 asset integration candidate; protagonist and final art pending",
+  "packagingPass": true,
+  "runtimePass": true,
+  "rigPass": true,
+  "materialsPass": true,
+  "navigationPass": true,
+  "missingPackages": false,
+  "nativeSuitesPassed": 2,
+  "nativeSuitesFailed": 0,
+  "blenderReopen": true,
+  "screenshot": "BuildOutput-P0-Next/Windows/VariantZeroUE/Saved/Screenshots/Windows/VZ_P0_smoke.png"
+}

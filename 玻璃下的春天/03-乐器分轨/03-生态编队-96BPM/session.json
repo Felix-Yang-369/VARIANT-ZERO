@@ -1,0 +1,66 @@
+{
+  "title": "生态编队",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "bars": 24,
+  "frames": 2646000,
+  "sampleRate": 44100,
+  "bitDepth": 24,
+  "channels": 2,
+  "linearGain": 1,
+  "startSeconds": 0,
+  "stems": [
+    {
+      "file": "01-pad.wav",
+      "instrument": "pad",
+      "label": "空气弦层",
+      "role": "dry"
+    },
+    {
+      "file": "02-bass.wav",
+      "instrument": "bass",
+      "label": "低音",
+      "role": "dry"
+    },
+    {
+      "file": "03-harp.wav",
+      "instrument": "harp",
+      "label": "竖琴琶音",
+      "role": "dry"
+    },
+    {
+      "file": "04-keys.wav",
+      "instrument": "keys",
+      "label": "电钢琴旋律",
+      "role": "dry"
+    },
+    {
+      "file": "05-kick.wav",
+      "instrument": "kick",
+      "label": "底鼓",
+      "role": "dry"
+    },
+    {
+      "file": "06-snare.wav",
+      "instrument": "snare",
+      "label": "军鼓",
+      "role": "dry"
+    },
+    {
+      "file": "07-shaker.wav",
+      "instrument": "shaker",
+      "label": "沙锤",
+      "role": "dry"
+    },
+    {
+      "file": "90-reverb-return.wav",
+      "label": "共享空间混响",
+      "role": "effects-return"
+    }
+  ],
+  "references": [
+    "reference-premaster.wav",
+    "reference-mastered.wav"
+  ],
+  "note": "Import stems and reverb together at zero, unity gain. Do not also play references. Mastered reference includes nonlinear saturation and will not null against the stem sum."
+}

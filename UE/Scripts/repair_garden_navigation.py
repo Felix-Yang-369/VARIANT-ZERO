@@ -1,0 +1,11 @@
+import unreal
+levels=unreal.get_editor_subsystem(unreal.LevelEditorSubsystem)
+assert levels.load_level('/Game/VariantZero/Maps/P0_Conservatory_Garden')
+actors=unreal.get_editor_subsystem(unreal.EditorActorSubsystem)
+nav=next(a for a in actors.get_all_level_actors() if isinstance(a,unreal.RecastNavMesh))
+nav.set_editor_property('runtime_generation',unreal.RuntimeGenerationType.DYNAMIC)
+nav.set_editor_property('force_rebuild_on_load',True)
+world=unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_editor_world()
+assert unreal.VZEditorTools.rebuild_scene_navigation(world)
+assert levels.save_current_level()
+unreal.log('VZ_GARDEN_NAV_PASS')

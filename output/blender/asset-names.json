@@ -1,0 +1,8 @@
+{
+  "scene": {"name": "原初生态研究所", "english": "PRIMORDIAL CONSERVATORY", "usage": "研究中枢 / 首页"},
+  "character": {"id": "V-001", "name": "原豆母体", "family": "豆科", "family_key": "legume", "stage": "原初母体"},
+  "file": "原初生态研究所_V-001_原豆母体_v1.blend",
+  "previews": ["原初生态研究所_全景_v1.png", "V-001_原豆母体_培养台近景_v1.png"],
+  "sources": ["src/variant/ui/home.ts:29", "src/variant/content.ts:7", "src/variant/content.ts:11", "src/variant/content.ts:50", "docs/variant/10-原初生态研究所.md"],
+  "note": "按当前 VARIANT ZERO 命名；旧版 src/lore.ts 中的 Podwarden 不作为当前角色的正式英文名。"
+}

@@ -1,0 +1,10 @@
+{
+  "SM_FieldScanner": {
+    "vertices": 3434,
+    "triangles": 6776
+  },
+  "SM_InstituteTerrain": {
+    "vertices": 10201,
+    "triangles": 20000
+  }
+}

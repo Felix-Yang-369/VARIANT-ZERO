@@ -1,0 +1,31 @@
+Input #0, mp3, from 'D:\Projects\零号变种\根系之外\v2-林间回声\根系之外-v2-林间回声.mp3':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Duration: 00:02:08.03, start: 0.025057, bitrate: 256 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 44100 Hz, stereo, fltp, 256 kb/s
+      Metadata:
+        encoder         : Lavc61.19
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0: Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s
+      Metadata:
+        encoder         : Lavc61.19.100 pcm_s16le
+size=N/A time=00:00:27.50 bitrate=N/A speed=54.2x    size=N/A time=00:00:56.70 bitrate=N/A speed=55.1x    size=N/A time=00:01:25.90 bitrate=N/A speed=55.4x    size=N/A time=00:01:53.30 bitrate=N/A speed=55.1x    [Parsed_loudnorm_0 @ 00000288ba071800] 
+{
+	"input_i" : "-20.08",
+	"input_tp" : "-3.55",
+	"input_lra" : "7.50",
+	"input_thresh" : "-31.09",
+	"output_i" : "-18.47",
+	"output_tp" : "-2.00",
+	"output_lra" : "8.10",
+	"output_thresh" : "-29.44",
+	"normalization_type" : "dynamic",
+	"target_offset" : "-0.53"
+}
+[out#0/null @ 00000288bbde5340] video:0KiB audio:96000KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:02:08.00 bitrate=N/A speed=55.8x    

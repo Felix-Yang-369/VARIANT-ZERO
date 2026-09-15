@@ -1,0 +1,34 @@
+{
+  "file": "D:\\Projects\\零号变种\\output\\blender\\characters\\enemy2_疾藤潜行者\\疾藤潜行者_enemy2_v3.blend",
+  "reopened": true,
+  "asset_collection": "疾藤潜行者 • 角色资产",
+  "asset_objects": 273,
+  "mesh_objects": 114,
+  "curve_objects": 159,
+  "base_mesh_vertices": 648499,
+  "base_mesh_faces": 564830,
+  "groups": [
+    "01 • 疾藤潜行者 | 木质躯体",
+    "02 • 木面与紫色生命光",
+    "03 • 疾风紫叶",
+    "04 • 苔藓与共生植物",
+    "05 • 卷藤与根爪"
+  ],
+  "packed_reference_images": [
+    "enemy2.png",
+    "疾藤潜行者_侧后结构参考_ImageGen_v1.png"
+  ],
+  "render_backend": "OPTIX",
+  "render_device": "GPU",
+  "cameras": [
+    "CAM 01 • 三分之四",
+    "CAM 02 • 真侧面",
+    "CAM 03 • 背面",
+    "CAM 04 • 面甲近景"
+  ],
+  "limitations": [
+    "Static posed reconstruction; no rig or animation",
+    "High-detail source; no game-ready retopology or baked LOD",
+    "ImageGen side and back views are inferred design reference, not official orthographic views"
+  ]
+}

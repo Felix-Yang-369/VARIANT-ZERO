@@ -1,0 +1,11 @@
+{
+  "sha256": "DC8322B158475D23FE9AB793FBFBE0681DBB8EA6FFCDD23CC69D3415EBE578EB",
+  "nativeSuitesPassed": 10,
+  "packagedChecksPassed": 9,
+  "mainVoice": "not implemented",
+  "binary": "D:\\Projects\\零号变种\\UE\\BuildOutput-Deployment\\Windows\\VariantZeroUE\\Binaries\\Win64\\VariantZeroUE.exe",
+  "performanceAcceptance": "not measured",
+  "verifiedAt": "2026-09-15T12:55:49.8352718-07:00",
+  "previousPackage": "BuildOutput-Roster retained with saves",
+  "stage": "P1 institute deployment prototype; full 1.0 incomplete"
+}

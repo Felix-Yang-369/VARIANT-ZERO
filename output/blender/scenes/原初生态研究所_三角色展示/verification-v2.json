@@ -1,0 +1,37 @@
+{
+  "checks": {
+    "four_collection_instances": true,
+    "real_external_links": true,
+    "local_transform_controls": true,
+    "three_source_files": true,
+    "relative_links": true,
+    "source_files_exist": true,
+    "source_studios_excluded": true,
+    "local_lighting": true,
+    "local_camera": true,
+    "gpu_setting": true
+  },
+  "passed": true,
+  "linked_instances": [
+    {
+      "name": "环境 • 原初生态研究所",
+      "objects": 21185,
+      "source": "//..\\..\\原初生态研究所_V-001_原豆母体_v2.blend"
+    },
+    {
+      "name": "角色 • V-001 原豆母体",
+      "objects": 152,
+      "source": "//..\\..\\原初生态研究所_V-001_原豆母体_v2.blend"
+    },
+    {
+      "name": "角色 • 苔行者",
+      "objects": 673,
+      "source": "//..\\..\\characters\\enemy0_苔行者\\苔行者_enemy0_v2.blend"
+    },
+    {
+      "name": "角色 • 疾藤潜行者",
+      "objects": 488,
+      "source": "//..\\..\\characters\\enemy2_疾藤潜行者\\疾藤潜行者_enemy2_v2.blend"
+    }
+  ]
+}

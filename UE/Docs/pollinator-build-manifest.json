@@ -1,0 +1,13 @@
+{
+  "verification": "Docs/pollinator-verification.json",
+  "costActions": "No new generation; no purchase; no recharge",
+  "preview": "Previews/零号变种-菌翼蛾接入.png",
+  "release1_0": false,
+  "assetReport": "ArtSource/Moth/v1/verification.json",
+  "arguments": "-VZStory",
+  "verifiedAt": "2026-09-15T09:23:06.3433098-07:00",
+  "sha256": "369162DDBE811FE5A2B652D056BEFE09126DEC9F493359C753AEA7E367B9AAC2",
+  "version": "Pollinator companion candidate",
+  "binary": "D:\\Projects\\VariantZeroUE\\BuildOutput-Pollinator\\Windows\\VariantZeroUE\\Binaries\\Win64\\VariantZeroUE.exe",
+  "map": "/Game/VariantZero/Maps/P0_Conservatory_Ecology"
+}

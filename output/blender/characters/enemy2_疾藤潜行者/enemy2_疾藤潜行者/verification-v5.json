@@ -1,0 +1,44 @@
+{
+  "reopened": true,
+  "asset_file": "D:\\Projects\\零号变种\\output\\blender\\characters\\enemy2_疾藤潜行者\\疾藤潜行者_enemy2_v5.blend",
+  "asset_collection": "疾藤潜行者 • 角色资产",
+  "groups": [
+    "01 • 疾藤潜行者 | 木质躯体",
+    "02 • 木面与紫色生命光",
+    "03 • 疾风紫叶",
+    "04 • 苔藓与共生植物",
+    "05 • 卷藤与根爪"
+  ],
+  "objects": 223,
+  "meshes": 105,
+  "curves": 118,
+  "base_vertices": 6355279,
+  "base_faces": 5142872,
+  "packed_references": [
+    "enemy2.png",
+    "疾藤潜行者_侧后结构参考_ImageGen_v1.png"
+  ],
+  "backend": "OPTIX",
+  "device": "GPU",
+  "neutral_angles": [
+    0,
+    45,
+    90,
+    135,
+    180,
+    225,
+    270,
+    315
+  ],
+  "closeups": [
+    "面部",
+    "根爪",
+    "叶冠"
+  ],
+  "link_test": {
+    "saved_and_reopened": true,
+    "file": "D:\\Projects\\零号变种\\output\\blender\\characters\\enemy2_疾藤潜行者\\v5_views\\疾藤潜行者_v5_Link验证.blend",
+    "evaluated_instances": 341,
+    "relative_library_path": "//..\\疾藤潜行者_enemy2_v5.blend"
+  }
+}

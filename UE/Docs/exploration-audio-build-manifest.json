@@ -1,0 +1,12 @@
+{
+  "mainVoice": "not implemented",
+  "binary": "D:\\Projects\\零号变种\\UE\\BuildOutput-ExplorationAudio\\Windows\\VariantZeroUE\\Binaries\\Win64\\VariantZeroUE.exe",
+  "nativeSuitesPassed": 8,
+  "themeSong": "Suno download blocked: Free / Downloads 0; no purchase",
+  "previousPackage": "BuildOutput-ChuyaStory retained",
+  "packagedChecksPassed": 9,
+  "verifiedAt": "2026-09-15T12:04:39.7946816-07:00",
+  "sha256": "2C41D8B618A5767BF684122B75E626868CFF7ADB6ABF144D485E559F40FEFE9D",
+  "stage": "P1 audio prototype; full 1.0 incomplete",
+  "performanceAcceptance": "not measured"
+}

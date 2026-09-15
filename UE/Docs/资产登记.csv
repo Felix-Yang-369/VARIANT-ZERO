@@ -1,0 +1,22 @@
+asset_id,name,source,status,release_license_review,notes
+epic.quinn,Quinn template,UE_5.8/Templates/TemplateResources/High/Characters,prototype,pending,Not the realistic protagonist; retain Epic source and review applicable engine content terms before release
+epic.unarmed,Unarmed animation blueprint,UE_5.8/Templates/TemplateResources/High/Characters,prototype,pending,Retarget and validate deformation on final character
+engine.basicshapes,Engine basic shapes,UE_5.8/Engine/Content/BasicShapes,prototype,pending,Graybox and sphere companion only; not final production assets
+legacy.v04,Variant Zero v0.4 rules,../零号变种/src/variant,reference_only,project_source,Frozen with SHA256; no web save modification
+music.roots,根系之外,../零号变种/BGM-根系之外,not_imported,pending,Review original sample register before release
+music.theme,让春天不同 Suno audition,../零号变种/主题曲-让春天不同,reference_only,pending,No release authorization assumed
+chuya.rig.v1,初芽绑定候选,ArtSource/Chuya/v1; derived from original V-001 v2 blend,rigged_candidate,project_source_review_pending,22000 triangles; 11 bones; 4 baked textures; 3 UE LODs; not final visual approval
+conservatory.p0,温室资产接入场景,UE BasicShapes plus project-authored materials,environment_candidate,pending,280 static mesh actors; preserve Epic asset source review; no purchased assets
+audio.p0.original,Original project score and cues,ArtSource/Audio/P0,imported_candidate,project_original,Derived from project produce.py; no remote samples; listening acceptance pending
+hero.belica.candidate,Paragon Lt Belica,Fab 6f3a45fb-b5fe-4866-9a60-de315301f75b,downloaded_candidate,UE_usage_public_listing_account_terms_to_archive,User acquired and downloaded 2026-09-15; native locomotion integration; no PARAGON branding; final ecologist art pending
+
+polyhaven.fern_02,fern_02,https://polyhaven.com/a/fern_02,imported_candidate,CC0,2K source downloads verified against official MD5; see ArtSource/PolyHaven/manifest.json
+polyhaven.boulder_01,boulder_01,https://polyhaven.com/a/boulder_01,imported_candidate,CC0,2K source downloads verified against official MD5; see ArtSource/PolyHaven/manifest.json
+polyhaven.rock_01,rock_01,https://polyhaven.com/a/rock_01,imported_candidate,CC0,2K source downloads verified against official MD5; see ArtSource/PolyHaven/manifest.json
+polyhaven.forest_ground_04,forest_ground_04,https://polyhaven.com/a/forest_ground_04,imported_candidate,CC0,2K source downloads verified against official MD5; see ArtSource/PolyHaven/manifest.json
+ecology.scanner,Field scanner,ArtSource/Ecology/EcologyProps.blend,prototype_candidate,project_original,6776 triangles; four material slots; grip animation pending
+ecology.terrain,Institute backdrop,ArtSource/Ecology/EcologyProps.blend,visual_backdrop,project_original,20000 triangles; no gameplay collision or navigation
+
+hyper3d.v041.01,V-041 fungal moth,https://hyper3d.ai/workspace/rodin/d466e95b-fa06-435a-abbf-17abebafe4cf,rigged_imported_candidate,Hyper3D_license_account_record_pending,Original text prompt; existing credits authorized; no recharge or purchase; actual debit not returned
+
+original.guardian_leaf,Guardian leaf with veins,ArtSource/GuardianLeaf/GuardianLeaf.blend,prototype,project_source,Original local Blender geometry; 2248 triangles; six rigid animated instances; source and FBX verified; no paid inputs

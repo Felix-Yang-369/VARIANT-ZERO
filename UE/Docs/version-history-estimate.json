@@ -1,0 +1,31 @@
+{
+  "version": "0.2.24",
+  "packageCount": 24,
+  "method": "Approximate historical count authorized by user",
+  "packages": [
+    "BuildOutput",
+    "BuildOutput-ChapterMap",
+    "BuildOutput-ChuyaStory",
+    "BuildOutput-Deployment",
+    "BuildOutput-ExplorationAudio",
+    "BuildOutput-Garden",
+    "BuildOutput-Growth",
+    "BuildOutput-Guardian",
+    "BuildOutput-HeroActions",
+    "BuildOutput-P0",
+    "BuildOutput-P0-Combat",
+    "BuildOutput-P0-Ecology",
+    "BuildOutput-P0-Foundation",
+    "BuildOutput-P0-Hero",
+    "BuildOutput-P0-Menu",
+    "BuildOutput-P0-Next",
+    "BuildOutput-P0-Orders",
+    "BuildOutput-Pollinator",
+    "BuildOutput-Presentation",
+    "BuildOutput-Prologue",
+    "BuildOutput-Roster",
+    "BuildOutput-SharedSave",
+    "BuildOutput-Squad",
+    "BuildOutput-Travel"
+  ]
+}

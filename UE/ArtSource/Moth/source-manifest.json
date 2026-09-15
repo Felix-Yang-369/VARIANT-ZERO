@@ -1,0 +1,20 @@
+{
+  "displayUrl": "https://hyper3d.ai/workspace/rodin/d466e95b-fa06-435a-abbf-17abebafe4cf",
+  "newGenerationRequests": 0,
+  "purchases": 0,
+  "downloadAuthorizedBy": "用户：下载菌翼蛾并继续接入",
+  "generationId": "d466e95b-fa06-435a-abbf-17abebafe4cf",
+  "files": [
+    {
+      "sha256": "3A939780A39E6BD685A54BA57B19FB31621FDF4EFA13656AA3402DC6AAD65274",
+      "name": "base_basic_pbr.glb",
+      "bytes": 8915148
+    },
+    {
+      "sha256": "BEA8CF7908B79CEAED1CE7069E51A9373CA445F76B77DF21C2153C90FBA97BD6",
+      "name": "base_basic_shaded.glb",
+      "bytes": 3851680
+    }
+  ],
+  "downloadedAt": "2026-09-15T09:19:35.6667252-07:00"
+}

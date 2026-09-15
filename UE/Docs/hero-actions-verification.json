@@ -1,0 +1,56 @@
+[
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\hero-actions-VZChuyaStoryTest.log",
+    "exitCode": 0,
+    "passed": true,
+    "test": "VZChuyaStoryTest"
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\hero-actions-VZTravelTest.log",
+    "exitCode": 0,
+    "passed": true,
+    "test": "VZTravelTest"
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\hero-actions-VZGardenTest.log",
+    "exitCode": 0,
+    "passed": true,
+    "test": "VZGardenTest"
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\hero-actions-VZStoryTest.log",
+    "exitCode": 0,
+    "passed": true,
+    "test": "VZStoryTest"
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\hero-actions-VZHeroTest.log",
+    "exitCode": 0,
+    "passed": true,
+    "test": "VZHeroTest"
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\hero-actions-VZSmokeTest.log",
+    "exitCode": 0,
+    "passed": true,
+    "test": "VZSmokeTest"
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\hero-actions-VZCombatTest.log",
+    "exitCode": 0,
+    "passed": true,
+    "test": "VZCombatTest"
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\hero-actions-VZOrderTest.log",
+    "exitCode": 0,
+    "passed": true,
+    "test": "VZOrderTest"
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\hero-actions-VZMenuTest.log",
+    "exitCode": 0,
+    "passed": true,
+    "test": "VZMenuTest"
+  }
+]

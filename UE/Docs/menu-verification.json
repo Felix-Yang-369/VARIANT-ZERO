@@ -1,0 +1,48 @@
+{
+  "stage": "P0 pause and save interface prototype",
+  "package": "BuildOutput-P0-Menu/Windows/VariantZeroUE.exe",
+  "buildLog": "menu-packaging.log",
+  "buildResult": "BUILD SUCCESSFUL, ExitCode=0",
+  "nativeTests": {
+    "passed": 3,
+    "failed": 0,
+    "report": "TestResults/Native/index.json",
+    "createdOn": "2026.09.15-06.54.52"
+  },
+  "runtime": {
+    "menu720": "VZ_MENU PASS",
+    "menu1080": "VZ_MENU PASS",
+    "smoke": "VZ_SMOKE PASS",
+    "combat": "VZ_COMBAT PASS",
+    "logs": [
+      "menu-runtime-720.log",
+      "menu-runtime.log",
+      "menu-smoke.log",
+      "menu-combat.log"
+    ]
+  },
+  "preview": {
+    "file": "Previews/零号变种-P0-暂停存档.png",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "3FBEAD1B5E87287B8D1A10B5AB33E5F0D1E43B7E1664BF7CB022CA8ABA170823",
+    "source": "Unedited screenshot of packaged application"
+  },
+  "verified": [
+    "Pause freezes encounter after opening frame; resume advances it",
+    "Keyboard/gamepad key handlers navigate, activate and cancel",
+    "Manual slot save and load; overwrite and load confirmation",
+    "Companion identity preserved",
+    "Failed manual load retains write protection",
+    "Difficulty and automatic slot load",
+    "Volume settings written and independently read from disk",
+    "1280x720 and 1920x1080 layout visually inspected"
+  ],
+  "limitations": [
+    "No physical controller acceptance test",
+    "No final UMG art, key rebinding or category audio controls",
+    "No finished voice or combat audio mix",
+    "P0 not complete; P1 story sample not delivered",
+    "No performance or two-hour stability certification"
+  ]
+}

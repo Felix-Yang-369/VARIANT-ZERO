@@ -1,0 +1,12 @@
+{
+  "packagedChecksPassed": 9,
+  "saveMigration": "Old package saves retained; not automatically migrated",
+  "previousPackage": "BuildOutput-ChapterMap retained",
+  "verifiedAt": "2026-09-15T12:44:31.7706842-07:00",
+  "binary": "D:\\Projects\\零号变种\\UE\\BuildOutput-Roster\\Windows\\VariantZeroUE\\Binaries\\Win64\\VariantZeroUE.exe",
+  "physicalGamepad": "not manually tested",
+  "nativeSuitesPassed": 10,
+  "preview": "D:\\Projects\\零号变种\\UE\\Previews\\零号变种-伙伴管理.png",
+  "stage": "P1 companion roster prototype; full 1.0 incomplete",
+  "sha256": "A94755B0A892A0660975C759E373B42EB10AE2AB8B64299C766BACACC1169910"
+}

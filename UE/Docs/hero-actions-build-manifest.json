@@ -1,0 +1,17 @@
+{
+  "mainVoice": "not implemented",
+  "binary": "D:\\Projects\\零号变种\\UE\\BuildOutput-HeroActions\\Windows\\VariantZeroUE\\Binaries\\Win64\\VariantZeroUE.exe",
+  "previousPackage": "BuildOutput-Deployment retained",
+  "nativeSuitesPassed": 10,
+  "packagedChecksPassed": 9,
+  "verifiedAt": "2026-09-15T13:11:20.2315277-07:00",
+  "sha256": "516D9FA1605B120370F66F61BCBE8F98B0EBFC1B85502E269C29A3542042C047",
+  "stage": "P1 combat animation prototype; full 1.0 incomplete",
+  "shield": "Original translucent Fresnel material; checked in packaged screenshot",
+  "actions": [
+    "upper body pulse",
+    "upper body shield",
+    "local space additive hit"
+  ],
+  "performanceAcceptance": "not measured"
+}

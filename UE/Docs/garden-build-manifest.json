@@ -1,0 +1,12 @@
+{
+  "stage": "Garden gameplay prototype; not full P1 or 1.0",
+  "sha256": "29ACDDE64D919DBFCEADE8C885C68BDBB53FBD4B9820823613EADD2B0D1A1651",
+  "mainVoice": "not implemented",
+  "verifiedAt": "2026-09-15T10:15:27.9365045-07:00",
+  "performanceAcceptance": "not measured",
+  "packagedChecksPassed": 7,
+  "launcher": "D:\\Projects\\零号变种\\开始游戏.bat",
+  "nativeSuitesPassed": 6,
+  "binary": "D:\\Projects\\零号变种\\UE\\BuildOutput-Garden\\Windows\\VariantZeroUE\\Binaries\\Win64\\VariantZeroUE.exe",
+  "map": "/Game/VariantZero/Maps/P0_Conservatory_Garden"
+}

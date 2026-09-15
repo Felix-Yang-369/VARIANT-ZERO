@@ -1,0 +1,15 @@
+{
+  "verifiedAt": "2026-09-15T12:27:03.0110358-07:00",
+  "mainVoice": "not implemented",
+  "nativeSuitesPassed": 9,
+  "map": "UMG chapter schematic; current objectives, unlocked travel points, temporary navigation marker",
+  "sha256": "EB82683EDF1BB4DE64604DA10C8A1391E9F06280E93114CC25C4CF160CE25D8D",
+  "physicalGamepad": "not manually tested",
+  "preview": "D:\\Projects\\零号变种\\UE\\Previews\\零号变种-样章地图.png",
+  "stage": "P1 chapter map prototype; full 1.0 incomplete",
+  "saveMigration": "Old package saves preserved, not automatically migrated",
+  "packagedChecksPassed": 9,
+  "binary": "D:\\Projects\\零号变种\\UE\\BuildOutput-ChapterMap\\Windows\\VariantZeroUE\\Binaries\\Win64\\VariantZeroUE.exe",
+  "previousPackage": "BuildOutput-ExplorationAudio retained",
+  "performanceAcceptance": "not measured"
+}

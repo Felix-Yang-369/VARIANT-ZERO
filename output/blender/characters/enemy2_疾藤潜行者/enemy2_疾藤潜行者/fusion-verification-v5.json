@@ -1,0 +1,34 @@
+[
+  {
+    "name": "手部 • 连续融合根结 0",
+    "connected_components": 1,
+    "component_vertex_counts": [
+      30670
+    ],
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "手部 • 连续融合根结 1",
+    "connected_components": 1,
+    "component_vertex_counts": [
+      29044
+    ],
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "足部 • 连续融合根结 0",
+    "connected_components": 1,
+    "component_vertex_counts": [
+      33384
+    ],
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "足部 • 连续融合根结 1",
+    "connected_components": 1,
+    "component_vertex_counts": [
+      33340
+    ],
+    "nonmanifold_edges": 0
+  }
+]

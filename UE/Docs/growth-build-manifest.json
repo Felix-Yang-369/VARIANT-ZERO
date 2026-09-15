@@ -1,0 +1,13 @@
+{
+  "performanceAcceptance": "not measured",
+  "mainVoice": "not implemented",
+  "binary": "D:\\Projects\\零号变种\\UE\\BuildOutput-Growth\\Windows\\VariantZeroUE\\Binaries\\Win64\\VariantZeroUE.exe",
+  "growthPointsInChapter": 8,
+  "packagedChecksPassed": 9,
+  "verifiedAt": "2026-09-15T13:25:51.1588233-07:00",
+  "stage": "P1 companion growth prototype; full 1.0 incomplete",
+  "previousPackage": "BuildOutput-HeroActions retained",
+  "sha256": "3B2B49A8628A0C1B2410E6CCA98530BF96BBDA6F23238254FFB50C87FB951ED2",
+  "finalLabelChange": "Menu runtime retested after label shortening",
+  "nativeSuitesPassed": 10
+}

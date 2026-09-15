@@ -1,0 +1,34 @@
+{
+  "fern_02": {
+    "path": "/Game/VariantZero/Ecology/SM_fern_02.SM_fern_02",
+    "bounds_cm": [
+      197.25302505493164,
+      172.40282440185547,
+      42.769469022750854
+    ]
+  },
+  "boulder_01": {
+    "path": "/Game/VariantZero/Ecology/SM_boulder_01.SM_boulder_01",
+    "bounds_cm": [
+      127.26830673217773,
+      183.0733871459961,
+      100.38918781280518
+    ]
+  },
+  "FieldScanner": {
+    "path": "/Game/VariantZero/Ecology/SM_FieldScanner.SM_FieldScanner",
+    "bounds_cm": [
+      8.800000190734863,
+      8.800000190734863,
+      61.9179801940918
+    ]
+  },
+  "InstituteTerrain": {
+    "path": "/Game/VariantZero/Ecology/SM_InstituteTerrain.SM_InstituteTerrain",
+    "bounds_cm": [
+      25000.001953125,
+      25000.001953125,
+      1646.5108642578125
+    ]
+  }
+}

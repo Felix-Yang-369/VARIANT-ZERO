@@ -1,0 +1,1 @@
+Original procedural Fresnel shield. No purchased assets. /Game/VariantZero/Ecology/M_EcologicalShield.M_EcologicalShield

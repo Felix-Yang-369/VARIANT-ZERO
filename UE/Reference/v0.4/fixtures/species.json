@@ -1,0 +1,1089 @@
+[
+  {
+    "id": "V-001",
+    "name": "原豆母体",
+    "family": "legume",
+    "kingdom": "flora",
+    "cost": 1,
+    "ability": "shot",
+    "parents": [],
+    "reagent": "attack",
+    "category": "founder",
+    "rarity": "common",
+    "hp": 166,
+    "damage": 26,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "legume",
+      "predator"
+    ],
+    "art": "vz-founders-divine-v2",
+    "frame": 0
+  },
+  {
+    "id": "V-002",
+    "name": "原花母体",
+    "family": "bloom",
+    "kingdom": "flora",
+    "cost": 2,
+    "ability": "income",
+    "parents": [],
+    "reagent": "regen",
+    "category": "founder",
+    "rarity": "elite",
+    "hp": 202,
+    "damage": 33,
+    "interval": 1.8,
+    "range": 8,
+    "traits": [
+      "bloom",
+      "symbiotic"
+    ],
+    "art": "vz-founders-divine-v2",
+    "frame": 1
+  },
+  {
+    "id": "V-003",
+    "name": "原根母体",
+    "family": "root",
+    "kingdom": "flora",
+    "cost": 3,
+    "ability": "armor",
+    "parents": [],
+    "reagent": "regen",
+    "category": "founder",
+    "rarity": "elite",
+    "hp": 500,
+    "damage": 29,
+    "interval": 1.4,
+    "range": 4,
+    "traits": [
+      "root",
+      "symbiotic"
+    ],
+    "art": "vz-founders-divine-v2",
+    "frame": 2
+  },
+  {
+    "id": "V-004",
+    "name": "原孢体",
+    "family": "fungi",
+    "kingdom": "fungi",
+    "cost": 4,
+    "ability": "poison",
+    "parents": [],
+    "reagent": "toxic",
+    "category": "founder",
+    "rarity": "epic",
+    "hp": 274,
+    "damage": 47,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "fungi",
+      "toxic"
+    ],
+    "art": "vz-founders-divine-v2",
+    "frame": 3
+  },
+  {
+    "id": "V-005",
+    "name": "原节肢体",
+    "family": "arthropod",
+    "kingdom": "fauna",
+    "cost": 5,
+    "ability": "charge",
+    "parents": [],
+    "reagent": "attack",
+    "category": "founder",
+    "rarity": "epic",
+    "hp": 419,
+    "damage": 54,
+    "interval": 1.1,
+    "range": 1,
+    "traits": [
+      "arthropod",
+      "predator"
+    ],
+    "art": "vz-founders-divine-v2",
+    "frame": 4
+  },
+  {
+    "id": "V-006",
+    "name": "双荚体",
+    "family": "legume",
+    "kingdom": "flora",
+    "cost": 2,
+    "ability": "double",
+    "parents": [
+      "V-001"
+    ],
+    "reagent": "attack",
+    "category": "variant",
+    "rarity": "elite",
+    "hp": 202,
+    "damage": 33,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "legume",
+      "predator"
+    ],
+    "art": "vz-juveniles",
+    "frame": 0
+  },
+  {
+    "id": "V-007",
+    "name": "冰豆",
+    "family": "legume",
+    "kingdom": "flora",
+    "cost": 2,
+    "ability": "frost",
+    "parents": [
+      "V-001"
+    ],
+    "reagent": "cryo",
+    "category": "variant",
+    "rarity": "elite",
+    "hp": 202,
+    "damage": 33,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "legume",
+      "cryo"
+    ],
+    "art": "vz-juveniles",
+    "frame": 1
+  },
+  {
+    "id": "V-008",
+    "name": "爆裂豆",
+    "family": "legume",
+    "kingdom": "flora",
+    "cost": 3,
+    "ability": "splash",
+    "parents": [
+      "V-001"
+    ],
+    "reagent": "attack",
+    "category": "variant",
+    "rarity": "elite",
+    "hp": 238,
+    "damage": 40,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "legume",
+      "predator"
+    ],
+    "art": "vz-juveniles",
+    "frame": 2
+  },
+  {
+    "id": "V-009",
+    "name": "裂殖豆",
+    "family": "legume",
+    "kingdom": "flora",
+    "cost": 4,
+    "ability": "split",
+    "parents": [
+      "V-006"
+    ],
+    "reagent": "unstable",
+    "category": "variant",
+    "rarity": "epic",
+    "hp": 274,
+    "damage": 47,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "legume",
+      "growth"
+    ],
+    "art": "vz-sheet-1",
+    "frame": 5
+  },
+  {
+    "id": "V-010",
+    "name": "寄生豆",
+    "family": "legume",
+    "kingdom": "flora",
+    "cost": 3,
+    "ability": "drain",
+    "parents": [
+      "V-007"
+    ],
+    "reagent": "toxic",
+    "category": "variant",
+    "rarity": "elite",
+    "hp": 238,
+    "damage": 40,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "legume",
+      "toxic"
+    ],
+    "art": "vz-sheet-1",
+    "frame": 6
+  },
+  {
+    "id": "V-011",
+    "name": "晨露花",
+    "family": "bloom",
+    "kingdom": "flora",
+    "cost": 2,
+    "ability": "heal",
+    "parents": [
+      "V-002"
+    ],
+    "reagent": "regen",
+    "category": "variant",
+    "rarity": "elite",
+    "hp": 202,
+    "damage": 33,
+    "interval": 1.8,
+    "range": 8,
+    "traits": [
+      "bloom",
+      "symbiotic"
+    ],
+    "art": "vz-juveniles",
+    "frame": 3
+  },
+  {
+    "id": "V-012",
+    "name": "共鸣花",
+    "family": "bloom",
+    "kingdom": "flora",
+    "cost": 3,
+    "ability": "aura",
+    "parents": [
+      "V-002"
+    ],
+    "reagent": "unstable",
+    "category": "variant",
+    "rarity": "elite",
+    "hp": 238,
+    "damage": 40,
+    "interval": 1.8,
+    "range": 8,
+    "traits": [
+      "bloom",
+      "growth"
+    ],
+    "art": "vz-juveniles",
+    "frame": 4
+  },
+  {
+    "id": "V-013",
+    "name": "蓄电花",
+    "family": "bloom",
+    "kingdom": "flora",
+    "cost": 3,
+    "ability": "battery",
+    "parents": [
+      "V-011"
+    ],
+    "reagent": "attack",
+    "category": "variant",
+    "rarity": "elite",
+    "hp": 238,
+    "damage": 40,
+    "interval": 1.8,
+    "range": 8,
+    "traits": [
+      "bloom",
+      "predator"
+    ],
+    "art": "vz-sheet-1",
+    "frame": 9
+  },
+  {
+    "id": "V-014",
+    "name": "寒幕花",
+    "family": "bloom",
+    "kingdom": "flora",
+    "cost": 4,
+    "ability": "shield",
+    "parents": [
+      "V-012"
+    ],
+    "reagent": "cryo",
+    "category": "variant",
+    "rarity": "epic",
+    "hp": 274,
+    "damage": 47,
+    "interval": 1.8,
+    "range": 8,
+    "traits": [
+      "bloom",
+      "cryo"
+    ],
+    "art": "vz-sheet-1",
+    "frame": 10
+  },
+  {
+    "id": "V-015",
+    "name": "丰盈花",
+    "family": "bloom",
+    "kingdom": "flora",
+    "cost": 5,
+    "ability": "harvest",
+    "parents": [
+      "V-013"
+    ],
+    "reagent": "regen",
+    "category": "variant",
+    "rarity": "epic",
+    "hp": 310,
+    "damage": 54,
+    "interval": 1.8,
+    "range": 8,
+    "traits": [
+      "bloom",
+      "symbiotic"
+    ],
+    "art": "vz-sheet-1",
+    "frame": 11
+  },
+  {
+    "id": "V-016",
+    "name": "荆棘根",
+    "family": "root",
+    "kingdom": "flora",
+    "cost": 2,
+    "ability": "thorns",
+    "parents": [
+      "V-003"
+    ],
+    "reagent": "attack",
+    "category": "variant",
+    "rarity": "elite",
+    "hp": 424,
+    "damage": 24,
+    "interval": 1.4,
+    "range": 4,
+    "traits": [
+      "root",
+      "predator"
+    ],
+    "art": "vz-juveniles",
+    "frame": 5
+  },
+  {
+    "id": "V-017",
+    "name": "地缚根",
+    "family": "root",
+    "kingdom": "flora",
+    "cost": 3,
+    "ability": "root",
+    "parents": [
+      "V-003"
+    ],
+    "reagent": "toxic",
+    "category": "variant",
+    "rarity": "elite",
+    "hp": 500,
+    "damage": 29,
+    "interval": 1.4,
+    "range": 4,
+    "traits": [
+      "root",
+      "toxic"
+    ],
+    "art": "vz-juveniles",
+    "frame": 6
+  },
+  {
+    "id": "V-018",
+    "name": "诱饵树",
+    "family": "root",
+    "kingdom": "flora",
+    "cost": 4,
+    "ability": "taunt",
+    "parents": [
+      "V-016"
+    ],
+    "reagent": "unstable",
+    "category": "variant",
+    "rarity": "epic",
+    "hp": 575,
+    "damage": 34,
+    "interval": 1.4,
+    "range": 4,
+    "traits": [
+      "root",
+      "growth"
+    ],
+    "art": "vz-sheet-2",
+    "frame": 2
+  },
+  {
+    "id": "V-019",
+    "name": "永生根",
+    "family": "root",
+    "kingdom": "flora",
+    "cost": 5,
+    "ability": "heal",
+    "parents": [
+      "V-017"
+    ],
+    "reagent": "regen",
+    "category": "variant",
+    "rarity": "epic",
+    "hp": 651,
+    "damage": 39,
+    "interval": 1.4,
+    "range": 4,
+    "traits": [
+      "root",
+      "symbiotic"
+    ],
+    "art": "vz-sheet-2",
+    "frame": 3
+  },
+  {
+    "id": "V-020",
+    "name": "毒雾菌",
+    "family": "fungi",
+    "kingdom": "fungi",
+    "cost": 1,
+    "ability": "spore",
+    "parents": [
+      "V-004"
+    ],
+    "reagent": "toxic",
+    "category": "variant",
+    "rarity": "common",
+    "hp": 166,
+    "damage": 26,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "fungi",
+      "toxic"
+    ],
+    "art": "vz-juveniles",
+    "frame": 7
+  },
+  {
+    "id": "V-021",
+    "name": "爆孢菌",
+    "family": "fungi",
+    "kingdom": "fungi",
+    "cost": 2,
+    "ability": "deathburst",
+    "parents": [
+      "V-004"
+    ],
+    "reagent": "attack",
+    "category": "variant",
+    "rarity": "elite",
+    "hp": 202,
+    "damage": 33,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "fungi",
+      "predator"
+    ],
+    "art": "vz-juveniles",
+    "frame": 8
+  },
+  {
+    "id": "V-022",
+    "name": "寄生菌",
+    "family": "fungi",
+    "kingdom": "fungi",
+    "cost": 3,
+    "ability": "parasite",
+    "parents": [
+      "V-020"
+    ],
+    "reagent": "toxic",
+    "category": "variant",
+    "rarity": "elite",
+    "hp": 238,
+    "damage": 40,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "fungi",
+      "toxic"
+    ],
+    "art": "vz-sheet-2",
+    "frame": 6
+  },
+  {
+    "id": "V-023",
+    "name": "共生菌",
+    "family": "fungi",
+    "kingdom": "fungi",
+    "cost": 3,
+    "ability": "aura",
+    "parents": [
+      "V-020"
+    ],
+    "reagent": "regen",
+    "category": "variant",
+    "rarity": "elite",
+    "hp": 238,
+    "damage": 40,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "fungi",
+      "symbiotic"
+    ],
+    "art": "vz-sheet-2",
+    "frame": 7
+  },
+  {
+    "id": "V-024",
+    "name": "神经菌",
+    "family": "fungi",
+    "kingdom": "fungi",
+    "cost": 4,
+    "ability": "stun",
+    "parents": [
+      "V-022"
+    ],
+    "reagent": "cryo",
+    "category": "variant",
+    "rarity": "epic",
+    "hp": 274,
+    "damage": 47,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "fungi",
+      "cryo"
+    ],
+    "art": "vz-sheet-2",
+    "frame": 8
+  },
+  {
+    "id": "V-025",
+    "name": "蜂群体",
+    "family": "arthropod",
+    "kingdom": "fauna",
+    "cost": 2,
+    "ability": "swarm",
+    "parents": [
+      "V-005"
+    ],
+    "reagent": "unstable",
+    "category": "variant",
+    "rarity": "elite",
+    "hp": 273,
+    "damage": 33,
+    "interval": 1.1,
+    "range": 1,
+    "traits": [
+      "arthropod",
+      "growth"
+    ],
+    "art": "vz-juveniles",
+    "frame": 9
+  },
+  {
+    "id": "V-026",
+    "name": "猎杀螳",
+    "family": "arthropod",
+    "kingdom": "fauna",
+    "cost": 3,
+    "ability": "execute",
+    "parents": [
+      "V-005"
+    ],
+    "reagent": "attack",
+    "category": "variant",
+    "rarity": "elite",
+    "hp": 321,
+    "damage": 40,
+    "interval": 1.1,
+    "range": 1,
+    "traits": [
+      "arthropod",
+      "predator"
+    ],
+    "art": "vz-juveniles",
+    "frame": 10
+  },
+  {
+    "id": "V-027",
+    "name": "跃迁蛛",
+    "family": "arthropod",
+    "kingdom": "fauna",
+    "cost": 4,
+    "ability": "leap",
+    "parents": [
+      "V-026"
+    ],
+    "reagent": "cryo",
+    "category": "variant",
+    "rarity": "epic",
+    "hp": 370,
+    "damage": 47,
+    "interval": 1.1,
+    "range": 1,
+    "traits": [
+      "arthropod",
+      "cryo"
+    ],
+    "art": "vz-sheet-2",
+    "frame": 11
+  },
+  {
+    "id": "V-028",
+    "name": "甲壳蝎",
+    "family": "arthropod",
+    "kingdom": "fauna",
+    "cost": 3,
+    "ability": "thorns",
+    "parents": [
+      "V-025"
+    ],
+    "reagent": "toxic",
+    "category": "variant",
+    "rarity": "elite",
+    "hp": 321,
+    "damage": 40,
+    "interval": 1.1,
+    "range": 1,
+    "traits": [
+      "arthropod",
+      "toxic"
+    ],
+    "art": "vz-sheet-3",
+    "frame": 0
+  },
+  {
+    "id": "V-029",
+    "name": "钻刺蜈蚣",
+    "family": "arthropod",
+    "kingdom": "fauna",
+    "cost": 5,
+    "ability": "pierce",
+    "parents": [
+      "V-027"
+    ],
+    "reagent": "attack",
+    "category": "variant",
+    "rarity": "epic",
+    "hp": 419,
+    "damage": 54,
+    "interval": 1.1,
+    "range": 1,
+    "traits": [
+      "arthropod",
+      "predator"
+    ],
+    "art": "vz-sheet-3",
+    "frame": 1
+  },
+  {
+    "id": "V-030",
+    "name": "光能射手",
+    "family": "legume",
+    "kingdom": "flora",
+    "cost": 2,
+    "ability": "solar",
+    "parents": [
+      "V-001",
+      "V-002"
+    ],
+    "reagent": "attack",
+    "category": "hybrid",
+    "rarity": "elite",
+    "hp": 202,
+    "damage": 33,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "legume",
+      "bloom",
+      "predator"
+    ],
+    "art": "solar"
+  },
+  {
+    "id": "V-031",
+    "name": "丰收射手",
+    "family": "bloom",
+    "kingdom": "flora",
+    "cost": 3,
+    "ability": "harvest",
+    "parents": [
+      "V-001",
+      "V-002"
+    ],
+    "reagent": "regen",
+    "category": "hybrid",
+    "rarity": "elite",
+    "hp": 238,
+    "damage": 40,
+    "interval": 1.8,
+    "range": 8,
+    "traits": [
+      "bloom",
+      "legume",
+      "symbiotic"
+    ],
+    "art": "harvest"
+  },
+  {
+    "id": "V-032",
+    "name": "辉光蓄能者",
+    "family": "legume",
+    "kingdom": "flora",
+    "cost": 5,
+    "ability": "capacitor",
+    "parents": [
+      "V-001",
+      "V-002"
+    ],
+    "reagent": "unstable",
+    "category": "hybrid",
+    "rarity": "epic",
+    "hp": 310,
+    "damage": 54,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "legume",
+      "bloom",
+      "growth"
+    ],
+    "art": "capacitor"
+  },
+  {
+    "id": "V-033",
+    "name": "种荚堡垒",
+    "family": "root",
+    "kingdom": "flora",
+    "cost": 2,
+    "ability": "bunker",
+    "parents": [
+      "V-001",
+      "V-003"
+    ],
+    "reagent": "attack",
+    "category": "hybrid",
+    "rarity": "elite",
+    "hp": 424,
+    "damage": 24,
+    "interval": 1.4,
+    "range": 4,
+    "traits": [
+      "root",
+      "legume",
+      "predator"
+    ],
+    "art": "bunker"
+  },
+  {
+    "id": "V-034",
+    "name": "连射堡垒",
+    "family": "legume",
+    "kingdom": "flora",
+    "cost": 4,
+    "ability": "volley",
+    "parents": [
+      "V-001",
+      "V-003"
+    ],
+    "reagent": "attack",
+    "category": "hybrid",
+    "rarity": "epic",
+    "hp": 274,
+    "damage": 47,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "legume",
+      "root",
+      "predator"
+    ],
+    "art": "volley"
+  },
+  {
+    "id": "V-035",
+    "name": "反击守卫",
+    "family": "root",
+    "kingdom": "flora",
+    "cost": 4,
+    "ability": "sentinel",
+    "parents": [
+      "V-001",
+      "V-003"
+    ],
+    "reagent": "toxic",
+    "category": "hybrid",
+    "rarity": "epic",
+    "hp": 575,
+    "damage": 34,
+    "interval": 1.4,
+    "range": 4,
+    "traits": [
+      "root",
+      "legume",
+      "toxic"
+    ],
+    "art": "sentinel"
+  },
+  {
+    "id": "V-036",
+    "name": "供能壁垒",
+    "family": "root",
+    "kingdom": "flora",
+    "cost": 2,
+    "ability": "generator",
+    "parents": [
+      "V-002",
+      "V-003"
+    ],
+    "reagent": "regen",
+    "category": "hybrid",
+    "rarity": "elite",
+    "hp": 424,
+    "damage": 24,
+    "interval": 1.4,
+    "range": 4,
+    "traits": [
+      "root",
+      "bloom",
+      "symbiotic"
+    ],
+    "art": "generator"
+  },
+  {
+    "id": "V-037",
+    "name": "修复花盾",
+    "family": "bloom",
+    "kingdom": "flora",
+    "cost": 3,
+    "ability": "nurse",
+    "parents": [
+      "V-002",
+      "V-003"
+    ],
+    "reagent": "regen",
+    "category": "hybrid",
+    "rarity": "elite",
+    "hp": 238,
+    "damage": 40,
+    "interval": 1.8,
+    "range": 8,
+    "traits": [
+      "bloom",
+      "root",
+      "symbiotic"
+    ],
+    "art": "nurse"
+  },
+  {
+    "id": "V-038",
+    "name": "储能圣果",
+    "family": "root",
+    "kingdom": "flora",
+    "cost": 5,
+    "ability": "vault",
+    "parents": [
+      "V-002",
+      "V-003"
+    ],
+    "reagent": "unstable",
+    "category": "hybrid",
+    "rarity": "epic",
+    "hp": 651,
+    "damage": 39,
+    "interval": 1.4,
+    "range": 4,
+    "traits": [
+      "root",
+      "bloom",
+      "growth"
+    ],
+    "art": "vault"
+  },
+  {
+    "id": "V-039",
+    "name": "孢子豆",
+    "family": "fungi",
+    "kingdom": "fungi",
+    "cost": 3,
+    "ability": "sporepea",
+    "parents": [
+      "V-001",
+      "V-004"
+    ],
+    "reagent": "toxic",
+    "category": "hybrid",
+    "rarity": "elite",
+    "hp": 238,
+    "damage": 40,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "fungi",
+      "legume",
+      "toxic"
+    ],
+    "art": "vz-sheet-3",
+    "frame": 2
+  },
+  {
+    "id": "V-040",
+    "name": "掘地根兽",
+    "family": "arthropod",
+    "kingdom": "fauna",
+    "cost": 4,
+    "ability": "burrow",
+    "parents": [
+      "V-003",
+      "V-005"
+    ],
+    "reagent": "attack",
+    "category": "chimera",
+    "rarity": "epic",
+    "hp": 370,
+    "damage": 47,
+    "interval": 1.1,
+    "range": 1,
+    "traits": [
+      "arthropod",
+      "root",
+      "predator"
+    ],
+    "art": "vz-sheet-3",
+    "frame": 3
+  },
+  {
+    "id": "V-041",
+    "name": "菌翼蛾",
+    "family": "arthropod",
+    "kingdom": "fauna",
+    "cost": 4,
+    "ability": "mycomoth",
+    "parents": [
+      "V-004",
+      "V-005"
+    ],
+    "reagent": "regen",
+    "category": "chimera",
+    "rarity": "epic",
+    "hp": 370,
+    "damage": 47,
+    "interval": 1.1,
+    "range": 1,
+    "traits": [
+      "arthropod",
+      "fungi",
+      "symbiotic"
+    ],
+    "art": "vz-sheet-3",
+    "frame": 4
+  },
+  {
+    "id": "V-042",
+    "name": "回声种",
+    "family": "legume",
+    "kingdom": "flora",
+    "cost": 4,
+    "ability": "echo",
+    "parents": [
+      "V-009"
+    ],
+    "reagent": "unstable",
+    "category": "aberrant",
+    "rarity": "legendary",
+    "hp": 274,
+    "damage": 47,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "legume",
+      "growth"
+    ],
+    "art": "vz-sheet-3",
+    "frame": 5
+  },
+  {
+    "id": "V-043",
+    "name": "逆时孢",
+    "family": "fungi",
+    "kingdom": "fungi",
+    "cost": 5,
+    "ability": "reverse",
+    "parents": [
+      "V-024"
+    ],
+    "reagent": "unstable",
+    "category": "aberrant",
+    "rarity": "legendary",
+    "hp": 310,
+    "damage": 54,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "fungi",
+      "growth"
+    ],
+    "art": "vz-sheet-3",
+    "frame": 6
+  },
+  {
+    "id": "V-044",
+    "name": "凋序蝎",
+    "family": "arthropod",
+    "kingdom": "fauna",
+    "cost": 5,
+    "ability": "decay",
+    "parents": [
+      "V-029"
+    ],
+    "reagent": "unstable",
+    "category": "aberrant",
+    "rarity": "legendary",
+    "hp": 419,
+    "damage": 54,
+    "interval": 1.1,
+    "range": 1,
+    "traits": [
+      "arthropod",
+      "growth"
+    ],
+    "art": "vz-sheet-3",
+    "frame": 7
+  },
+  {
+    "id": "V-045",
+    "name": "零序列载体",
+    "family": "fungi",
+    "kingdom": "fungi",
+    "cost": 5,
+    "ability": "zero",
+    "parents": [
+      "V-042",
+      "V-043"
+    ],
+    "reagent": "unstable",
+    "category": "zero",
+    "rarity": "zero",
+    "hp": 310,
+    "damage": 54,
+    "interval": 1.4,
+    "range": 8,
+    "traits": [
+      "fungi",
+      "legume",
+      "growth"
+    ],
+    "art": "vz-sheet-3",
+    "frame": 8
+  }
+]

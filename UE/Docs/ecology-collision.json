@@ -1,0 +1,1578 @@
+[
+  {
+    "name": "Mineral foundation",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B67E4AB0) {x: 0.000000, y: 0.000000, z: -30.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B67E4F60) {x: 1500.000000, y: 1200.000000, z: 30.000000}>"
+  },
+  {
+    "name": "Ivory walkway",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141A4A52EA0) {x: -1300.000000, y: 0.000000, z: 1.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141A4A52CC0) {x: 98.000000, y: 200.000000, z: 1.750000}>"
+  },
+  {
+    "name": "Ivory walkway",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B67E4AB0) {x: -1100.000000, y: 0.000000, z: 1.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141A4A53710) {x: 98.000000, y: 200.000000, z: 1.750000}>"
+  },
+  {
+    "name": "Ivory walkway",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141A4A52EA0) {x: -900.000000, y: 0.000000, z: 1.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141A4A79050) {x: 98.000000, y: 200.000000, z: 1.750000}>"
+  },
+  {
+    "name": "Ivory walkway",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B67E4AB0) {x: -700.000000, y: 0.000000, z: 1.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141A4A79640) {x: 98.000000, y: 200.000000, z: 1.750000}>"
+  },
+  {
+    "name": "Ivory walkway",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141A4A79050) {x: -500.000000, y: 0.000000, z: 1.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141A4A795F0) {x: 98.000000, y: 200.000000, z: 1.750000}>"
+  },
+  {
+    "name": "Ivory walkway",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141A4A79640) {x: -300.000000, y: 0.000000, z: 1.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141A4A795A0) {x: 98.000000, y: 200.000000, z: 1.750000}>"
+  },
+  {
+    "name": "Ivory walkway",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141A4A79050) {x: -100.000000, y: 0.000000, z: 1.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141A4A79550) {x: 98.000000, y: 200.000000, z: 1.750000}>"
+  },
+  {
+    "name": "Ivory walkway",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141A4A79640) {x: 100.000000, y: 0.000000, z: 1.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B67AEEF0) {x: 98.000000, y: 200.000000, z: 1.750000}>"
+  },
+  {
+    "name": "Ivory walkway",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141A4A79050) {x: 300.000000, y: 0.000000, z: 1.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B67ADC30) {x: 98.000000, y: 200.000000, z: 1.750000}>"
+  },
+  {
+    "name": "Ivory walkway",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B67AEEF0) {x: 500.000000, y: 0.000000, z: 1.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B67ADC80) {x: 98.000000, y: 200.000000, z: 1.750000}>"
+  },
+  {
+    "name": "Ivory walkway",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B67ADC30) {x: 700.000000, y: 0.000000, z: 1.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B67AFC10) {x: 98.000000, y: 200.000000, z: 1.750000}>"
+  },
+  {
+    "name": "Ivory walkway",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B67AEEF0) {x: 900.000000, y: 0.000000, z: 1.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B67AFBC0) {x: 98.000000, y: 200.000000, z: 1.750000}>"
+  },
+  {
+    "name": "Ivory walkway",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B67ADC30) {x: 1100.000000, y: 0.000000, z: 1.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B67C7B70) {x: 98.000000, y: 200.000000, z: 1.750000}>"
+  },
+  {
+    "name": "Ivory walkway",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B67AEEF0) {x: 1300.000000, y: 0.000000, z: 1.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B67C7B20) {x: 98.000000, y: 200.000000, z: 1.750000}>"
+  },
+  {
+    "name": "Embedded living light",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B67C7B70) {x: 0.000000, y: -215.000000, z: 3.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B67C4D30) {x: 1400.000000, y: 1.400000, z: 1.250000}>"
+  },
+  {
+    "name": "Embedded living light",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B67C4B00) {x: 0.000000, y: 215.000000, z: 3.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B67C46F0) {x: 1400.000000, y: 1.400000, z: 1.250000}>"
+  },
+  {
+    "name": "Perimeter plinth",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B67C7AD0) {x: -1450.000000, y: 0.000000, z: 40.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B67C6810) {x: 25.000000, y: 1200.000000, z: 40.000000}>"
+  },
+  {
+    "name": "Perimeter plinth",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B67C6770) {x: 1450.000000, y: 0.000000, z: 40.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B67C4B50) {x: 25.000000, y: 1200.000000, z: 40.000000}>"
+  },
+  {
+    "name": "Perimeter plinth",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B67C4920) {x: 0.000000, y: -1150.000000, z: 40.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B67C4880) {x: 1450.000000, y: 25.000000, z: 40.000000}>"
+  },
+  {
+    "name": "Perimeter plinth",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B67C48D0) {x: 0.000000, y: 1150.000000, z: 40.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B67C67C0) {x: 1450.000000, y: 25.000000, z: 40.000000}>"
+  },
+  {
+    "name": "Structural column",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B67C68B0) {x: -1370.000000, y: -1050.000000, z: 260.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 11.000000, y: 11.000000, z: 200.000000}>"
+  },
+  {
+    "name": "Structural column",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B67C48D0) {x: 1370.000000, y: -1050.000000, z: 260.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 11.000000, y: 11.000000, z: 200.000000}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 1361.566513, y: -1050.000000, z: 493.633410}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822E00) {x: 17.648218, y: 9.500000, z: 35.943979}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B67C48D0) {x: 1328.040227, y: -1050.000000, z: 560.072064}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 32.638485, y: 9.500000, z: 38.576954}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822E00) {x: 1261.813183, y: -1050.000000, z: 624.046611}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 46.871711, y: 9.500000, z: 38.741059}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B67C48D0) {x: 1164.516110, y: -1050.000000, z: 683.981787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 60.493594, y: 9.500000, z: 37.221312}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 1038.544786, y: -1050.000000, z: 738.401787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822E00) {x: 73.085409, y: 9.500000, z: 34.571070}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B67C48D0) {x: 887.001043, y: -1050.000000, z: 785.966612}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 84.195055, y: 9.500000, z: 31.086716}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822E00) {x: 713.616390, y: -1050.000000, z: 825.505056}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 93.443737, y: 9.500000, z: 26.956756}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B67C48D0) {x: 522.660133, y: -1050.000000, z: 856.043554}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 100.531626, y: 9.500000, z: 22.331466}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 318.834250, y: -1050.000000, z: 876.830144}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822E00) {x: 105.232864, y: 9.500000, z: 17.348986}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B67C48D0) {x: 107.157609, y: -1050.000000, z: 887.352993}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 107.392206, y: 9.500000, z: 12.144110}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822E00) {x: -107.157609, y: -1050.000000, z: 887.352993}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 107.392206, y: 9.500000, z: 12.144110}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B67C48D0) {x: -318.834250, y: -1050.000000, z: 876.830144}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 105.232864, y: 9.500000, z: 17.348986}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: -522.660133, y: -1050.000000, z: 856.043554}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822E00) {x: 100.531626, y: 9.500000, z: 22.331466}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B67C48D0) {x: -713.616390, y: -1050.000000, z: 825.505056}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 93.443737, y: 9.500000, z: 26.956756}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822E00) {x: -887.001043, y: -1050.000000, z: 785.966612}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 84.195055, y: 9.500000, z: 31.086716}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B67C48D0) {x: -1038.544786, y: -1050.000000, z: 738.401787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 73.085409, y: 9.500000, z: 34.571070}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: -1164.516110, y: -1050.000000, z: 683.981787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822E00) {x: 60.493594, y: 9.500000, z: 37.221312}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B67C48D0) {x: -1261.813183, y: -1050.000000, z: 624.046611}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 46.871711, y: 9.500000, z: 38.741059}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822E00) {x: -1328.040227, y: -1050.000000, z: 560.072064}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 32.638485, y: 9.500000, z: 38.576954}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B67C48D0) {x: -1361.566513, y: -1050.000000, z: 493.633410}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 17.648218, y: 9.500000, z: 35.943979}>"
+  },
+  {
+    "name": "Structural column",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: -1370.000000, y: -525.000000, z: 260.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822E00) {x: 11.000000, y: 11.000000, z: 200.000000}>"
+  },
+  {
+    "name": "Structural column",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: 1370.000000, y: -525.000000, z: 260.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822E50) {x: 11.000000, y: 11.000000, z: 200.000000}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 1361.566513, y: -525.000000, z: 493.633410}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822EA0) {x: 17.648218, y: 9.500000, z: 35.943979}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822E50) {x: 1328.040227, y: -525.000000, z: 560.072064}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 32.638485, y: 9.500000, z: 38.576954}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822EA0) {x: 1261.813183, y: -525.000000, z: 624.046611}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 46.871711, y: 9.500000, z: 38.741059}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: 1164.516110, y: -525.000000, z: 683.981787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822E50) {x: 60.493594, y: 9.500000, z: 37.221312}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 1038.544786, y: -525.000000, z: 738.401787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822EA0) {x: 73.085409, y: 9.500000, z: 34.571070}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822E50) {x: 887.001043, y: -525.000000, z: 785.966612}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 84.195055, y: 9.500000, z: 31.086716}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822EA0) {x: 713.616390, y: -525.000000, z: 825.505056}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 93.443737, y: 9.500000, z: 26.956756}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: 522.660133, y: -525.000000, z: 856.043554}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822E50) {x: 100.531626, y: 9.500000, z: 22.331466}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 318.834250, y: -525.000000, z: 876.830144}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822EA0) {x: 105.232864, y: 9.500000, z: 17.348986}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822E50) {x: 107.157609, y: -525.000000, z: 887.352993}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 107.392206, y: 9.500000, z: 12.144110}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822EA0) {x: -107.157609, y: -525.000000, z: 887.352993}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 107.392206, y: 9.500000, z: 12.144110}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: -318.834250, y: -525.000000, z: 876.830144}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822E50) {x: 105.232864, y: 9.500000, z: 17.348986}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: -522.660133, y: -525.000000, z: 856.043554}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822EA0) {x: 100.531626, y: 9.500000, z: 22.331466}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822E50) {x: -713.616390, y: -525.000000, z: 825.505056}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 93.443737, y: 9.500000, z: 26.956756}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822EA0) {x: -887.001043, y: -525.000000, z: 785.966612}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 84.195055, y: 9.500000, z: 31.086716}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: -1038.544786, y: -525.000000, z: 738.401787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822E50) {x: 73.085409, y: 9.500000, z: 34.571070}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: -1164.516110, y: -525.000000, z: 683.981787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822EA0) {x: 60.493594, y: 9.500000, z: 37.221312}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822E50) {x: -1261.813183, y: -525.000000, z: 624.046611}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 46.871711, y: 9.500000, z: 38.741059}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822EA0) {x: -1328.040227, y: -525.000000, z: 560.072064}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 32.638485, y: 9.500000, z: 38.576954}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: -1361.566513, y: -525.000000, z: 493.633410}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822E50) {x: 17.648218, y: 9.500000, z: 35.943979}>"
+  },
+  {
+    "name": "Structural column",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: -1370.000000, y: 0.000000, z: 260.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822EA0) {x: 11.000000, y: 11.000000, z: 200.000000}>"
+  },
+  {
+    "name": "Structural column",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: 1370.000000, y: 0.000000, z: 260.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822EF0) {x: 11.000000, y: 11.000000, z: 200.000000}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 1361.566513, y: 0.000000, z: 493.633410}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822F40) {x: 17.648218, y: 9.500000, z: 35.943979}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822EF0) {x: 1328.040227, y: 0.000000, z: 560.072064}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 32.638485, y: 9.500000, z: 38.576954}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822F40) {x: 1261.813183, y: 0.000000, z: 624.046611}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 46.871711, y: 9.500000, z: 38.741059}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: 1164.516110, y: 0.000000, z: 683.981787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822EF0) {x: 60.493594, y: 9.500000, z: 37.221312}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 1038.544786, y: 0.000000, z: 738.401787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822F40) {x: 73.085409, y: 9.500000, z: 34.571070}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822EF0) {x: 887.001043, y: 0.000000, z: 785.966612}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 84.195055, y: 9.500000, z: 31.086716}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822F40) {x: 713.616390, y: 0.000000, z: 825.505056}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 93.443737, y: 9.500000, z: 26.956756}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: 522.660133, y: 0.000000, z: 856.043554}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822EF0) {x: 100.531626, y: 9.500000, z: 22.331466}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 318.834250, y: 0.000000, z: 876.830144}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822F40) {x: 105.232864, y: 9.500000, z: 17.348986}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822EF0) {x: 107.157609, y: 0.000000, z: 887.352993}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 107.392206, y: 9.500000, z: 12.144110}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822F40) {x: -107.157609, y: 0.000000, z: 887.352993}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 107.392206, y: 9.500000, z: 12.144110}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: -318.834250, y: 0.000000, z: 876.830144}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822EF0) {x: 105.232864, y: 9.500000, z: 17.348986}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: -522.660133, y: 0.000000, z: 856.043554}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822F40) {x: 100.531626, y: 9.500000, z: 22.331466}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822EF0) {x: -713.616390, y: 0.000000, z: 825.505056}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 93.443737, y: 9.500000, z: 26.956756}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822F40) {x: -887.001043, y: 0.000000, z: 785.966612}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 84.195055, y: 9.500000, z: 31.086716}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: -1038.544786, y: 0.000000, z: 738.401787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822EF0) {x: 73.085409, y: 9.500000, z: 34.571070}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: -1164.516110, y: 0.000000, z: 683.981787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822F40) {x: 60.493594, y: 9.500000, z: 37.221312}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822EF0) {x: -1261.813183, y: 0.000000, z: 624.046611}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 46.871711, y: 9.500000, z: 38.741059}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822F40) {x: -1328.040227, y: 0.000000, z: 560.072064}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 32.638485, y: 9.500000, z: 38.576954}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: -1361.566513, y: 0.000000, z: 493.633410}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822EF0) {x: 17.648218, y: 9.500000, z: 35.943979}>"
+  },
+  {
+    "name": "Structural column",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: -1370.000000, y: 525.000000, z: 260.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822F40) {x: 11.000000, y: 11.000000, z: 200.000000}>"
+  },
+  {
+    "name": "Structural column",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: 1370.000000, y: 525.000000, z: 260.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822F90) {x: 11.000000, y: 11.000000, z: 200.000000}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 1361.566513, y: 525.000000, z: 493.633410}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822FE0) {x: 17.648218, y: 9.500000, z: 35.943979}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822F90) {x: 1328.040227, y: 525.000000, z: 560.072064}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 32.638485, y: 9.500000, z: 38.576954}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822FE0) {x: 1261.813183, y: 525.000000, z: 624.046611}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 46.871711, y: 9.500000, z: 38.741059}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: 1164.516110, y: 525.000000, z: 683.981787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822F90) {x: 60.493594, y: 9.500000, z: 37.221312}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 1038.544786, y: 525.000000, z: 738.401787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822FE0) {x: 73.085409, y: 9.500000, z: 34.571070}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822F90) {x: 887.001043, y: 525.000000, z: 785.966612}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 84.195055, y: 9.500000, z: 31.086716}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822FE0) {x: 713.616390, y: 525.000000, z: 825.505056}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 93.443737, y: 9.500000, z: 26.956756}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: 522.660133, y: 525.000000, z: 856.043554}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822F90) {x: 100.531626, y: 9.500000, z: 22.331466}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 318.834250, y: 525.000000, z: 876.830144}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822FE0) {x: 105.232864, y: 9.500000, z: 17.348986}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822F90) {x: 107.157609, y: 525.000000, z: 887.352993}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 107.392206, y: 9.500000, z: 12.144110}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822FE0) {x: -107.157609, y: 525.000000, z: 887.352993}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 107.392206, y: 9.500000, z: 12.144110}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: -318.834250, y: 525.000000, z: 876.830144}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822F90) {x: 105.232864, y: 9.500000, z: 17.348986}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: -522.660133, y: 525.000000, z: 856.043554}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822FE0) {x: 100.531626, y: 9.500000, z: 22.331466}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822F90) {x: -713.616390, y: 525.000000, z: 825.505056}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 93.443737, y: 9.500000, z: 26.956756}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822FE0) {x: -887.001043, y: 525.000000, z: 785.966612}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 84.195055, y: 9.500000, z: 31.086716}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: -1038.544786, y: 525.000000, z: 738.401787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822F90) {x: 73.085409, y: 9.500000, z: 34.571070}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: -1164.516110, y: 525.000000, z: 683.981787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822FE0) {x: 60.493594, y: 9.500000, z: 37.221312}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822F90) {x: -1261.813183, y: 525.000000, z: 624.046611}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 46.871711, y: 9.500000, z: 38.741059}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822FE0) {x: -1328.040227, y: 525.000000, z: 560.072064}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 32.638485, y: 9.500000, z: 38.576954}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: -1361.566513, y: 525.000000, z: 493.633410}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822F90) {x: 17.648218, y: 9.500000, z: 35.943979}>"
+  },
+  {
+    "name": "Structural column",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: -1370.000000, y: 1050.000000, z: 260.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822FE0) {x: 11.000000, y: 11.000000, z: 200.000000}>"
+  },
+  {
+    "name": "Structural column",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: 1370.000000, y: 1050.000000, z: 260.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823030) {x: 11.000000, y: 11.000000, z: 200.000000}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 1361.566513, y: 1050.000000, z: 493.633410}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823080) {x: 17.648218, y: 9.500000, z: 35.943979}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823030) {x: 1328.040227, y: 1050.000000, z: 560.072064}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 32.638485, y: 9.500000, z: 38.576954}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823080) {x: 1261.813183, y: 1050.000000, z: 624.046611}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 46.871711, y: 9.500000, z: 38.741059}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: 1164.516110, y: 1050.000000, z: 683.981787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823030) {x: 60.493594, y: 9.500000, z: 37.221312}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 1038.544786, y: 1050.000000, z: 738.401787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823080) {x: 73.085409, y: 9.500000, z: 34.571070}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823030) {x: 887.001043, y: 1050.000000, z: 785.966612}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 84.195055, y: 9.500000, z: 31.086716}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823080) {x: 713.616390, y: 1050.000000, z: 825.505056}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 93.443737, y: 9.500000, z: 26.956756}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: 522.660133, y: 1050.000000, z: 856.043554}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823030) {x: 100.531626, y: 9.500000, z: 22.331466}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 318.834250, y: 1050.000000, z: 876.830144}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823080) {x: 105.232864, y: 9.500000, z: 17.348986}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823030) {x: 107.157609, y: 1050.000000, z: 887.352993}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 107.392206, y: 9.500000, z: 12.144110}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823080) {x: -107.157609, y: 1050.000000, z: 887.352993}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 107.392206, y: 9.500000, z: 12.144110}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: -318.834250, y: 1050.000000, z: 876.830144}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823030) {x: 105.232864, y: 9.500000, z: 17.348986}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: -522.660133, y: 1050.000000, z: 856.043554}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823080) {x: 100.531626, y: 9.500000, z: 22.331466}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823030) {x: -713.616390, y: 1050.000000, z: 825.505056}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 93.443737, y: 9.500000, z: 26.956756}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823080) {x: -887.001043, y: 1050.000000, z: 785.966612}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 84.195055, y: 9.500000, z: 31.086716}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: -1038.544786, y: 1050.000000, z: 738.401787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823030) {x: 73.085409, y: 9.500000, z: 34.571070}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: -1164.516110, y: 1050.000000, z: 683.981787}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823080) {x: 60.493594, y: 9.500000, z: 37.221312}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823030) {x: -1261.813183, y: 1050.000000, z: 624.046611}>",
+    "extent": "<Struct 'Vector' (0x00000141B6822DB0) {x: 46.871711, y: 9.500000, z: 38.741059}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823080) {x: -1328.040227, y: 1050.000000, z: 560.072064}>",
+    "extent": "<Struct 'Vector' (0x00000141B6820510) {x: 32.638485, y: 9.500000, z: 38.576954}>"
+  },
+  {
+    "name": "Vault rib",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: -1361.566513, y: 1050.000000, z: 493.633410}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823030) {x: 17.648218, y: 9.500000, z: 35.943979}>"
+  },
+  {
+    "name": "Longitudinal support",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: -1370.000000, y: 0.000000, z: 460.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823080) {x: 6.000000, y: 1050.000000, z: 6.000000}>"
+  },
+  {
+    "name": "Longitudinal support",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: -900.000000, y: 0.000000, z: 784.197563}>",
+    "extent": "<Struct 'Vector' (0x00000141B68230D0) {x: 6.000000, y: 1050.000000, z: 6.000000}>"
+  },
+  {
+    "name": "Longitudinal support",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 0.000000, y: 0.000000, z: 890.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823120) {x: 6.000000, y: 1050.000000, z: 6.000000}>"
+  },
+  {
+    "name": "Longitudinal support",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: 900.000000, y: 0.000000, z: 784.197563}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823170) {x: 6.000000, y: 1050.000000, z: 6.000000}>"
+  },
+  {
+    "name": "Longitudinal support",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 1370.000000, y: 0.000000, z: 460.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B68231C0) {x: 6.000000, y: 1050.000000, z: 6.000000}>"
+  },
+  {
+    "name": "Jade wall panel",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: -1400.000000, y: -800.000000, z: 245.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823210) {x: 4.000000, y: 250.000000, z: 175.000000}>"
+  },
+  {
+    "name": "Jade wall panel",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: -1400.000000, y: -275.000000, z: 245.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823260) {x: 4.000000, y: 250.000000, z: 175.000000}>"
+  },
+  {
+    "name": "Jade wall panel",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: -1400.000000, y: 275.000000, z: 245.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B68232B0) {x: 4.000000, y: 250.000000, z: 175.000000}>"
+  },
+  {
+    "name": "Jade wall panel",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: -1400.000000, y: 800.000000, z: 245.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823300) {x: 4.000000, y: 250.000000, z: 175.000000}>"
+  },
+  {
+    "name": "Jade wall panel",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: 1400.000000, y: -800.000000, z: 245.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823350) {x: 4.000000, y: 250.000000, z: 175.000000}>"
+  },
+  {
+    "name": "Jade wall panel",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 1400.000000, y: -275.000000, z: 245.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B68233A0) {x: 4.000000, y: 250.000000, z: 175.000000}>"
+  },
+  {
+    "name": "Jade wall panel",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: 1400.000000, y: 275.000000, z: 245.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B68233F0) {x: 4.000000, y: 250.000000, z: 175.000000}>"
+  },
+  {
+    "name": "Jade wall panel",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B6820510) {x: 1400.000000, y: 800.000000, z: 245.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823440) {x: 4.000000, y: 250.000000, z: 175.000000}>"
+  },
+  {
+    "name": "Low garden enclosure",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B6822DB0) {x: -1000.000000, y: -1100.000000, z: 100.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823490) {x: 240.000000, y: 4.000000, z: 70.000000}>"
+  },
+  {
+    "name": "Low garden enclosure",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B68234E0) {x: -500.000000, y: -1100.000000, z: 100.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823530) {x: 240.000000, y: 4.000000, z: 70.000000}>"
+  },
+  {
+    "name": "Low garden enclosure",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B6823580) {x: 0.000000, y: -1100.000000, z: 100.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B68235D0) {x: 240.000000, y: 4.000000, z: 70.000000}>"
+  },
+  {
+    "name": "Low garden enclosure",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B6823620) {x: 500.000000, y: -1100.000000, z: 100.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823670) {x: 240.000000, y: 4.000000, z: 70.000000}>"
+  },
+  {
+    "name": "Low garden enclosure",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B68236C0) {x: 1000.000000, y: -1100.000000, z: 100.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823710) {x: 240.000000, y: 4.000000, z: 70.000000}>"
+  },
+  {
+    "name": "Low garden enclosure",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B6823760) {x: -1000.000000, y: 1100.000000, z: 100.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B68237B0) {x: 240.000000, y: 4.000000, z: 70.000000}>"
+  },
+  {
+    "name": "Low garden enclosure",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B6823800) {x: -500.000000, y: 1100.000000, z: 100.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823850) {x: 240.000000, y: 4.000000, z: 70.000000}>"
+  },
+  {
+    "name": "Low garden enclosure",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B68238A0) {x: 0.000000, y: 1100.000000, z: 100.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B68238F0) {x: 240.000000, y: 4.000000, z: 70.000000}>"
+  },
+  {
+    "name": "Low garden enclosure",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B6823940) {x: 500.000000, y: 1100.000000, z: 100.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823990) {x: 240.000000, y: 4.000000, z: 70.000000}>"
+  },
+  {
+    "name": "Low garden enclosure",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B68239E0) {x: 1000.000000, y: 1100.000000, z: 100.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823A30) {x: 240.000000, y: 4.000000, z: 70.000000}>"
+  },
+  {
+    "name": "Cultivation island",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823A80) {x: -950.000000, y: -650.000000, z: 40.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823AD0) {x: 200.000000, y: 200.000000, z: 40.000000}>"
+  },
+  {
+    "name": "Cultivation soil",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B68239E0) {x: -950.000000, y: -650.000000, z: 83.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823B20) {x: 182.500000, y: 182.500000, z: 4.000000}>"
+  },
+  {
+    "name": "Cultivation island",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823A80) {x: -950.000000, y: 650.000000, z: 40.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823B70) {x: 200.000000, y: 200.000000, z: 40.000000}>"
+  },
+  {
+    "name": "Cultivation soil",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B68239E0) {x: -950.000000, y: 650.000000, z: 83.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823BC0) {x: 182.500000, y: 182.500000, z: 4.000000}>"
+  },
+  {
+    "name": "Cultivation island",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823A80) {x: 950.000000, y: -650.000000, z: 40.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823C10) {x: 200.000000, y: 200.000000, z: 40.000000}>"
+  },
+  {
+    "name": "Cultivation soil",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B68239E0) {x: 950.000000, y: -650.000000, z: 83.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823C60) {x: 182.500000, y: 182.500000, z: 4.000000}>"
+  },
+  {
+    "name": "Cultivation island",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823A80) {x: 950.000000, y: 650.000000, z: 40.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823CB0) {x: 200.000000, y: 200.000000, z: 40.000000}>"
+  },
+  {
+    "name": "Cultivation soil",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B68239E0) {x: 950.000000, y: 650.000000, z: 83.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823D00) {x: 182.500000, y: 182.500000, z: 4.000000}>"
+  },
+  {
+    "name": "Navigation test planter",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B6823A80) {x: 0.000000, y: 640.000000, z: 70.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823D50) {x: 40.000000, y: 350.000000, z: 70.000000}>"
+  },
+  {
+    "name": "Navigation planter soil",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "origin": "<Struct 'Vector' (0x00000141B6823DA0) {x: 0.000000, y: 640.000000, z: 142.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823DF0) {x: 35.000000, y: 340.000000, z: 2.500000}>"
+  },
+  {
+    "name": "First flower cultivation bed",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823E40) {x: 650.000000, y: 0.000000, z: 40.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823E90) {x: 125.000000, y: 125.000000, z: 40.000000}>"
+  },
+  {
+    "name": "First flower soil",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823DA0) {x: 650.000000, y: 0.000000, z: 83.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823EE0) {x: 112.500000, y: 112.500000, z: 3.000000}>"
+  },
+  {
+    "name": "First flower stem",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823E40) {x: 715.000000, y: 0.000000, z: 112.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823F30) {x: 1.100000, y: 1.100000, z: 28.000000}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823DA0) {x: 731.000000, y: 0.000001, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823F80) {x: 18.000000, y: 10.000000, z: 3.500000}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823F30) {x: 719.944272, y: 15.216905, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823E40) {x: 8.891004, y: 10.000000, z: 18.200577}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823F80) {x: 702.055728, y: 9.404565, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823DA0) {x: 16.619554, y: 10.000000, z: 13.411694}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823E40) {x: 702.055728, y: -9.404563, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823F30) {x: 16.619554, y: 10.000000, z: 13.411694}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823DA0) {x: 719.944272, y: -15.216903, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823F80) {x: 8.891004, y: 10.000000, z: 18.200577}>"
+  },
+  {
+    "name": "First flower stem",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823F30) {x: 602.069408, y: 43.905107, z: 112.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823E40) {x: 1.100000, y: 1.100000, z: 28.000000}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823DA0) {x: 618.069408, y: 43.905107, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823FD0) {x: 18.000000, y: 10.000000, z: 3.500000}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823E40) {x: 607.013680, y: 59.122012, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823F30) {x: 8.891004, y: 10.000000, z: 18.200577}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823FD0) {x: 589.125137, y: 53.309672, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823DA0) {x: 16.619554, y: 10.000000, z: 13.411694}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823F30) {x: 589.125137, y: 34.500543, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823E40) {x: 16.619554, y: 10.000000, z: 13.411694}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823DA0) {x: 607.013680, y: 28.688203, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823FD0) {x: 8.891004, y: 10.000000, z: 18.200577}>"
+  },
+  {
+    "name": "First flower stem",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823E40) {x: 655.687434, y: -64.750700, z: 112.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823F30) {x: 1.100000, y: 1.100000, z: 28.000000}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823DA0) {x: 671.687434, y: -64.750699, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x000001417E81C060) {x: 18.000000, y: 10.000000, z: 3.500000}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823F30) {x: 660.631706, y: -49.533795, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823E40) {x: 8.891004, y: 10.000000, z: 18.200577}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823DA0) {x: 642.743162, y: -55.346135, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x000001417E81C060) {x: 16.619554, y: 10.000000, z: 13.411694}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823E40) {x: 642.743162, y: -74.155263, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823F30) {x: 16.619554, y: 10.000000, z: 13.411694}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823DA0) {x: 660.631706, y: -79.967603, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x000001417E81C060) {x: 8.891004, y: 10.000000, z: 18.200577}>"
+  },
+  {
+    "name": "First flower stem",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823F30) {x: 689.542835, y: 51.588411, z: 112.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823E40) {x: 1.100000, y: 1.100000, z: 28.000000}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x000001417E81C060) {x: 705.542835, y: 51.588412, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x000001417E81C0B0) {x: 18.000000, y: 10.000000, z: 3.500000}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823E40) {x: 694.487107, y: 66.805316, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823F30) {x: 8.891004, y: 10.000000, z: 18.200577}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x000001417E81C0B0) {x: 676.598564, y: 60.992976, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x000001417E81C060) {x: 16.619554, y: 10.000000, z: 13.411694}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823F30) {x: 676.598564, y: 42.183848, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823E40) {x: 16.619554, y: 10.000000, z: 13.411694}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x000001417E81C060) {x: 694.487107, y: 36.371508, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x000001417E81C0B0) {x: 8.891004, y: 10.000000, z: 18.200577}>"
+  },
+  {
+    "name": "First flower stem",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "origin": "<Struct 'Vector' (0x00000141B6823E40) {x: 585.995289, y: -11.331241, z: 112.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823F30) {x: 1.100000, y: 1.100000, z: 28.000000}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x000001417E81C060) {x: 601.995289, y: -11.331240, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x000001417E81C100) {x: 18.000000, y: 10.000000, z: 3.500000}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823F30) {x: 590.939561, y: 3.885664, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823E40) {x: 8.891004, y: 10.000000, z: 18.200577}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x000001417E81C100) {x: 573.051017, y: -1.926676, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x000001417E81C060) {x: 16.619554, y: 10.000000, z: 13.411694}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x00000141B6823E40) {x: 573.051017, y: -20.735804, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823F30) {x: 16.619554, y: 10.000000, z: 13.411694}>"
+  },
+  {
+    "name": "Awaiting spring",
+    "nav": true,
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+    "origin": "<Struct 'Vector' (0x000001417E81C060) {x: 590.939561, y: -26.548144, z: 145.000000}>",
+    "extent": "<Struct 'Vector' (0x000001417E81C100) {x: 8.891004, y: 10.000000, z: 18.200577}>"
+  },
+  {
+    "name": "Institute terrain - visual boundary",
+    "nav": false,
+    "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+    "mesh": "/Game/VariantZero/Ecology/SM_InstituteTerrain.SM_InstituteTerrain",
+    "origin": "<Struct 'Vector' (0x00000141B6823F30) {x: 0.000000, y: 0.000000, z: 435.978699}>",
+    "extent": "<Struct 'Vector' (0x00000141B6823E40) {x: 12500.000977, y: 12500.000977, z: 823.255432}>"
+  }
+]

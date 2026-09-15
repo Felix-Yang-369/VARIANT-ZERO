@@ -1,0 +1,22 @@
+{
+  "source": "D:\\Projects\\零号变种\\output\\blender\\原初生态研究所_V-001_原豆母体_v2.blend",
+  "status": "rigged engine candidate; visual approval and engine verification required",
+  "high_triangles": 142928,
+  "lod0_triangles": 22000,
+  "bones": 11,
+  "vertices": 11993,
+  "unweighted_vertices": 0,
+  "uv_layers": 1,
+  "textures": [
+    "Chuya_bound_preview.png",
+    "T_Chuya_BaseColor.png",
+    "T_Chuya_Emission.png",
+    "T_Chuya_Normal.png",
+    "T_Chuya_Roughness.png"
+  ],
+  "animations": [
+    "A_Chuya_Idle",
+    "A_Chuya_Walk"
+  ],
+  "height_m": 1.0154393911361694
+}

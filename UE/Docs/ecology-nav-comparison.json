@@ -1,0 +1,69 @@
+{
+  "/Game/VariantZero/Maps/P0_Conservatory_Foundation2": [
+    {
+      "name": "Mineral foundation",
+      "kind": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000001C56CE94E70) {x: 0.000000, y: 0.000000, z: -30.000000}>",
+      "origin": "<Struct 'Vector' (0x000001C56CE94BA0) {x: 0.000000, y: 0.000000, z: -30.000000}>",
+      "extent": "<Struct 'Vector' (0x000001C56CE95050) {x: 1500.000000, y: 1200.000000, z: 30.000000}>"
+    },
+    {
+      "name": "Navigation test planter",
+      "kind": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000001C56CE94BA0) {x: 0.000000, y: 640.000000, z: 70.000000}>",
+      "origin": "<Struct 'Vector' (0x000001C56CE94E70) {x: 0.000000, y: 640.000000, z: 70.000000}>",
+      "extent": "<Struct 'Vector' (0x000001C55B912EA0) {x: 40.000000, y: 350.000000, z: 70.000000}>"
+    },
+    {
+      "name": "VZ_Conservatory_Navigation",
+      "kind": "NavMeshBoundsVolume",
+      "location": "<Struct 'Vector' (0x000001C55B913710) {x: 0.000000, y: 0.000000, z: 300.000000}>",
+      "origin": "<Struct 'Vector' (0x000001C56CE94BA0) {x: 0.000000, y: 0.000000, z: 300.000000}>",
+      "extent": "<Struct 'Vector' (0x000001C55B912CC0) {x: 1600.000000, y: 1300.000000, z: 500.000000}>"
+    },
+    {
+      "name": "Exterior ground",
+      "kind": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000001C55B912CC0) {x: 0.000000, y: 0.000000, z: -160.000000}>",
+      "origin": "<Struct 'Vector' (0x000001C55B913710) {x: 0.000000, y: 0.000000, z: -160.000000}>",
+      "extent": "<Struct 'Vector' (0x000001C55B939050) {x: 25000.000000, y: 25000.000000, z: 100.000000}>"
+    },
+    {
+      "name": "RecastNavMesh-Default",
+      "kind": "RecastNavMesh",
+      "location": "<Struct 'Vector' (0x000001C55B939050) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "origin": "<Struct 'Vector' (0x000001C55B912CC0) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "extent": "<Struct 'Vector' (0x000001C56CE94BA0) {x: 0.000000, y: 0.000000, z: 0.000000}>"
+    }
+  ],
+  "/Game/VariantZero/Maps/P0_Conservatory_Ecology": [
+    {
+      "name": "Mineral foundation",
+      "kind": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000001C55B912CC0) {x: 0.000000, y: 0.000000, z: -30.000000}>",
+      "origin": "<Struct 'Vector' (0x000001C55B939050) {x: 0.000000, y: 0.000000, z: -30.000000}>",
+      "extent": "<Struct 'Vector' (0x000001C55B939640) {x: 1500.000000, y: 1200.000000, z: 30.000000}>"
+    },
+    {
+      "name": "Navigation test planter",
+      "kind": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000001C55B939050) {x: 0.000000, y: 640.000000, z: 70.000000}>",
+      "origin": "<Struct 'Vector' (0x000001C55B912CC0) {x: 0.000000, y: 640.000000, z: 70.000000}>",
+      "extent": "<Struct 'Vector' (0x000001C55B9395F0) {x: 40.000000, y: 350.000000, z: 70.000000}>"
+    },
+    {
+      "name": "VZ_Conservatory_Navigation",
+      "kind": "NavMeshBoundsVolume",
+      "location": "<Struct 'Vector' (0x000001C55B939550) {x: 0.000000, y: 0.000000, z: 300.000000}>",
+      "origin": "<Struct 'Vector' (0x000001C55B939050) {x: 0.000000, y: 0.000000, z: 300.000000}>",
+      "extent": "<Struct 'Vector' (0x000001C55B9395A0) {x: 1600.000000, y: 1300.000000, z: 500.000000}>"
+    },
+    {
+      "name": "RecastNavMesh-Default",
+      "kind": "RecastNavMesh",
+      "location": "<Struct 'Vector' (0x000001C55B939050) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "origin": "<Struct 'Vector' (0x000001C55B939550) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "extent": "<Struct 'Vector' (0x000001C56CE5EFE0) {x: 0.000000, y: 0.000000, z: 0.000000}>"
+    }
+  ]
+}

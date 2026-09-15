@@ -1,0 +1,13 @@
+{
+  "source": "D:\\Projects\\零号变种\\output\\blender\\characters\\enemy0_苔行者\\苔行者_enemy0_v1.blend",
+  "output": "D:\\Projects\\零号变种\\output\\blender\\characters\\enemy0_苔行者\\苔行者_enemy0_v2.blend",
+  "before": {
+    "objects": 665,
+    "vertices": 587534
+  },
+  "after": {
+    "objects": 682,
+    "vertices": 839879
+  },
+  "revision": "v2 • 叠层树皮 / 细叶苔藓 / 微叶脉 / 晶质眼睛"
+}

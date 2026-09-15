@@ -1,0 +1,60 @@
+{
+  "title": "生命的分叉",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "bars": 24,
+  "frames": 3342316,
+  "sampleRate": 44100,
+  "bitDepth": 24,
+  "channels": 2,
+  "linearGain": 1,
+  "startSeconds": 0,
+  "stems": [
+    {
+      "file": "01-pad.wav",
+      "instrument": "pad",
+      "label": "空气弦层",
+      "role": "dry"
+    },
+    {
+      "file": "02-bass.wav",
+      "instrument": "bass",
+      "label": "低音",
+      "role": "dry"
+    },
+    {
+      "file": "03-bell.wav",
+      "instrument": "bell",
+      "label": "玻璃钟",
+      "role": "dry"
+    },
+    {
+      "file": "04-keys.wav",
+      "instrument": "keys",
+      "label": "电钢琴旋律",
+      "role": "dry"
+    },
+    {
+      "file": "05-wood.wav",
+      "instrument": "wood",
+      "label": "木质打击",
+      "role": "dry"
+    },
+    {
+      "file": "06-shaker.wav",
+      "instrument": "shaker",
+      "label": "沙锤",
+      "role": "dry"
+    },
+    {
+      "file": "90-reverb-return.wav",
+      "label": "共享空间混响",
+      "role": "effects-return"
+    }
+  ],
+  "references": [
+    "reference-premaster.wav",
+    "reference-mastered.wav"
+  ],
+  "note": "Import stems and reverb together at zero, unity gain. Do not also play references. Mastered reference includes nonlinear saturation and will not null against the stem sum."
+}

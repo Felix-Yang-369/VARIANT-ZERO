@@ -1,0 +1,38 @@
+[
+  {
+    "test": "VZHeroTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\hero-VZHeroTest.log"
+  },
+  {
+    "test": "VZSmokeTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\hero-VZSmokeTest.log"
+  },
+  {
+    "test": "VZCombatTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\hero-VZCombatTest.log"
+  },
+  {
+    "test": "VZOrderTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\hero-VZOrderTest.log"
+  },
+  {
+    "test": "VZMenuTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\hero-VZMenuTest.log"
+  },
+  {
+    "test": "VZPreview",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\hero-VZPreview.log"
+  }
+]

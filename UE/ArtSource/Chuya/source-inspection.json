@@ -1,0 +1,2282 @@
+[
+  {
+    "name": "V-001 原豆母体 • ivory seed body",
+    "type": "MESH",
+    "location": [
+      0.0,
+      -1.149999976158142,
+      2.0899999141693115
+    ],
+    "dimensions": [
+      2.0304534435272217,
+      2.0087718963623047,
+      2.0
+    ],
+    "vertices": 3010
+  },
+  {
+    "name": "V-001 原豆母体 • leaf foot",
+    "type": "MESH",
+    "location": [
+      -0.4300000071525574,
+      -1.2599999904632568,
+      0.7699999809265137
+    ],
+    "dimensions": [
+      2.0000009536743164,
+      2.000000476837158,
+      2.0
+    ],
+    "vertices": 922
+  },
+  {
+    "name": "V-001 原豆母体 • foot midrib",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.0399999618530273,
+      2.5099997520446777,
+      2.1600000858306885
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • root ankle",
+    "type": "MESH",
+    "location": [
+      -0.4000000059604645,
+      -1.1200000047683716,
+      0.9399999976158142
+    ],
+    "dimensions": [
+      2.0000009536743164,
+      2.000000476837158,
+      2.0
+    ],
+    "vertices": 922
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      1.067495584487915,
+      0.3572617769241333,
+      2.375640630722046
+    ],
+    "vertices": 407
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • central vascular strand",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.757499933242798,
+      2.3499999046325684,
+      4.359999656677246
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • leaf margin",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      3.067495584487915,
+      2.3520240783691406,
+      4.375758647918701
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.4344286918640137,
+      2.1171348094940186,
+      2.187863826751709
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.001",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.4041264057159424,
+      2.135885238647461,
+      2.2789063453674316
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.002",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.34505033493042,
+      2.1470487117767334,
+      2.3655920028686523
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.003",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.257774829864502,
+      2.1505227088928223,
+      2.4349653720855713
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.004",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.1466197967529297,
+      2.1464033126831055,
+      2.4775140285491943
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.005",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.0450844764709473,
+      2.134942054748535,
+      2.4861581325531006
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.006",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.1215105056762695,
+      2.1163523197174072,
+      2.4553167819976807
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • leaf margin.001",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.4475045204162598,
+      2.3520240783691406,
+      4.359999656677246
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.007",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.0540523529052734,
+      2.1171348094940186,
+      2.396392822265625
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.008",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.1479897499084473,
+      2.135885238647461,
+      2.39041805267334
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.009",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.237743854522705,
+      2.1470487117767334,
+      2.3641645908355713
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.010",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.296889305114746,
+      2.1505227088928223,
+      2.3305885791778564
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.011",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.329744815826416,
+      2.1464033126831055,
+      2.299204111099243
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.012",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.342771530151367,
+      2.134942054748535,
+      2.2770888805389404
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.013",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.3439159393310547,
+      2.1163523197174072,
+      2.2698240280151367
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      0.8165555596351624,
+      0.2971017360687256,
+      1.8300000429153442
+    ],
+    "vertices": 407
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • central vascular strand",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.708017110824585,
+      2.2881269454956055,
+      3.8299999237060547
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • leaf margin",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.8089375495910645,
+      2.2364230155944824,
+      3.8299999237060547
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.2566123008728027,
+      2.0278918743133545,
+      2.202676296234131
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.001",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.273153781890869,
+      2.0457277297973633,
+      2.1529617309570312
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.002",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.2740588188171387,
+      2.063782215118408,
+      2.1238632202148438
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.003",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.2609901428222656,
+      2.079883098602295,
+      2.117928981781006
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.004",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.2321979999542236,
+      2.0925872325897217,
+      2.1355514526367188
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.005",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.181440830230713,
+      2.1020243167877197,
+      2.1716697216033936
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.006",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.102875232696533,
+      2.108304977416992,
+      2.2117793560028076
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • leaf margin.001",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.6501126289367676,
+      2.2364230155944824,
+      3.8299999237060547
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.007",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.0357179641723633,
+      2.0278918743133545,
+      2.3423924446105957
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.008",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.036684989929199,
+      2.0457277297973633,
+      2.3220739364624023
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.009",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.0305283069610596,
+      2.063782215118408,
+      2.300419807434082
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.010",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.01558518409729,
+      2.079883098602295,
+      2.274880886077881
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.011",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.0081028938293457,
+      2.0925872325897217,
+      2.2450637817382812
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.012",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.029170274734497,
+      2.1020243167877197,
+      2.2160308361053467
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.013",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.0468978881835938,
+      2.108304977416992,
+      2.2022860050201416
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • rear sepal",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      1.0113451480865479,
+      0.4007833003997803,
+      2.319999933242798
+    ],
+    "vertices": 407
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.0867342948913574,
+      0.4028555154800415,
+      2.0739312171936035
+    ],
+    "vertices": 407
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L • central vascular strand",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      3.6962924003601074,
+      2.2110061645507812,
+      3.519477367401123
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L • leaf margin",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      3.5899996757507324,
+      2.3948233127593994,
+      3.0970277786254883
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L • lateral vein",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.6501545906066895,
+      2.1533470153808594,
+      2.111794948577881
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L • lateral vein.001",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.6127448081970215,
+      2.1615867614746094,
+      2.151956558227539
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L • lateral vein.002",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.465615749359131,
+      2.1585516929626465,
+      2.341726303100586
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L • lateral vein.003",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.230013847351074,
+      2.1446967124938965,
+      2.4593615531921387
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L • lateral vein.004",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.115880012512207,
+      2.1196632385253906,
+      2.432140350341797
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L • lateral vein.005",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.163057327270508,
+      2.0839591026306152,
+      2.3809828758239746
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L • lateral vein.006",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.1688456535339355,
+      2.0390353202819824,
+      2.432077646255493
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L • leaf margin.001",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      4.088080883026123,
+      2.3948233127593994,
+      4.075369834899902
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L • lateral vein.007",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.027831792831421,
+      2.1533470153808594,
+      2.7539238929748535
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L • lateral vein.008",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.105001449584961,
+      2.1615867614746094,
+      2.741241931915283
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L • lateral vein.009",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.243290901184082,
+      2.1585516929626465,
+      2.687323570251465
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L • lateral vein.010",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.4461007118225098,
+      2.1446967124938965,
+      2.5313706398010254
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L • lateral vein.011",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.600294351577759,
+      2.1196632385253906,
+      2.2395520210266113
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L • lateral vein.012",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.5538442134857178,
+      2.0839591026306152,
+      2.194056510925293
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf L • lateral vein.013",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.3563923835754395,
+      2.0390353202819824,
+      2.4275319576263428
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • ear stem",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.4945311546325684,
+      2.021012783050537,
+      3.043437957763672
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • ivory eye rim",
+    "type": "MESH",
+    "location": [
+      -0.33000001311302185,
+      -1.7549999952316284,
+      2.5999999046325684
+    ],
+    "dimensions": [
+      1.9999988079071045,
+      1.9999980926513672,
+      2.0
+    ],
+    "vertices": 610
+  },
+  {
+    "name": "V-001 原豆母体 • small cyan eye",
+    "type": "MESH",
+    "location": [
+      -0.33000001311302185,
+      -1.7979999780654907,
+      2.5999999046325684
+    ],
+    "dimensions": [
+      1.9999988079071045,
+      1.9999980926513672,
+      2.0
+    ],
+    "vertices": 610
+  },
+  {
+    "name": "V-001 原豆母体 • eye catchlight",
+    "type": "MESH",
+    "location": [
+      -0.3479999899864197,
+      -1.8289999961853027,
+      2.625999927520752
+    ],
+    "dimensions": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "vertices": 178
+  },
+  {
+    "name": "V-001 原豆母体 • leaf foot.001",
+    "type": "MESH",
+    "location": [
+      0.4300000071525574,
+      -1.2599999904632568,
+      0.7699999809265137
+    ],
+    "dimensions": [
+      2.0000009536743164,
+      2.000000476837158,
+      2.0
+    ],
+    "vertices": 922
+  },
+  {
+    "name": "V-001 原豆母体 • foot midrib.001",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.0399999618530273,
+      2.5099997520446777,
+      2.1600000858306885
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • root ankle.001",
+    "type": "MESH",
+    "location": [
+      0.4000000059604645,
+      -1.1200000047683716,
+      0.9399999976158142
+    ],
+    "dimensions": [
+      2.0000009536743164,
+      2.000000476837158,
+      2.0
+    ],
+    "vertices": 922
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk.001",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      1.067495584487915,
+      0.3601299524307251,
+      2.375640630722046
+    ],
+    "vertices": 407
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • central vascular strand.001",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.757499933242798,
+      2.3499999046325684,
+      4.359999656677246
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • leaf margin.002",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.4475045204162598,
+      2.3520240783691406,
+      4.359999656677246
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.014",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.0540523529052734,
+      2.1171348094940186,
+      2.396392822265625
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.015",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.1479897499084473,
+      2.135885238647461,
+      2.39041805267334
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.016",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.237743854522705,
+      2.1470487117767334,
+      2.3641645908355713
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.017",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.296889305114746,
+      2.1505227088928223,
+      2.3305885791778564
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.018",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.329744815826416,
+      2.1464033126831055,
+      2.299204111099243
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.019",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.342771530151367,
+      2.134942054748535,
+      2.2770888805389404
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.020",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.3439159393310547,
+      2.1163523197174072,
+      2.2698240280151367
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • leaf margin.003",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      3.067495584487915,
+      2.3520240783691406,
+      4.375758647918701
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.021",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.4344286918640137,
+      2.1171348094940186,
+      2.187863826751709
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.022",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.4041264057159424,
+      2.135885238647461,
+      2.2789063453674316
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.023",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.34505033493042,
+      2.1470487117767334,
+      2.3655920028686523
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.024",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.257774829864502,
+      2.1505227088928223,
+      2.4349653720855713
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.025",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.1466197967529297,
+      2.1464033126831055,
+      2.4775140285491943
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.026",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.0450844764709473,
+      2.134942054748535,
+      2.4861581325531006
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • outer seed husk • lateral vein.027",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.1215105056762695,
+      2.1163523197174072,
+      2.4553167819976807
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf.001",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      0.8165555596351624,
+      0.2878206968307495,
+      1.8300000429153442
+    ],
+    "vertices": 407
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • central vascular strand.001",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.708017110824585,
+      2.2881269454956055,
+      3.8299999237060547
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • leaf margin.002",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.6501126289367676,
+      2.2364230155944824,
+      3.8299999237060547
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.014",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.0357179641723633,
+      2.0278918743133545,
+      2.3423924446105957
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.015",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.036684989929199,
+      2.0457277297973633,
+      2.3220739364624023
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.016",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.0305283069610596,
+      2.063782215118408,
+      2.300419807434082
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.017",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.01558518409729,
+      2.079883098602295,
+      2.274880886077881
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.018",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.0081028938293457,
+      2.0925872325897217,
+      2.2450637817382812
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.019",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.029170274734497,
+      2.1020243167877197,
+      2.2160308361053467
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.020",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.0468978881835938,
+      2.108304977416992,
+      2.2022860050201416
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • leaf margin.003",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.8089375495910645,
+      2.2364230155944824,
+      3.8299999237060547
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.021",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.2566123008728027,
+      2.0278918743133545,
+      2.202676296234131
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.022",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.273153781890869,
+      2.0457277297973633,
+      2.1529617309570312
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.023",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.2740588188171387,
+      2.063782215118408,
+      2.1238632202148438
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.024",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.2609901428222656,
+      2.079883098602295,
+      2.117928981781006
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.025",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.2321979999542236,
+      2.0925872325897217,
+      2.1355514526367188
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.026",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.181440830230713,
+      2.1020243167877197,
+      2.1716697216033936
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • front embracing leaf • lateral vein.027",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.102875232696533,
+      2.108304977416992,
+      2.2117793560028076
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • rear sepal.001",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      1.0113451480865479,
+      0.40179580450057983,
+      2.319999933242798
+    ],
+    "vertices": 407
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.0867342948913574,
+      0.39877229928970337,
+      2.0739312171936035
+    ],
+    "vertices": 407
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R • central vascular strand",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      3.6962924003601074,
+      2.2110061645507812,
+      3.519477367401123
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R • leaf margin",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      4.088080883026123,
+      2.3948233127593994,
+      4.075369834899902
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R • lateral vein",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.027831792831421,
+      2.1533470153808594,
+      2.7539238929748535
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R • lateral vein.001",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.105001449584961,
+      2.1615867614746094,
+      2.741241931915283
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R • lateral vein.002",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.243290901184082,
+      2.1585516929626465,
+      2.687323570251465
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R • lateral vein.003",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.4461007118225098,
+      2.1446967124938965,
+      2.5313706398010254
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R • lateral vein.004",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.600294351577759,
+      2.1196632385253906,
+      2.2395520210266113
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R • lateral vein.005",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.5538442134857178,
+      2.0839591026306152,
+      2.194056510925293
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R • lateral vein.006",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.3563923835754395,
+      2.0390353202819824,
+      2.4275319576263428
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R • leaf margin.001",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      3.5899996757507324,
+      2.3948233127593994,
+      3.0970277786254883
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R • lateral vein.007",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.6501545906066895,
+      2.1533470153808594,
+      2.111794948577881
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R • lateral vein.008",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.6127448081970215,
+      2.1615867614746094,
+      2.151956558227539
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R • lateral vein.009",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.465615749359131,
+      2.1585516929626465,
+      2.341726303100586
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R • lateral vein.010",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.230013847351074,
+      2.1446967124938965,
+      2.4593615531921387
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R • lateral vein.011",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.115880012512207,
+      2.1196632385253906,
+      2.432140350341797
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R • lateral vein.012",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.163057327270508,
+      2.0839591026306152,
+      2.3809828758239746
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • large drooping leaf R • lateral vein.013",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.1688456535339355,
+      2.0390353202819824,
+      2.432077646255493
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • ear stem.001",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.4945311546325684,
+      2.021012783050537,
+      3.043437957763672
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • ivory eye rim.001",
+    "type": "MESH",
+    "location": [
+      0.33000001311302185,
+      -1.7549999952316284,
+      2.5999999046325684
+    ],
+    "dimensions": [
+      1.9999988079071045,
+      1.9999980926513672,
+      2.0
+    ],
+    "vertices": 610
+  },
+  {
+    "name": "V-001 原豆母体 • small cyan eye.001",
+    "type": "MESH",
+    "location": [
+      0.33000001311302185,
+      -1.7979999780654907,
+      2.5999999046325684
+    ],
+    "dimensions": [
+      1.9999988079071045,
+      1.9999980926513672,
+      2.0
+    ],
+    "vertices": 610
+  },
+  {
+    "name": "V-001 原豆母体 • eye catchlight.001",
+    "type": "MESH",
+    "location": [
+      0.31200000643730164,
+      -1.8289999961853027,
+      2.625999927520752
+    ],
+    "dimensions": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "vertices": 178
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      0.6144412159919739,
+      0.24859130382537842,
+      1.070000171661377
+    ],
+    "vertices": 407
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot • central vascular strand",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.2637603282928467,
+      2.2150402069091797,
+      3.070000171661377
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot • leaf margin",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.3373043537139893,
+      2.2279744148254395,
+      3.070000171661377
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot • lateral vein",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.1621413230895996,
+      2.0897915363311768,
+      2.2323527336120605
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot • lateral vein.001",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.118885040283203,
+      2.1065316200256348,
+      2.257852792739868
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot • lateral vein.002",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.086787700653076,
+      2.1155714988708496,
+      2.262979030609131
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot • lateral vein.003",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.078420639038086,
+      2.1168313026428223,
+      2.244075298309326
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot • lateral vein.004",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.094085454940796,
+      2.110384941101074,
+      2.197758436203003
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot • lateral vein.005",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.112879514694214,
+      2.096428394317627,
+      2.1258773803710938
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot • lateral vein.006",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.1065025329589844,
+      2.0751256942749023,
+      2.078519582748413
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot • leaf margin.001",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.3180766105651855,
+      2.2279744148254395,
+      3.070000171661377
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot • lateral vein.007",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.2037453651428223,
+      2.0897915363311768,
+      2.092705726623535
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot • lateral vein.008",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.241149425506592,
+      2.1065316200256348,
+      2.028710126876831
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot • lateral vein.009",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.2546348571777344,
+      2.1155714988708496,
+      2.03417706489563
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot • lateral vein.010",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.2567732334136963,
+      2.1168313026428223,
+      2.0362355709075928
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot • lateral vein.011",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.247865676879883,
+      2.110384941101074,
+      2.0190389156341553
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot • lateral vein.012",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.2070095539093018,
+      2.096428394317627,
+      2.0841293334960938
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "V-001 原豆母体 • curled crown shoot • lateral vein.013",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.1081390380859375,
+      2.0751256942749023,
+      2.153071165084839
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "v2 • V-001 原豆母体 • outer seed husk 微细叶脉",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.917397975921631,
+      2.3319807052612305,
+      4.241223335266113
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "v2 • V-001 原豆母体 • front embracing leaf 微细叶脉",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.738396167755127,
+      2.2603893280029297,
+      3.478231906890869
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "v2 • V-001 原豆母体 • rear sepal 微细叶脉",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.9102113246917725,
+      2.317457675933838,
+      4.143360137939453
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "v2 • V-001 原豆母体 • large drooping leaf L 微细叶脉",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      3.8686976432800293,
+      2.29189133644104,
+      3.6289587020874023
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "v2 • V-001 原豆母体 • outer seed husk.001 微细叶脉",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.917397975921631,
+      2.3319807052612305,
+      4.241223335266113
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "v2 • V-001 原豆母体 • front embracing leaf.001 微细叶脉",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.738396167755127,
+      2.2603893280029297,
+      3.478231906890869
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "v2 • V-001 原豆母体 • rear sepal.001 微细叶脉",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.9102113246917725,
+      2.317457675933838,
+      4.143360137939453
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "v2 • V-001 原豆母体 • large drooping leaf R 微细叶脉",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      3.8686976432800293,
+      2.29189133644104,
+      3.6289587020874023
+    ],
+    "vertices": 0
+  },
+  {
+    "name": "v2 • V-001 原豆母体 • curled crown shoot 微细叶脉",
+    "type": "CURVE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions": [
+      2.5330960750579834,
+      2.2131757736206055,
+      2.864985466003418
+    ],
+    "vertices": 0
+  }
+]

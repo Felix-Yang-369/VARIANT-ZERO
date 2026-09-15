@@ -1,0 +1,50 @@
+[
+  {
+    "exitCode": 0,
+    "passed": true,
+    "test": "VZTravelTest",
+    "log": "D:\\Projects\\VariantZeroUE\\presentation-VZTravelTest.log"
+  },
+  {
+    "exitCode": 0,
+    "passed": true,
+    "test": "VZGardenTest",
+    "log": "D:\\Projects\\VariantZeroUE\\presentation-VZGardenTest.log"
+  },
+  {
+    "exitCode": 0,
+    "passed": true,
+    "test": "VZStoryTest",
+    "log": "D:\\Projects\\VariantZeroUE\\presentation-VZStoryTest.log"
+  },
+  {
+    "exitCode": 0,
+    "passed": true,
+    "test": "VZHeroTest",
+    "log": "D:\\Projects\\VariantZeroUE\\presentation-VZHeroTest.log"
+  },
+  {
+    "exitCode": 0,
+    "passed": true,
+    "test": "VZSmokeTest",
+    "log": "D:\\Projects\\VariantZeroUE\\presentation-VZSmokeTest.log"
+  },
+  {
+    "exitCode": 0,
+    "passed": true,
+    "test": "VZCombatTest",
+    "log": "D:\\Projects\\VariantZeroUE\\presentation-VZCombatTest.log"
+  },
+  {
+    "exitCode": 0,
+    "passed": true,
+    "test": "VZOrderTest",
+    "log": "D:\\Projects\\VariantZeroUE\\presentation-VZOrderTest.log"
+  },
+  {
+    "exitCode": 0,
+    "passed": true,
+    "test": "VZMenuTest",
+    "log": "D:\\Projects\\VariantZeroUE\\presentation-VZMenuTest.log"
+  }
+]

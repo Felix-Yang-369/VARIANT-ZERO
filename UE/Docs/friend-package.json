@@ -1,0 +1,15 @@
+{
+  "archive": "D:\\Projects\\零号变种\\分享试玩\\VariantZero-Preview-20260915-135705.zip",
+  "bytes": 620712093,
+  "sha256": "1f632eb4140e0eb1eeec9062f60f84d189eb597e628a86673ec8159e8a44b53f",
+  "source": "BuildOutput-SharedSave",
+  "verified_extraction": "D:\\Projects\\零号变种\\UE\\Saved\\Automation\\FriendPackage\\20260915-135705\\VariantZero-Preview-20260915-135705",
+  "files": 44,
+  "excluded": [
+    "Saved",
+    "*.pdb",
+    "Manifest_*"
+  ],
+  "extractedFileHashesPassed": true,
+  "extractedPackageSmokePassed": true
+}

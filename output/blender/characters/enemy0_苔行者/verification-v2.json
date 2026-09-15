@@ -1,0 +1,16 @@
+{
+  "file": "苔行者_enemy0_v2.blend",
+  "checks": {
+    "versioned_file": true,
+    "revision_recorded": true,
+    "real_added_geometry": true,
+    "gpu_setting": true,
+    "packed_reference": true,
+    "no_external_texture_dependency": true,
+    "v1_preserved": true,
+    "v2_render_path": true
+  },
+  "passed": true,
+  "objects": 682,
+  "vertices": 839879
+}

@@ -1,0 +1,14 @@
+{
+  "mesh": "/Game/VariantZero/Characters/Moth/SK_Moth.SK_Moth",
+  "skeleton": "/Game/VariantZero/Characters/Moth/SK_Moth_Skeleton.SK_Moth_Skeleton",
+  "lod_vertices": [
+    12946,
+    3715,
+    1996
+  ],
+  "animations": [
+    "A_Moth_Hover",
+    "A_Moth_Fly"
+  ],
+  "status": "imported candidate; runtime verification pending"
+}

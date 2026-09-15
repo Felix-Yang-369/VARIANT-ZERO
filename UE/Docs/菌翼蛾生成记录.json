@@ -1,0 +1,15 @@
+{
+  "species_id": "V-041",
+  "name": "菌翼蛾",
+  "generation_id": "d466e95b-fa06-435a-abbf-17abebafe4cf",
+  "display_url": "https://hyper3d.ai/workspace/rodin/d466e95b-fa06-435a-abbf-17abebafe4cf",
+  "status": "packaged_playable_candidate",
+  "tier": "Gen-2.5-Extreme-Low",
+  "mesh_mode": "Quad",
+  "target_polygons": 12000,
+  "requested_format": "glb",
+  "billing_authorization": "existing credits only; no purchases or recharge",
+  "actual_credit_debit": "not returned by tool",
+  "source": "original text prompt; no third-party reference uploads",
+  "readiness": "Blender reopen and FBX roundtrip passed; UE wing animation, research, pollination and reload passed in Windows package; final art approval and account license archive pending"
+}

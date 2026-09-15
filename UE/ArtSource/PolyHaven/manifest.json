@@ -1,0 +1,137 @@
+[
+  {
+    "kind": "nor_dx",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/fern_02/fern_02_nor_dx_2k.png",
+    "md5": "254225ad6e0e6d58f8c153cc19495db5",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/fern_02",
+    "asset": "fern_02",
+    "file": "D:\\Projects\\VariantZeroUE\\ArtSource\\PolyHaven\\fern_02\\fern_02_nor_dx_2k.png"
+  },
+  {
+    "kind": "mesh",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/fern_02/fern_02_2k.fbx",
+    "md5": "b0faf5c26baf61032ac5abea4f4ce568",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/fern_02",
+    "asset": "fern_02",
+    "file": "D:\\Projects\\VariantZeroUE\\ArtSource\\PolyHaven\\fern_02\\fern_02_2k.fbx"
+  },
+  {
+    "kind": "Diffuse",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/fern_02/fern_02_diff_2k.png",
+    "md5": "3cf4791cc57bafa48df0026ddace3b7b",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/fern_02",
+    "asset": "fern_02",
+    "file": "D:\\Projects\\VariantZeroUE\\ArtSource\\PolyHaven\\fern_02\\fern_02_diff_2k.png"
+  },
+  {
+    "kind": "Rough",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/fern_02/fern_02_rough_2k.png",
+    "md5": "bb4e43e2ff20a3e1d7fde7bb6680c54b",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/fern_02",
+    "asset": "fern_02",
+    "file": "D:\\Projects\\VariantZeroUE\\ArtSource\\PolyHaven\\fern_02\\fern_02_rough_2k.png"
+  },
+  {
+    "kind": "Alpha",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/fern_02/fern_02_alpha_2k.png",
+    "md5": "ff18f7e8e869c58eac8f9c7d7c519f4a",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/fern_02",
+    "asset": "fern_02",
+    "file": "D:\\Projects\\VariantZeroUE\\ArtSource\\PolyHaven\\fern_02\\fern_02_alpha_2k.png"
+  },
+  {
+    "kind": "nor_dx",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/boulder_01/boulder_01_nor_dx_2k.png",
+    "md5": "e14e1fcd7ac1a86a459f1264c183dae7",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/boulder_01",
+    "asset": "boulder_01",
+    "file": "D:\\Projects\\VariantZeroUE\\ArtSource\\PolyHaven\\boulder_01\\boulder_01_nor_dx_2k.png"
+  },
+  {
+    "kind": "mesh",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/boulder_01/boulder_01_2k.fbx",
+    "md5": "e20c1ed68dc10e039761d6bda58c8ef4",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/boulder_01",
+    "asset": "boulder_01",
+    "file": "D:\\Projects\\VariantZeroUE\\ArtSource\\PolyHaven\\boulder_01\\boulder_01_2k.fbx"
+  },
+  {
+    "kind": "Diffuse",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/boulder_01/boulder_01_diff_2k.png",
+    "md5": "5ab83faba3ff9d0594258939e4f3d13c",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/boulder_01",
+    "asset": "boulder_01",
+    "file": "D:\\Projects\\VariantZeroUE\\ArtSource\\PolyHaven\\boulder_01\\boulder_01_diff_2k.png"
+  },
+  {
+    "kind": "Rough",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/boulder_01/boulder_01_rough_2k.png",
+    "md5": "e9435fb64e5592ede6cb2c44770910bd",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/boulder_01",
+    "asset": "boulder_01",
+    "file": "D:\\Projects\\VariantZeroUE\\ArtSource\\PolyHaven\\boulder_01\\boulder_01_rough_2k.png"
+  },
+  {
+    "kind": "nor_dx",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rock_01/rock_01_nor_dx_2k.png",
+    "md5": "312f5ec5e0498b52c2841ebf41b5b236",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/rock_01",
+    "asset": "rock_01",
+    "file": "D:\\Projects\\VariantZeroUE\\ArtSource\\PolyHaven\\rock_01\\rock_01_nor_dx_2k.png"
+  },
+  {
+    "kind": "Diffuse",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rock_01/rock_01_diff_2k.png",
+    "md5": "b421449931c79bb44d0ee7bf12fef011",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/rock_01",
+    "asset": "rock_01",
+    "file": "D:\\Projects\\VariantZeroUE\\ArtSource\\PolyHaven\\rock_01\\rock_01_diff_2k.png"
+  },
+  {
+    "kind": "Rough",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rock_01/rock_01_rough_2k.png",
+    "md5": "b7e29428c370165612cd532b9119fdb6",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/rock_01",
+    "asset": "rock_01",
+    "file": "D:\\Projects\\VariantZeroUE\\ArtSource\\PolyHaven\\rock_01\\rock_01_rough_2k.png"
+  },
+  {
+    "kind": "nor_dx",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/forest_ground_04/forest_ground_04_nor_dx_2k.png",
+    "md5": "d269f8896df0410506721605931f6416",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/forest_ground_04",
+    "asset": "forest_ground_04",
+    "file": "D:\\Projects\\VariantZeroUE\\ArtSource\\PolyHaven\\forest_ground_04\\forest_ground_04_nor_dx_2k.png"
+  },
+  {
+    "kind": "Diffuse",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/forest_ground_04/forest_ground_04_diff_2k.png",
+    "md5": "93972c83249ae015111c8da714e6162c",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/forest_ground_04",
+    "asset": "forest_ground_04",
+    "file": "D:\\Projects\\VariantZeroUE\\ArtSource\\PolyHaven\\forest_ground_04\\forest_ground_04_diff_2k.png"
+  },
+  {
+    "kind": "Rough",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/forest_ground_04/forest_ground_04_rough_2k.png",
+    "md5": "49bd9e53639081da4b8bda9163c469b5",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/forest_ground_04",
+    "asset": "forest_ground_04",
+    "file": "D:\\Projects\\VariantZeroUE\\ArtSource\\PolyHaven\\forest_ground_04\\forest_ground_04_rough_2k.png"
+  }
+]

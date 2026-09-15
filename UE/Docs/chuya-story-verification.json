@@ -1,0 +1,56 @@
+[
+  {
+    "test": "VZChuyaStoryTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\chuya-story-VZChuyaStoryTest.log"
+  },
+  {
+    "test": "VZTravelTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\chuya-story-VZTravelTest.log"
+  },
+  {
+    "test": "VZGardenTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\chuya-story-VZGardenTest.log"
+  },
+  {
+    "test": "VZStoryTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\chuya-story-VZStoryTest.log"
+  },
+  {
+    "test": "VZHeroTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\chuya-story-VZHeroTest.log"
+  },
+  {
+    "test": "VZSmokeTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\chuya-story-VZSmokeTest.log"
+  },
+  {
+    "test": "VZCombatTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\chuya-story-VZCombatTest.log"
+  },
+  {
+    "test": "VZOrderTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\chuya-story-VZOrderTest.log"
+  },
+  {
+    "test": "VZMenuTest",
+    "passed": true,
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\chuya-story-VZMenuTest.log"
+  }
+]

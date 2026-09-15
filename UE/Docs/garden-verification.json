@@ -1,0 +1,44 @@
+[
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\garden-VZGardenTest.log",
+    "exitCode": 0,
+    "test": "VZGardenTest",
+    "passed": true
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\garden-VZStoryTest.log",
+    "exitCode": 0,
+    "test": "VZStoryTest",
+    "passed": true
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\garden-VZHeroTest.log",
+    "exitCode": 0,
+    "test": "VZHeroTest",
+    "passed": true
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\garden-VZSmokeTest.log",
+    "exitCode": 0,
+    "test": "VZSmokeTest",
+    "passed": true
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\garden-VZCombatTest.log",
+    "exitCode": 0,
+    "test": "VZCombatTest",
+    "passed": true
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\garden-VZOrderTest.log",
+    "exitCode": 0,
+    "test": "VZOrderTest",
+    "passed": true
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\garden-VZMenuTest.log",
+    "exitCode": 0,
+    "test": "VZMenuTest",
+    "passed": true
+  }
+]

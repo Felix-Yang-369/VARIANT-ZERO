@@ -1,0 +1,38 @@
+[
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\ecology-VZHeroTest.log",
+    "passed": true,
+    "exitCode": 0,
+    "test": "VZHeroTest"
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\ecology-VZSmokeTest.log",
+    "passed": true,
+    "exitCode": 0,
+    "test": "VZSmokeTest"
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\ecology-VZCombatTest.log",
+    "passed": true,
+    "exitCode": 0,
+    "test": "VZCombatTest"
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\ecology-VZOrderTest.log",
+    "passed": true,
+    "exitCode": 0,
+    "test": "VZOrderTest"
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\ecology-VZMenuTest.log",
+    "passed": true,
+    "exitCode": 0,
+    "test": "VZMenuTest"
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\ecology-VZPreview.log",
+    "passed": true,
+    "exitCode": 0,
+    "test": "VZPreview"
+  }
+]

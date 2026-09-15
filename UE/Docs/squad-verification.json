@@ -1,0 +1,38 @@
+[
+  {
+    "log": "D:\\Projects\\零号变种\\UE\\squad-VZStoryTest.log",
+    "passed": true,
+    "test": "VZStoryTest",
+    "exitCode": 0
+  },
+  {
+    "log": "D:\\Projects\\零号变种\\UE\\squad-VZHeroTest.log",
+    "passed": true,
+    "test": "VZHeroTest",
+    "exitCode": 0
+  },
+  {
+    "log": "D:\\Projects\\零号变种\\UE\\squad-VZSmokeTest.log",
+    "passed": true,
+    "test": "VZSmokeTest",
+    "exitCode": 0
+  },
+  {
+    "log": "D:\\Projects\\零号变种\\UE\\squad-VZCombatTest.log",
+    "passed": true,
+    "test": "VZCombatTest",
+    "exitCode": 0
+  },
+  {
+    "log": "D:\\Projects\\零号变种\\UE\\squad-VZOrderTest.log",
+    "passed": true,
+    "test": "VZOrderTest",
+    "exitCode": 0
+  },
+  {
+    "log": "D:\\Projects\\零号变种\\UE\\squad-VZMenuTest.log",
+    "passed": true,
+    "test": "VZMenuTest",
+    "exitCode": 0
+  }
+]

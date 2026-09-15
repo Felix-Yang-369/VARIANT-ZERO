@@ -1,0 +1,15 @@
+{
+  "previousPackage": "BuildOutput-Travel retained",
+  "verifiedAt": "2026-09-15T10:44:33.4533126-07:00",
+  "sha256": "B9D27A545721D55BBBBE0CCFB55E45484B72EB6A5674EF0B318EE0A6A3EDCC39",
+  "performanceAcceptance": "not measured",
+  "leafInstances": 6,
+  "leafTriangles": 2248,
+  "stage": "Two-phase guardian and original leaf prototype; full 1.0 incomplete",
+  "leafSourceRoundTripVerified": true,
+  "mainVoice": "not implemented",
+  "binary": "D:\\Projects\\零号变种\\UE\\BuildOutput-Guardian\\Windows\\VariantZeroUE\\Binaries\\Win64\\VariantZeroUE.exe",
+  "nativeSuitesPassed": 7,
+  "launcher": "D:\\Projects\\零号变种\\开始游戏.bat",
+  "packagedChecksPassed": 8
+}

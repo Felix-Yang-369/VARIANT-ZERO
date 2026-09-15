@@ -1,0 +1,23 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>疾藤潜行者 · v5 造型检查</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101712;color:#e4eadd;font:16px/1.65 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1600px;margin:auto;padding:38px 24px}h1{font-size:30px;margin:0}h2{margin-top:42px;font-size:21px}p{color:#aebbaa;max-width:950px}.compare{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:#18231c;border:1px solid #324536;border-radius:12px;overflow:hidden}.card img{width:100%;height:540px;object-fit:contain;display:block;background:#080d0a}.label{padding:12px 16px;font-weight:650}.label small{display:block;color:#acb9a5;font-weight:400;font-size:13px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.grid img{height:auto;aspect-ratio:1}.close{grid-template-columns:repeat(3,1fr)}a{color:#b7e6a3}button{border:1px solid #536f57;border-radius:8px;padding:8px 15px;background:#263c2b;color:#dcebd8;cursor:pointer}body.large .compare{grid-template-columns:1fr}body.large .compare img{height:80vh}footer{margin:38px 0;color:#aebbaa}table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:12px;text-align:left;border-bottom:1px solid #324536}th{color:#b8d5ac}@media(max-width:850px){.compare,.close{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.card img{height:440px}}
+</style><main>
+<h1>疾藤潜行者 · v5</h1><p>原图与两版 Blender 实际渲染对照。主要观察姿态、面部、根爪和叶冠的变化；镜头与灯光存在差异，不作为逐像素误差测量。</p>
+<button onclick="document.body.classList.toggle('large')">切换并排 / 大图</button>
+<h2>原图 / v4 / v5</h2><div class="compare">
+<div class="card"><a href="../../../../../public/art/enemy2.png"><img src="../../../../../public/art/enemy2.png" alt="原始概念图"></a><div class="label">原始概念图<small>设计依据：前倾奔跑、尖木面、粗根爪、后掠卷叶</small></div></div>
+<div class="card"><a href="../疾藤潜行者_v4_精修预览.png"><img src="../疾藤潜行者_v4_精修预览.png" alt="v4 实际渲染"></a><div class="label">v4<small>上一个独立静态资产，保留供回看</small></div></div>
+<div class="card"><a href="../疾藤潜行者_v5_精修预览.png"><img src="../疾藤潜行者_v5_精修预览.png" alt="v5 实际渲染"></a><div class="label">v5<small>连续融合手足、错落木片、卷叶褶皱与晶核分叉脉络</small></div></div></div>
+<h2>固定中性灯光 · 八向检查</h2><p>0° 为正面，沿角色环绕每次旋转 45°。点击图片打开原始分辨率。</p><div class="grid" id="angles"></div>
+<h2>局部检查</h2><div class="grid close" id="details"></div>
+<h2>对照重点</h2><table><thead><tr><th>部分</th><th>本版调整</th><th>仍需区分的差异</th></tr></thead><tbody>
+<tr><td>身体与姿态</td><td>躯干前移、降低重心，肩胯错开，增粗四肢</td><td>原图的透视夸张并未完全照搬</td></tr>
+<tr><td>面部</td><td>弯曲错落的木片分缝、较细眼窝边缘、分叉晶核脉络</td><td>仍属于程序化造型，木片破损较原图规整</td></tr>
+<tr><td>根爪</td><td>掌部与三爪合成连续网格，木纹曲线贴合融合表面</td><td>局部根结与原图的自然融合仍有差别</td></tr>
+<tr><td>叶冠与苔藓</td><td>压低部分竖立叶尖，加入非平面褶皱，调整紫叶色彩</td><td>背面是合理补全，原图不能直接确认全部结构</td></tr></tbody></table>
+<footer>交付为静态高细节模型；没有骨骼、动画与游戏 LOD。参考图已打包。总场景链接未替换。<br><a href="../疾藤潜行者_enemy2_v5.blend">独立 Blender 文件</a> · <a href="../verification-v5.json">保存与 Link 验证记录</a></footer>
+</main><script>
+const angles=document.getElementById('angles');for(let a=0;a<360;a+=45){const f=`neutral_${String(a).padStart(3,'0')}.png`;angles.insertAdjacentHTML('beforeend',`<div class="card"><a href="${f}"><img src="${f}" alt="${a} 度"></a><div class="label">${a}°</div></div>`)}
+const details=document.getElementById('details');for(const name of ['面部','根爪','叶冠']){const f=`close_${name}.png`;details.insertAdjacentHTML('beforeend',`<div class="card"><a href="${f}"><img src="${f}" alt="${name}近景"></a><div class="label">${name}</div></div>`)}
+</script></html>
+

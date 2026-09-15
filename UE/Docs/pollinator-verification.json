@@ -1,0 +1,38 @@
+[
+  {
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\pollinator-VZStoryTest.log",
+    "passed": true,
+    "test": "VZStoryTest"
+  },
+  {
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\pollinator-VZHeroTest.log",
+    "passed": true,
+    "test": "VZHeroTest"
+  },
+  {
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\pollinator-VZSmokeTest.log",
+    "passed": true,
+    "test": "VZSmokeTest"
+  },
+  {
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\pollinator-VZCombatTest.log",
+    "passed": true,
+    "test": "VZCombatTest"
+  },
+  {
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\pollinator-VZOrderTest.log",
+    "passed": true,
+    "test": "VZOrderTest"
+  },
+  {
+    "exitCode": 0,
+    "log": "D:\\Projects\\VariantZeroUE\\pollinator-VZMenuTest.log",
+    "passed": true,
+    "test": "VZMenuTest"
+  }
+]

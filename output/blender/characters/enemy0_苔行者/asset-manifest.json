@@ -1,0 +1,11 @@
+{
+  "name": "苔行者",
+  "key": "enemy0",
+  "file": "D:\\Projects\\零号变种\\output\\blender\\characters\\enemy0_苔行者\\苔行者_enemy0_v1.blend",
+  "objects": 665,
+  "mesh_objects": 169,
+  "vertices": 587534,
+  "reference_packed": true,
+  "renderer": "Cycles / OptiX / RTX 5060",
+  "rigged": false
+}

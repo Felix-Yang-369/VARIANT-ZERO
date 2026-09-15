@@ -1,0 +1,1262 @@
+[
+  {
+    "seed": 1,
+    "pool": [
+      "V-001",
+      "V-002",
+      "V-003",
+      "V-004",
+      "V-005",
+      "V-006",
+      "V-007",
+      "V-008",
+      "V-009",
+      "V-010",
+      "V-011",
+      "V-012"
+    ],
+    "steps": [
+      {
+        "action": "create",
+        "state": {
+          "id": "fixture-1",
+          "seed": 1,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 10,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [],
+          "shop": [
+            "V-001",
+            "V-003",
+            "V-001",
+            "V-001",
+            "V-002"
+          ],
+          "locked": false,
+          "shopRng": 411726028,
+          "rewardRng": 2246822506,
+          "freeRefresh": true,
+          "nextId": 1,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      },
+      {
+        "action": "buy(0)",
+        "state": {
+          "id": "fixture-1",
+          "seed": 1,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 9,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [
+            {
+              "id": 1,
+              "species": "V-001",
+              "star": 1,
+              "row": -1,
+              "col": 0,
+              "paid": 1
+            }
+          ],
+          "shop": [
+            null,
+            "V-003",
+            "V-001",
+            "V-001",
+            "V-002"
+          ],
+          "locked": false,
+          "shopRng": 411726028,
+          "rewardRng": 2246822506,
+          "freeRefresh": true,
+          "nextId": 2,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      },
+      {
+        "action": "deploy(first,4,0)",
+        "state": {
+          "id": "fixture-1",
+          "seed": 1,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 9,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [
+            {
+              "id": 1,
+              "species": "V-001",
+              "star": 1,
+              "row": 4,
+              "col": 0,
+              "paid": 1
+            }
+          ],
+          "shop": [
+            null,
+            "V-003",
+            "V-001",
+            "V-001",
+            "V-002"
+          ],
+          "locked": false,
+          "shopRng": 411726028,
+          "rewardRng": 2246822506,
+          "freeRefresh": true,
+          "nextId": 2,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      },
+      {
+        "action": "refresh",
+        "state": {
+          "id": "fixture-1",
+          "seed": 1,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 9,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [
+            {
+              "id": 1,
+              "species": "V-001",
+              "star": 1,
+              "row": 4,
+              "col": 0,
+              "paid": 1
+            }
+          ],
+          "shop": [
+            "V-001",
+            "V-006",
+            "V-001",
+            "V-001",
+            "V-001"
+          ],
+          "locked": false,
+          "shopRng": 179328806,
+          "rewardRng": 2246822506,
+          "freeRefresh": false,
+          "nextId": 2,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      },
+      {
+        "action": "lock",
+        "state": {
+          "id": "fixture-1",
+          "seed": 1,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 9,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [
+            {
+              "id": 1,
+              "species": "V-001",
+              "star": 1,
+              "row": 4,
+              "col": 0,
+              "paid": 1
+            }
+          ],
+          "shop": [
+            "V-001",
+            "V-006",
+            "V-001",
+            "V-001",
+            "V-001"
+          ],
+          "locked": true,
+          "shopRng": 179328806,
+          "rewardRng": 2246822506,
+          "freeRefresh": false,
+          "nextId": 2,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      }
+    ]
+  },
+  {
+    "seed": 42,
+    "pool": [
+      "V-001",
+      "V-002",
+      "V-003",
+      "V-004",
+      "V-005",
+      "V-006",
+      "V-007",
+      "V-008",
+      "V-009",
+      "V-010",
+      "V-011",
+      "V-012"
+    ],
+    "steps": [
+      {
+        "action": "create",
+        "state": {
+          "id": "fixture-42",
+          "seed": 42,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 10,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [],
+          "shop": [
+            "V-001",
+            "V-001",
+            "V-001",
+            "V-001",
+            "V-001"
+          ],
+          "locked": false,
+          "shopRng": 2328323471,
+          "rewardRng": 2246822465,
+          "freeRefresh": true,
+          "nextId": 1,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      },
+      {
+        "action": "buy(0)",
+        "state": {
+          "id": "fixture-42",
+          "seed": 42,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 9,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [
+            {
+              "id": 1,
+              "species": "V-001",
+              "star": 1,
+              "row": -1,
+              "col": 0,
+              "paid": 1
+            }
+          ],
+          "shop": [
+            null,
+            "V-001",
+            "V-001",
+            "V-001",
+            "V-001"
+          ],
+          "locked": false,
+          "shopRng": 2328323471,
+          "rewardRng": 2246822465,
+          "freeRefresh": true,
+          "nextId": 2,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      },
+      {
+        "action": "deploy(first,4,0)",
+        "state": {
+          "id": "fixture-42",
+          "seed": 42,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 9,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [
+            {
+              "id": 1,
+              "species": "V-001",
+              "star": 1,
+              "row": 4,
+              "col": 0,
+              "paid": 1
+            }
+          ],
+          "shop": [
+            null,
+            "V-001",
+            "V-001",
+            "V-001",
+            "V-001"
+          ],
+          "locked": false,
+          "shopRng": 2328323471,
+          "rewardRng": 2246822465,
+          "freeRefresh": true,
+          "nextId": 2,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      },
+      {
+        "action": "refresh",
+        "state": {
+          "id": "fixture-42",
+          "seed": 42,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 9,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [
+            {
+              "id": 1,
+              "species": "V-001",
+              "star": 1,
+              "row": 4,
+              "col": 0,
+              "paid": 1
+            }
+          ],
+          "shop": [
+            "V-002",
+            "V-002",
+            "V-001",
+            "V-001",
+            "V-006"
+          ],
+          "locked": false,
+          "shopRng": 1415214445,
+          "rewardRng": 2246822465,
+          "freeRefresh": false,
+          "nextId": 2,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      },
+      {
+        "action": "lock",
+        "state": {
+          "id": "fixture-42",
+          "seed": 42,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 9,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [
+            {
+              "id": 1,
+              "species": "V-001",
+              "star": 1,
+              "row": 4,
+              "col": 0,
+              "paid": 1
+            }
+          ],
+          "shop": [
+            "V-002",
+            "V-002",
+            "V-001",
+            "V-001",
+            "V-006"
+          ],
+          "locked": true,
+          "shopRng": 1415214445,
+          "rewardRng": 2246822465,
+          "freeRefresh": false,
+          "nextId": 2,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      }
+    ]
+  },
+  {
+    "seed": 20260914,
+    "pool": [
+      "V-001",
+      "V-002",
+      "V-003",
+      "V-004",
+      "V-005",
+      "V-006",
+      "V-007",
+      "V-008",
+      "V-009",
+      "V-010",
+      "V-011",
+      "V-012"
+    ],
+    "steps": [
+      {
+        "action": "create",
+        "state": {
+          "id": "fixture-20260914",
+          "seed": 20260914,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 10,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [],
+          "shop": [
+            "V-001",
+            "V-001",
+            "V-001",
+            "V-001",
+            "V-011"
+          ],
+          "locked": false,
+          "shopRng": 3971016194,
+          "rewardRng": 2229199449,
+          "freeRefresh": true,
+          "nextId": 1,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      },
+      {
+        "action": "buy(0)",
+        "state": {
+          "id": "fixture-20260914",
+          "seed": 20260914,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 9,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [
+            {
+              "id": 1,
+              "species": "V-001",
+              "star": 1,
+              "row": -1,
+              "col": 0,
+              "paid": 1
+            }
+          ],
+          "shop": [
+            null,
+            "V-001",
+            "V-001",
+            "V-001",
+            "V-011"
+          ],
+          "locked": false,
+          "shopRng": 3971016194,
+          "rewardRng": 2229199449,
+          "freeRefresh": true,
+          "nextId": 2,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      },
+      {
+        "action": "deploy(first,4,0)",
+        "state": {
+          "id": "fixture-20260914",
+          "seed": 20260914,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 9,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [
+            {
+              "id": 1,
+              "species": "V-001",
+              "star": 1,
+              "row": 4,
+              "col": 0,
+              "paid": 1
+            }
+          ],
+          "shop": [
+            null,
+            "V-001",
+            "V-001",
+            "V-001",
+            "V-011"
+          ],
+          "locked": false,
+          "shopRng": 3971016194,
+          "rewardRng": 2229199449,
+          "freeRefresh": true,
+          "nextId": 2,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      },
+      {
+        "action": "refresh",
+        "state": {
+          "id": "fixture-20260914",
+          "seed": 20260914,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 9,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [
+            {
+              "id": 1,
+              "species": "V-001",
+              "star": 1,
+              "row": 4,
+              "col": 0,
+              "paid": 1
+            }
+          ],
+          "shop": [
+            "V-005",
+            "V-006",
+            "V-001",
+            "V-011",
+            "V-003"
+          ],
+          "locked": false,
+          "shopRng": 721720820,
+          "rewardRng": 2229199449,
+          "freeRefresh": false,
+          "nextId": 2,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      },
+      {
+        "action": "lock",
+        "state": {
+          "id": "fixture-20260914",
+          "seed": 20260914,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 9,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [
+            {
+              "id": 1,
+              "species": "V-001",
+              "star": 1,
+              "row": 4,
+              "col": 0,
+              "paid": 1
+            }
+          ],
+          "shop": [
+            "V-005",
+            "V-006",
+            "V-001",
+            "V-011",
+            "V-003"
+          ],
+          "locked": true,
+          "shopRng": 721720820,
+          "rewardRng": 2229199449,
+          "freeRefresh": false,
+          "nextId": 2,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      }
+    ]
+  },
+  {
+    "seed": 4294967295,
+    "pool": [
+      "V-001",
+      "V-002",
+      "V-003",
+      "V-004",
+      "V-005",
+      "V-006",
+      "V-007",
+      "V-008",
+      "V-009",
+      "V-010",
+      "V-011",
+      "V-012"
+    ],
+    "steps": [
+      {
+        "action": "create",
+        "state": {
+          "id": "fixture-4294967295",
+          "seed": 4294967295,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 10,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [],
+          "shop": [
+            "V-001",
+            "V-001",
+            "V-001",
+            "V-011",
+            "V-001"
+          ],
+          "locked": false,
+          "shopRng": 3493484727,
+          "rewardRng": 2048144788,
+          "freeRefresh": true,
+          "nextId": 1,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      },
+      {
+        "action": "buy(0)",
+        "state": {
+          "id": "fixture-4294967295",
+          "seed": 4294967295,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 9,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [
+            {
+              "id": 1,
+              "species": "V-001",
+              "star": 1,
+              "row": -1,
+              "col": 0,
+              "paid": 1
+            }
+          ],
+          "shop": [
+            null,
+            "V-001",
+            "V-001",
+            "V-011",
+            "V-001"
+          ],
+          "locked": false,
+          "shopRng": 3493484727,
+          "rewardRng": 2048144788,
+          "freeRefresh": true,
+          "nextId": 2,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      },
+      {
+        "action": "deploy(first,4,0)",
+        "state": {
+          "id": "fixture-4294967295",
+          "seed": 4294967295,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 9,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [
+            {
+              "id": 1,
+              "species": "V-001",
+              "star": 1,
+              "row": 4,
+              "col": 0,
+              "paid": 1
+            }
+          ],
+          "shop": [
+            null,
+            "V-001",
+            "V-001",
+            "V-011",
+            "V-001"
+          ],
+          "locked": false,
+          "shopRng": 3493484727,
+          "rewardRng": 2048144788,
+          "freeRefresh": true,
+          "nextId": 2,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      },
+      {
+        "action": "refresh",
+        "state": {
+          "id": "fixture-4294967295",
+          "seed": 4294967295,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 9,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [
+            {
+              "id": 1,
+              "species": "V-001",
+              "star": 1,
+              "row": 4,
+              "col": 0,
+              "paid": 1
+            }
+          ],
+          "shop": [
+            "V-005",
+            "V-001",
+            "V-001",
+            "V-011",
+            "V-010"
+          ],
+          "locked": false,
+          "shopRng": 2708622879,
+          "rewardRng": 2048144788,
+          "freeRefresh": false,
+          "nextId": 2,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      },
+      {
+        "action": "lock",
+        "state": {
+          "id": "fixture-4294967295",
+          "seed": 4294967295,
+          "regionStart": 0,
+          "round": 1,
+          "phase": "prepare",
+          "bio": 9,
+          "integrity": 100,
+          "capacity": 3,
+          "xp": 0,
+          "pool": [
+            "V-001",
+            "V-002",
+            "V-003",
+            "V-004",
+            "V-005",
+            "V-006",
+            "V-007",
+            "V-008",
+            "V-009",
+            "V-010",
+            "V-011",
+            "V-012"
+          ],
+          "units": [
+            {
+              "id": 1,
+              "species": "V-001",
+              "star": 1,
+              "row": 4,
+              "col": 0,
+              "paid": 1
+            }
+          ],
+          "shop": [
+            "V-005",
+            "V-001",
+            "V-001",
+            "V-011",
+            "V-010"
+          ],
+          "locked": true,
+          "shopRng": 2708622879,
+          "rewardRng": 2048144788,
+          "freeRefresh": false,
+          "nextId": 2,
+          "streak": 0,
+          "won": null,
+          "income": {
+            "base": 0,
+            "interest": 0,
+            "streak": 0,
+            "organisms": 0
+          },
+          "lastResult": null,
+          "claimed": [],
+          "elapsed": 0
+        }
+      }
+    ]
+  }
+]

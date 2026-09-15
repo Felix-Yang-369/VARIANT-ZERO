@@ -1,0 +1,172 @@
+/* Homepage owns its material and layout; the battle HUD uses only style.css. */
+body[data-page=hub] {
+ --sidebar:248px; --home-ink:#f0efdb; --home-muted:#bdcfc5; --home-edge:#afd0c03d;
+ background:#0a201a url('/art/immersive-home-v3.png') center center / cover fixed;
+}
+body[data-page=hub]::before {content:'';position:fixed;inset:0;pointer-events:none;background:linear-gradient(90deg,#0318139c 0%,#05191440 40%,transparent 72%),linear-gradient(0deg,#071e18c9,transparent 43%);}
+body[data-page=hub] #screen {padding:0;background:none;min-height:100svh;position:relative;}
+body[data-page=hub] .terminal-header {display:none;}
+body[data-page=hub] .sidebar {padding:38px 24px 22px;background:linear-gradient(90deg,#061c16ed,#09251b9c);border-right:1px solid #b2dfc432;box-shadow:inset -1px 0 #ebfce608;}
+body[data-page=hub] .identity {gap:10px;color:var(--home-ink);}
+body[data-page=hub] .identity img {width:44px;height:56px;object-fit:contain;}
+body[data-page=hub] .identity>span {font:23px/1.05 Georgia,'Times New Roman',serif;letter-spacing:2px;}
+body[data-page=hub] .identity b {font:42px/1.08 Georgia,'Times New Roman',serif;letter-spacing:5px;}
+body[data-page=hub] .identity small {font:11px/1.6 'Songti SC',SimSun,serif;letter-spacing:6px;margin-top:12px;}
+body[data-page=hub] .sidebar-caption {font-size:10px;margin:28px 0 30px;color:#bbd2c0;}
+body[data-page=hub] .sidebar-caption span {color:#86aa98;}
+body[data-page=hub] .sidebar nav {gap:12px;}
+body[data-page=hub] .sidebar nav [data-nav=hub] {display:none;}
+body[data-page=hub] .sidebar nav button {min-height:66px;padding:14px 12px;border-radius:4px;}
+body[data-page=hub] .sidebar .nav-label {font-size:15px;letter-spacing:2px;}
+body[data-page=hub] .sidebar .nav-label small {font-size:8px;letter-spacing:1.6px;margin-top:6px;}
+body[data-page=hub] .sidebar nav button.primary {background:linear-gradient(120deg,#e3edceee,#a5cebcdd);color:#193b2d;border:1px solid #e1efc7b3;box-shadow:inset 0 1px 2px #fff9,0 0 24px #92d3b729;}
+body[data-page=hub] .sidebar nav button.primary:hover {background:#d7ecda;box-shadow:inset 0 1px #fff,0 0 26px #9ce7bd42;}
+body[data-page=hub] .sidebar nav button.primary small {color:#456856;}
+body[data-page=hub] .sidebar .settings-link {font-size:15px;letter-spacing:2px;margin-top:16px;}
+body[data-page=hub] .sidebar footer {font-size:10px;color:#b5ccb6;}
+.base-home {height:100svh;display:grid;grid-template-rows:132px minmax(0,1fr) 218px;gap:12px;padding:32px 28px 24px;position:relative;color:var(--home-ink);animation:appear .25s ease-out;}
+.base-home .eyebrow {display:flex;align-items:center;gap:8px;color:#b7d0be;font-size:10px;letter-spacing:1.8px;}
+.base-home .eyebrow .ui-icon {width:16px;height:16px;}
+.base-overview {display:flex;justify-content:space-between;align-items:flex-start;gap:18px;position:relative;z-index:3;}
+.home-heading {padding:44px 0 0 14px;min-width:0;}
+.home-heading h1 {font:clamp(26px,2.6vw,38px)/1.45 'Songti SC','STSong',SimSun,serif;letter-spacing:2px;color:var(--home-ink);margin:16px 0 9px;text-shadow:0 2px 15px #01150cc2;white-space:nowrap;}
+.home-heading p {font-size:14px;letter-spacing:1px;color:#c5d4c5;text-shadow:0 1px 8px #000;}
+.base-status {flex:none;min-width:164px;padding:4px 12px 8px 16px;border-left:1px solid #b2d8c44d;background:linear-gradient(90deg,#0d251b9c,transparent);text-shadow:0 1px 8px #000;}
+.base-status small {display:block;font-size:12px;color:#d1dfce;line-height:1.6;}
+.base-status .discovery-count b {display:block;font:38px/1.2 Georgia,serif;margin:4px 0 8px;}
+.base-status em {font:14px Georgia,serif;color:#cad9c7;}
+.run-status {display:block;border-top:1px solid var(--home-edge);padding-top:8px;}
+.run-status b {font-size:13px;line-height:1.8;font-weight:500;letter-spacing:1px;}
+.run-status>small:first-child {display:none;}
+.run-status>small:last-child {max-width:162px;font-size:12px;}
+.living-stage {min-height:0;position:relative;isolation:isolate;}
+.chamber-scene {position:absolute;right:7%;bottom:-7%;width:min(76%,820px);aspect-ratio:4/3;pointer-events:none;--stage-x:55%;--stage-y:78%;}
+.chamber-halo {position:absolute;inset:12% 20% 10%;background:radial-gradient(ellipse at 50% 65%,#8cffdb25,transparent 65%);}
+.cultivation-podium {position:absolute;top:var(--stage-y);left:28%;width:54%;height:auto;aspect-ratio:3/2;object-fit:contain;transform:translateY(-45%) scaleY(.7);transform-origin:50% 45%;filter:brightness(.82) saturate(.65);}
+.contact-shadow {position:absolute;left:48%;top:77%;width:14%;height:3%;border-radius:50%;background:#0820199c;filter:blur(6px);}
+.primal-resident {position:absolute;left:var(--stage-x);top:var(--stage-y);width:calc(50% * var(--specimen-scale));aspect-ratio:1;transform:translate(calc(-1 * var(--foot-x)),calc(-1 * var(--foot-y)));filter:saturate(.85) drop-shadow(0 0 16px #a8efd326);}
+.base-home .home-founder {display:block;width:100%;height:100%;object-fit:contain;}
+.primal-resident>.home-founder {animation:primal-breathe 7s ease-in-out infinite;transform-origin:var(--foot-x) var(--foot-y);}
+.chamber-foreground {position:absolute;inset:0;width:100%;height:100%;color:#95dec7;opacity:.16;}
+.resident-label {position:absolute;left:82%;top:49%;width:26%;max-width:220px;padding:12px 14px;background:linear-gradient(90deg,#0b241b91,transparent);text-shadow:0 1px 5px #00140c,0 0 12px #03180e;}
+.resident-label>span {display:block;font:12px/1.6 ui-monospace,monospace;letter-spacing:1px;color:#bce0ce;}
+.resident-label strong {display:block;font:18px/1.5 'Songti SC',SimSun,serif;letter-spacing:2px;margin:4px 0;overflow-wrap:anywhere;}
+.resident-label small {font-size:12px;color:#d0e0cf;}
+.home-stage-note {position:absolute;bottom:10px;left:14px;font-size:10px;letter-spacing:2px;color:#c5d7c5;text-shadow:0 1px 6px #000;}
+.home-stage-note .status-dot {background:#92dcc6;margin-right:6px;}
+.home-stage-note small {display:block;font:8px/1.5 ui-monospace,monospace;letter-spacing:1.8px;margin:9px 0 0 12px;color:#8dae9e;}
+.home-mobile-start {display:none;}
+.home-dock {display:grid;grid-template-columns:minmax(0,55fr) minmax(0,25fr) minmax(0,20fr);gap:0;position:relative;z-index:4;border:1px solid #bbd6be66;border-radius:7px;background:#0c271ff2;box-shadow:inset 0 1px #e0fce41a,0 14px 35px #03150f38;}
+.home-dock::before,.home-dock::after {content:'';position:absolute;width:18px;height:18px;pointer-events:none;border-color:#a4d8bf;border-style:solid;}
+.home-dock::before {top:-1px;left:-1px;border-width:1px 0 0 1px;border-radius:7px 0 0;}
+.home-dock::after {bottom:-1px;right:-1px;border-width:0 1px 1px 0;border-radius:0 0 7px;}
+.home-dock>section,.home-dock>.field-entry {min-width:0;margin:16px 0;padding:0 20px;}
+.home-dock>section+section,.home-dock>.field-entry {border-left:1px solid var(--home-edge);}
+.dock-heading {display:flex;align-items:center;justify-content:space-between;gap:10px;}
+.dock-heading h2 {display:flex;align-items:center;gap:8px;font-size:13px;letter-spacing:2px;font-weight:500;}
+.base-home .dock-heading button {padding:2px 4px;background:none;border:0;}
+.dock-heading .ui-icon {width:16px;height:16px;color:#b8d3b9;}
+.family-tabs {display:flex;gap:4px;margin:6px 0 2px;}
+.base-home .family-tabs button {font-size:12px;flex:1;min-height:32px;padding:3px 5px;background:transparent;border-color:transparent;border-radius:3px;color:#b8cfc2;}
+.base-home .family-tabs button[aria-pressed=true] {border-color:#afd8bd7a;background:#accdb42b;box-shadow:inset 0 1px #d7efca26;color:#e1f0da;}
+.base-home .family-tabs button:hover {background:#a1d8bb21;}
+.home-growth {height:112px;display:flex;align-items:center;justify-content:space-between;gap:6px;}
+.home-growth .growth-node {width:28%;min-width:0;text-align:center;}
+.growth-visual {height:76px;width:76px;position:relative;margin:auto;}
+.home-growth .organism {display:block;width:100%;height:100%;}
+.home-growth .unknown {filter:brightness(0) drop-shadow(0 0 1px #b3d0ac);opacity:.68;}
+.home-growth small {display:block;font-size:12px;line-height:1.5;color:#c5d5c2;white-space:nowrap;}
+.growth-lock {position:absolute;inset:0;display:grid;place-items:center;color:#a1c0ae;}
+.growth-lock .ui-icon {width:13px;height:13px;}
+.growth-arrow .ui-icon {width:19px;height:19px;color:#bacfb5;}
+.latest-research,.field-entry {display:flex;flex-direction:column;align-items:flex-start;}
+.home-dock h2 {overflow-wrap:anywhere;}
+.latest-research h2,.field-entry h2 {font:17px/1.5 'Songti SC',SimSun,serif;margin:14px 0 7px;color:#e5ebd4;letter-spacing:.5px;}
+.latest-research p,.field-entry p {font-size:14px;line-height:1.7;color:#b6cbbb;}
+.base-home .latest-research button,.home-dock>.field-entry {background:none;border-radius:0;box-shadow:none;}
+.base-home .latest-research button {margin-top:auto;padding:8px 0 0;border:0;font-size:12px;color:#c9e4c9;justify-content:space-between;width:100%;}
+.home-dock>.field-entry {border-width:0 0 0 1px;border-color:var(--home-edge);text-align:left;justify-content:flex-start;color:inherit;}
+.home-dock>.field-entry:hover {background:#b2dbc00a;}
+.field-link {display:flex;align-items:center;justify-content:space-between;width:100%;margin-top:auto;padding-top:8px;font-size:12px;color:#c9e4c9;}
+.home-dock button .ui-icon {flex:none;}
+@keyframes primal-breathe {0%,100%{transform:scale(1)}50%{transform:scale(1.012,1.018)}}
+@supports (backdrop-filter:blur(12px)) or (-webkit-backdrop-filter:blur(12px)) {
+ .home-dock {background:linear-gradient(110deg,#102b21db,#10271dbe);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);}
+}
+@media(min-width:801px) and (max-height:780px) {
+ body[data-page=hub] .sidebar {padding-top:28px;}
+ body[data-page=hub] .sidebar-caption {margin:18px 0 22px;}
+ body[data-page=hub] .sidebar nav {gap:8px;}
+ body[data-page=hub] .sidebar nav button {min-height:58px;}
+ .base-home {padding:24px 22px 20px;grid-template-rows:112px minmax(0,1fr) 206px;gap:8px;}
+ .home-heading {padding-top:28px;padding-left:6px;}
+ .home-heading h1 {font-size:29px;letter-spacing:1px;}
+ .chamber-scene {width:min(72%,710px);bottom:-10%;}
+ .home-dock>section,.home-dock>.field-entry {margin:13px 0;padding:0 15px;}
+ .home-growth {height:106px;}
+ .growth-visual {width:68px;height:68px;}
+ .latest-research h2,.field-entry h2 {font-size:16px;margin-top:11px;}
+ .latest-research p,.field-entry p {font-size:12px;}
+}
+@media(min-width:801px) and (max-width:1100px) {
+ .home-heading h1 {font-size:24px;white-space:normal;max-width:310px;}
+ .home-heading p {font-size:10px;max-width:260px;}
+ .base-status {min-width:130px;max-width:150px;}
+ .home-dock>section,.home-dock>.field-entry {padding:0 10px;}
+ .base-home .eyebrow {font-size:9px;letter-spacing:1px;}
+ .home-growth small {font-size:12px;white-space:normal;}
+}
+@media(max-width:800px) {
+ body[data-page=hub] {--sidebar:0px;background-size:auto 760px;background-position:65% 0;background-repeat:no-repeat;background-attachment:scroll;}
+ body[data-page=hub] .sidebar {width:260px;background:#0b241cf7;padding:22px;z-index:90;}
+ body[data-page=hub] .sidebar-caption {margin:22px 0;}
+ body[data-page=hub] .sidebar nav button {min-height:54px;}
+ body[data-page=hub] .sidebar nav [data-nav=hub] {display:flex;}
+ body[data-page=hub] .terminal-header {display:flex;background:#0a211bea;}
+ body[data-page=hub] #screen {min-height:0;}
+ .base-home {height:auto;min-height:calc(100svh - 58px);display:flex;flex-direction:column;padding:24px 18px;gap:18px;}
+ .base-overview {flex-direction:column;gap:18px;}
+ .home-heading {padding:0;}
+ .home-heading h1 {font-size:27px;letter-spacing:.5px;white-space:normal;margin:14px 0 8px;}
+ .home-heading p {font-size:14px;letter-spacing:0;}
+ .base-status {display:flex;align-items:center;gap:22px;width:100%;padding:8px 14px;background:#09221cc4;border-left:2px solid #9bcebd7a;}
+ .base-status .discovery-count b {font-size:27px;margin:3px 0;}
+ .run-status {border-top:0;border-left:1px solid var(--home-edge);padding:0 0 0 18px;}
+ .run-status b {font-size:12px;}
+ .living-stage {height:360px;flex:none;}
+ .chamber-scene {width:100%;right:0;top:0;bottom:auto;--stage-x:50%;}
+ .resident-label {left:0;top:101%;width:100%;max-width:none;padding:10px 14px;border-left:1px solid var(--home-edge);}
+ .resident-label strong {font-size:19px;letter-spacing:1px;}
+ .resident-label>span {font-size:12px;letter-spacing:0;}
+ .resident-label small {font-size:12px;}
+ .home-stage-note {display:none;}
+ .home-stage-note small {font-size:6px;}
+ .home-mobile-start {display:flex;justify-content:space-between;width:100%;padding:14px 18px;min-height:52px;}
+ .home-dock {display:flex;flex-direction:column;}
+ .home-dock>section,.home-dock>.field-entry {margin:0 16px;padding:18px 0;}
+ .home-dock>section+section,.home-dock>.field-entry {border-left:0;border-top:1px solid var(--home-edge);}
+ .home-growth {height:124px;}
+ .growth-visual {width:74px;height:74px;}
+ .base-home .family-tabs button {font-size:11px;min-height:36px;}
+ .family-tabs {margin-top:12px;}
+ .home-growth small {font-size:12px;white-space:normal;}
+ .latest-research h2,.field-entry h2 {font-size:19px;}
+ .latest-research p,.field-entry p {font-size:12px;}
+ .base-home .latest-research button,.field-link {padding-top:14px;min-height:40px;font-size:12px;}
+}
+.reduced-motion .base-home,.reduced-motion .base-home * {animation:none!important;transition:none!important;}
+@media(prefers-reduced-motion:reduce) {.base-home,.base-home * {animation:none!important;transition:none!important;}}
+
+/* Interactive growth specimens retain normal keyboard semantics. */
+.base-home .growth-node {display:block;background:transparent;border:1px solid transparent;padding:3px;border-radius:6px;color:inherit;}
+.base-home .growth-node:hover {background:#a6e5cc12;border-color:var(--home-edge);}
+.growth-step {display:block;font-size:12px;color:#a7c5b7;margin-top:4px;}
+.home-growth small {overflow-wrap:anywhere;white-space:normal;}
+.resident-label p {font-size:12px;line-height:1.65;margin-top:8px;color:#d2e0d7;}
+.primal-resident {animation:specimen-arrive .24s ease-out;}
+@keyframes specimen-arrive {from{opacity:0}to{opacity:1}}
+@media(max-width:800px){.cultivation-podium{left:23%;}.contact-shadow{left:43%;}.podium-shadow{left:27%;}.resident-label p{margin-top:4px}.resident-label strong{display:inline-block;margin-right:12px}.home-dock .latest-research p,.home-dock .field-entry p{font-size:14px}}
+
+.podium-shadow {position:absolute;left:32%;top:88%;width:46%;height:3%;background:#102b2180;filter:blur(8px);border-radius:50%;}
+
+.home-growth small>span{display:inline-block;white-space:nowrap}.base-home .growth-node{align-self:stretch}.home-growth small{line-height:1.3}.base-home .growth-node small{min-height:16px}

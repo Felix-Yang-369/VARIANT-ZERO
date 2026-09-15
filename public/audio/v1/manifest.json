@@ -1,0 +1,406 @@
+{
+  "version": 1,
+  "sampleRate": 44100,
+  "music": {
+    "sanctuary": {
+      "title": "原初之息",
+      "bpm": 84,
+      "bars": 32,
+      "duration": 91.42857142857143,
+      "url": "/audio/v1/sanctuary-v1.mp3",
+      "description": "温室与图鉴：柔和电钢琴、竖琴、空气弦层"
+    },
+    "laboratory": {
+      "title": "生命的分叉",
+      "bpm": 76,
+      "bars": 24,
+      "duration": 75.78947368421052,
+      "url": "/audio/v1/laboratory-v1.mp3",
+      "description": "实验室：玻璃钟、细碎木音、克制脉冲"
+    },
+    "preparation": {
+      "title": "生态编队",
+      "bpm": 96,
+      "bars": 24,
+      "duration": 60.0,
+      "url": "/audio/v1/preparation-v1.mp3",
+      "description": "准备阶段：温暖低音、木质节奏与主题碎片"
+    },
+    "battle": {
+      "title": "共生前线",
+      "bpm": 108,
+      "bars": 32,
+      "duration": 71.11111111111111,
+      "url": "/audio/v1/battle-v1.mp3",
+      "description": "自动战斗：有机鼓组、律动低音与层次推进"
+    },
+    "boss": {
+      "title": "零序列回响",
+      "bpm": 120,
+      "bars": 32,
+      "duration": 64.0,
+      "url": "/audio/v1/boss-v1.mp3",
+      "description": "Boss：低频脉冲、切分节奏与紧张主题变奏"
+    }
+  },
+  "sfx": {
+    "select": {
+      "title": "选择标本",
+      "urls": [
+        "/audio/v1/select-1.wav",
+        "/audio/v1/select-2.wav",
+        "/audio/v1/select-3.wav"
+      ],
+      "priority": 1,
+      "group": "ui",
+      "interval": 0.045,
+      "duration": 0.24
+    },
+    "navigate": {
+      "title": "终端翻页",
+      "urls": [
+        "/audio/v1/navigate-1.wav",
+        "/audio/v1/navigate-2.wav",
+        "/audio/v1/navigate-3.wav"
+      ],
+      "priority": 1,
+      "group": "ui",
+      "interval": 0.09,
+      "duration": 0.38
+    },
+    "cancel": {
+      "title": "撤销返回",
+      "urls": [
+        "/audio/v1/cancel-1.wav",
+        "/audio/v1/cancel-2.wav",
+        "/audio/v1/cancel-3.wav"
+      ],
+      "priority": 1,
+      "group": "ui",
+      "interval": 0.07,
+      "duration": 0.28
+    },
+    "invalid": {
+      "title": "操作受限",
+      "urls": [
+        "/audio/v1/invalid-1.wav",
+        "/audio/v1/invalid-2.wav",
+        "/audio/v1/invalid-3.wav"
+      ],
+      "priority": 2,
+      "group": "ui",
+      "interval": 0.12,
+      "duration": 0.4
+    },
+    "buy": {
+      "title": "样本培养",
+      "urls": [
+        "/audio/v1/buy-1.wav",
+        "/audio/v1/buy-2.wav",
+        "/audio/v1/buy-3.wav"
+      ],
+      "priority": 2,
+      "group": "economy",
+      "interval": 0.09,
+      "duration": 0.7
+    },
+    "sell": {
+      "title": "样本回收",
+      "urls": [
+        "/audio/v1/sell-1.wav",
+        "/audio/v1/sell-2.wav",
+        "/audio/v1/sell-3.wav"
+      ],
+      "priority": 2,
+      "group": "economy",
+      "interval": 0.09,
+      "duration": 0.65
+    },
+    "deploy": {
+      "title": "扎根部署",
+      "urls": [
+        "/audio/v1/deploy-1.wav",
+        "/audio/v1/deploy-2.wav",
+        "/audio/v1/deploy-3.wav"
+      ],
+      "priority": 2,
+      "group": "economy",
+      "interval": 0.1,
+      "duration": 0.55
+    },
+    "refresh": {
+      "title": "商店重组",
+      "urls": [
+        "/audio/v1/refresh-1.wav",
+        "/audio/v1/refresh-2.wav",
+        "/audio/v1/refresh-3.wav"
+      ],
+      "priority": 2,
+      "group": "economy",
+      "interval": 0.15,
+      "duration": 0.7
+    },
+    "lock": {
+      "title": "保存锁定",
+      "urls": [
+        "/audio/v1/lock-1.wav",
+        "/audio/v1/lock-2.wav",
+        "/audio/v1/lock-3.wav"
+      ],
+      "priority": 1,
+      "group": "ui",
+      "interval": 0.07,
+      "duration": 0.3
+    },
+    "capacity": {
+      "title": "容量研究",
+      "urls": [
+        "/audio/v1/capacity-1.wav"
+      ],
+      "priority": 4,
+      "group": "experiment",
+      "interval": 0.25,
+      "duration": 1.4
+    },
+    "merge": {
+      "title": "升星共鸣",
+      "urls": [
+        "/audio/v1/merge-1.wav"
+      ],
+      "priority": 5,
+      "group": "experiment",
+      "interval": 0.25,
+      "duration": 1.8
+    },
+    "experiment": {
+      "title": "遗传实验启动",
+      "urls": [
+        "/audio/v1/experiment-1.wav"
+      ],
+      "priority": 5,
+      "group": "experiment",
+      "interval": 0.25,
+      "duration": 1.6
+    },
+    "discovery": {
+      "title": "首次发现",
+      "urls": [
+        "/audio/v1/discovery-1.wav"
+      ],
+      "priority": 6,
+      "group": "result",
+      "interval": 0.3,
+      "duration": 2.8
+    },
+    "duplicate": {
+      "title": "稳定复现",
+      "urls": [
+        "/audio/v1/duplicate-1.wav"
+      ],
+      "priority": 5,
+      "group": "result",
+      "interval": 0.3,
+      "duration": 1.8
+    },
+    "failure": {
+      "title": "分化未成",
+      "urls": [
+        "/audio/v1/failure-1.wav"
+      ],
+      "priority": 5,
+      "group": "result",
+      "interval": 0.3,
+      "duration": 1.6
+    },
+    "shot_seed": {
+      "title": "种荚射击",
+      "urls": [
+        "/audio/v1/shot_seed-1.wav",
+        "/audio/v1/shot_seed-2.wav",
+        "/audio/v1/shot_seed-3.wav"
+      ],
+      "priority": 0,
+      "group": "attack",
+      "interval": 0.11,
+      "duration": 0.22
+    },
+    "shot_spore": {
+      "title": "孢子喷发",
+      "urls": [
+        "/audio/v1/shot_spore-1.wav",
+        "/audio/v1/shot_spore-2.wav",
+        "/audio/v1/shot_spore-3.wav"
+      ],
+      "priority": 0,
+      "group": "attack",
+      "interval": 0.15,
+      "duration": 0.35
+    },
+    "hit_soft": {
+      "title": "生物受击",
+      "urls": [
+        "/audio/v1/hit_soft-1.wav",
+        "/audio/v1/hit_soft-2.wav",
+        "/audio/v1/hit_soft-3.wav"
+      ],
+      "priority": 0,
+      "group": "impact",
+      "interval": 0.09,
+      "duration": 0.22
+    },
+    "hit_shell": {
+      "title": "甲壳受击",
+      "urls": [
+        "/audio/v1/hit_shell-1.wav",
+        "/audio/v1/hit_shell-2.wav",
+        "/audio/v1/hit_shell-3.wav"
+      ],
+      "priority": 0,
+      "group": "impact",
+      "interval": 0.11,
+      "duration": 0.29
+    },
+    "melee": {
+      "title": "节肢近战",
+      "urls": [
+        "/audio/v1/melee-1.wav",
+        "/audio/v1/melee-2.wav",
+        "/audio/v1/melee-3.wav"
+      ],
+      "priority": 1,
+      "group": "attack",
+      "interval": 0.14,
+      "duration": 0.34
+    },
+    "move": {
+      "title": "足肢移动",
+      "urls": [
+        "/audio/v1/move-1.wav",
+        "/audio/v1/move-2.wav",
+        "/audio/v1/move-3.wav"
+      ],
+      "priority": 0,
+      "group": "movement",
+      "interval": 0.18,
+      "duration": 0.16
+    },
+    "heal": {
+      "title": "再生流光",
+      "urls": [
+        "/audio/v1/heal-1.wav",
+        "/audio/v1/heal-2.wav",
+        "/audio/v1/heal-3.wav"
+      ],
+      "priority": 2,
+      "group": "heal",
+      "interval": 0.3,
+      "duration": 0.8
+    },
+    "death": {
+      "title": "生命消散",
+      "urls": [
+        "/audio/v1/death-1.wav",
+        "/audio/v1/death-2.wav",
+        "/audio/v1/death-3.wav"
+      ],
+      "priority": 1,
+      "group": "impact",
+      "interval": 0.16,
+      "duration": 0.75
+    },
+    "explosion": {
+      "title": "爆裂孢囊",
+      "urls": [
+        "/audio/v1/explosion-1.wav"
+      ],
+      "priority": 5,
+      "group": "impact",
+      "interval": 0.3,
+      "duration": 1.3
+    },
+    "revive": {
+      "title": "零序列复生",
+      "urls": [
+        "/audio/v1/revive-1.wav"
+      ],
+      "priority": 6,
+      "group": "experiment",
+      "interval": 0.5,
+      "duration": 2.0
+    },
+    "start": {
+      "title": "出征启动",
+      "urls": [
+        "/audio/v1/start-1.wav"
+      ],
+      "priority": 5,
+      "group": "result",
+      "interval": 0.4,
+      "duration": 1.5
+    },
+    "warning": {
+      "title": "最终敌袭",
+      "urls": [
+        "/audio/v1/warning-1.wav"
+      ],
+      "priority": 7,
+      "group": "result",
+      "interval": 0.6,
+      "duration": 2.0
+    },
+    "won": {
+      "title": "回合突破",
+      "urls": [
+        "/audio/v1/won-1.wav"
+      ],
+      "priority": 7,
+      "group": "result",
+      "interval": 0.5,
+      "duration": 2.7
+    },
+    "lost": {
+      "title": "未能突破",
+      "urls": [
+        "/audio/v1/lost-1.wav"
+      ],
+      "priority": 7,
+      "group": "result",
+      "interval": 0.5,
+      "duration": 2.6
+    },
+    "reward": {
+      "title": "试剂入库",
+      "urls": [
+        "/audio/v1/reward-1.wav"
+      ],
+      "priority": 3,
+      "group": "economy",
+      "interval": 0.2,
+      "duration": 1.1
+    },
+    "pause": {
+      "title": "终端暂停",
+      "urls": [
+        "/audio/v1/pause-1.wav",
+        "/audio/v1/pause-2.wav",
+        "/audio/v1/pause-3.wav"
+      ],
+      "priority": 2,
+      "group": "ui",
+      "interval": 0.1,
+      "duration": 0.25
+    },
+    "resume": {
+      "title": "终端继续",
+      "urls": [
+        "/audio/v1/resume-1.wav",
+        "/audio/v1/resume-2.wav",
+        "/audio/v1/resume-3.wav"
+      ],
+      "priority": 2,
+      "group": "ui",
+      "interval": 0.1,
+      "duration": 0.35
+    }
+  }
+}

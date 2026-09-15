@@ -1,0 +1,33 @@
+node_modules/
+dist/
+.DS_Store
+.verification/
+test-results/
+playwright-report/
+
+# Local builds, caches and player data
+/分享试玩/
+/backups/
+/UE/BuildOutput*/
+/UE/Binaries/
+/UE/Intermediate/
+/UE/Saved/
+/UE/DerivedDataCache/
+/UE/TestResults/
+.vs/
+__pycache__/
+*.pyc
+*.log
+*.pdb
+*.sln
+*.suo
+*.VC.db
+*.blend[0-9]
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key

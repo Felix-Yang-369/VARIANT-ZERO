@@ -1,0 +1,9 @@
+{
+  "target": "D:\\Projects\\零号变种\\UE",
+  "compatibilityPath": "D:\\Projects\\VariantZeroUE",
+  "verifiedFiles": 50,
+  "hashMismatches": 0,
+  "webTestsPassed": 42,
+  "webBuildPassed": true,
+  "liveWebStartup": "PASS: supervised foreground Vite process on loopback port 5179 returned HTTP 200 and the game HTML; test process stopped"
+}

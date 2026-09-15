@@ -1,0 +1,164 @@
+/* Shared visual language, scoped to archive pages and dialog surfaces. */
+:root {
+  --garden-gold: #e7ce8e;
+  --garden-cyan: #94ddd0;
+  --garden-purple: #d7b8ed;
+  --glass-panel: #193128f5;
+  --glass-line: #c2d8b638;
+  --glass-shadow: 0 16px 42px #04160d45, inset 0 1px 0 #f0e8bf24, inset 0 0 0 5px #b8d8bb06;
+  --surface-radius: 18px;
+  --surface-gap: 20px;
+}
+.ui-icon { width: 20px; height: 20px; flex: 0 0 20px; vertical-align: middle; }
+.home-features .ui-icon { width: 30px; height: 30px; }
+.home-menu .primary > .ui-icon { margin-right: 12px; }
+#archive, #archive.is-pedia {
+  background: linear-gradient(110deg, #0b2119f5, #17392ce8), url('/art/home.png') center/cover fixed;
+}
+#archive > header {
+  position: sticky; top: 0; z-index: 10;
+  min-height: 76px; padding: 16px max(24px, calc((100vw - 1124px) / 2));
+  border-bottom: 1px solid var(--glass-line);
+  background: #10251ff5;
+  box-shadow: 0 8px 30px #04160d25;
+}
+#archive > header > span { color: var(--garden-gold); font-size: 10px; letter-spacing: 2.5px; }
+#archive-content { padding-top: 44px; }
+#archive h1 { color: #f0edcf; letter-spacing: -.8px; font-size: clamp(28px, 3.2vw, 42px); }
+#archive-content > p { max-width: 800px; color: #c4d6c7; line-height: 1.85; }
+#archive-content > h2 { margin-top: 38px; display: flex; align-items: center; gap: 12px; }
+#archive-content > h2::before { content: ''; width: 4px; height: 20px; border-radius: 3px; background: var(--garden-gold); }
+#archive :is(.archive-grid, .record-grid, .research-notes) { gap: var(--surface-gap); }
+#archive :is(.archive-grid > article:not(.specimen-card), .record-grid > article, .research-notes > article, .world-principles > article, .world-route > article, .lore-link) {
+  background: var(--glass-panel);
+  border: 1px solid var(--glass-line);
+  border-radius: var(--surface-radius);
+  box-shadow: var(--glass-shadow);
+}
+#archive :is(.archive-grid > article:not(.specimen-card), .research-notes > article) { padding: 24px; }
+#archive :is(article p, .lab-lore p) { color: #c5d5c9; line-height: 1.85; }
+#archive :is(button, summary), .modal-layer button, .draft-dialog button {
+  transition: border-color .18s ease, background-color .18s ease, box-shadow .18s ease;
+}
+#archive button:hover, .modal-layer button:hover:not(:disabled), .draft-dialog button:hover {
+  border-color: var(--garden-gold); box-shadow: inset 0 1px 0 #f9e6b229, 0 4px 18px #03150b44;
+}
+#archive :is(button, summary):focus-visible, .home button:focus-visible,
+.modal-layer :is(button, input):focus-visible, .draft-dialog button:focus-visible {
+  outline: 3px solid var(--garden-gold); outline-offset: 4px;
+}
+#archive :is(.eyebrow, .specimen-family) { color: var(--garden-gold); }
+.discovery-hero {
+  display: grid; grid-template-columns: minmax(0,1fr) 190px; align-items: center;
+  padding: 28px 32px; margin-top: 28px; gap: 24px;
+  background: radial-gradient(ellipse at right, #54825440, transparent 65%), #1d392cf5;
+  border: 1px solid #d9c98b66; border-radius: var(--surface-radius); box-shadow: var(--glass-shadow);
+}
+#archive .discovery-hero h2 { margin: 12px 0; }
+.discovery-hero p { color: #c6d8c5; font-size: 13px; line-height: 1.8; }
+.discovery-plant { width: 190px; height: 190px; object-fit: contain; filter: drop-shadow(0 12px 15px #04160d88); }
+.discovery-track, .probability-track { height: 5px; display: block; border-radius: 6px; overflow: hidden; background: #071b17; }
+.discovery-track { margin: 20px 0 10px; max-width: 540px; }
+.discovery-track i, .probability-track i { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #73b69b, #edce8f); }
+.discovery-count { font-size: 11px; color: var(--garden-gold); }
+#archive .record-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 20px 0 32px; }
+#archive .record-grid article { padding: 20px 24px; }
+#archive .record-grid b { font-size: clamp(19px, 2.2vw, 28px); overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+#archive .record-grid span { margin-top: 8px; }
+#archive .milestones { grid-template-columns: repeat(4, minmax(0,1fr)); }
+#archive .milestone { position: relative; border-top: 3px solid #73897d; }
+#archive .milestone small { display: block; line-height: 1.7; }
+#archive .milestone.complete { border-top-color: var(--garden-gold); background: linear-gradient(140deg, #384b2d, #193128); }
+#archive .milestone.complete small { color: var(--garden-gold); }
+#archive .recipes { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.recipe-parents { display: flex; align-items: center; justify-content: center; gap: 15px; margin-bottom: 20px; }
+#archive .recipe-parents img { width: 76px; height: 76px; object-fit: contain; filter: drop-shadow(0 5px 8px #071b1788); }
+.recipe-parents > span { font-size: 23px; color: var(--garden-gold); }
+#archive .recipes h2 { text-align: center; line-height: 1.6; margin-bottom: 12px !important; }
+.recipe-cost { display: block; padding: 8px 4px; border-block: 1px solid var(--glass-line); text-align: center; font-size: 11px; color: var(--garden-gold); }
+#archive .recipes .recipe-line { display: grid; grid-template-columns: 54px minmax(0,1fr) auto; gap: 5px 10px; align-items: center; padding: 16px 0; }
+#archive .recipe-line img { width: 54px; height: 54px; object-fit: contain; grid-row: span 2; }
+#archive .recipe-line b { color: var(--garden-gold); font-variant-numeric: tabular-nums; }
+#archive .probability-track { grid-column: 2 / 4; width: 100%; height: 4px; }
+#archive .research-notes { gap: 20px; }
+#archive .research-notes h2 { margin-top: 0; }
+#archive .evolution-notes { border-top: 3px solid var(--garden-cyan); }
+#archive .evolution-notes h2 { color: var(--garden-cyan); }
+#archive .mutation-card { border-top: 3px solid #b48ccf; background: linear-gradient(135deg, #352b40f5, #1b2c29f5); }
+#archive .mutation-card h3 { color: var(--garden-purple); }
+#archive .gene-card { position: relative; border-top: 2px solid #6bab9f; }
+#archive .gene-card .gene-symbol { color: var(--garden-cyan); }
+#archive .gene-card .gene-symbol .ui-icon { width: 32px; height: 32px; }
+#archive .gene-card em { display: inline-block; font-size: 11px; font-style: normal; color: var(--garden-cyan); padding: 5px 10px; border: 1px solid #85cdb83b; border-radius: 20px; }
+#archive .lab-lore { border-left-color: var(--garden-cyan); background: #16312bcc; }
+#archive .world-seal, #archive .archive-legend { border-color: var(--glass-line); }
+.modal-layer { background: #04140ddd; }
+.modal-layer .dialog, #overlay .dialog, #overlay .draft-dialog {
+  border: 1px solid #d6d29b66; border-radius: 20px;
+  box-shadow: 0 30px 90px #020c08aa, inset 0 0 0 5px #d7dec00a;
+  background: linear-gradient(135deg, #284439fa, #142b23fc);
+}
+#overlay .draft-dialog { padding: 22px; max-height: 100%; overflow-y: auto; }
+.modal-layer .dialog { max-height: calc(100svh - 40px); overscroll-behavior: contain; }
+.modal-layer .dialog h2, #overlay h2 { color: #f0e6bf; }
+.modal-layer .dialog p { color: #c7d8cd; line-height: 1.8; }
+.modal-layer .dialog-actions { position: sticky; bottom: -30px; padding: 14px 0; background: #183128f7; border-top: 1px solid var(--glass-line); z-index: 2; flex-wrap: wrap; }
+.modal-layer .dialog-actions button { min-height: 44px; }
+.consequence { padding: 16px; border: 1px solid #d8b77855; border-left: 3px solid var(--garden-gold); border-radius: 10px; background: #54462833; text-align: left; }
+.settings-group { min-width: 0; margin: 22px 0; border: 1px solid var(--glass-line); padding: 8px 20px 14px; border-radius: 14px; background: #10291d80; text-align: left; }
+.settings-group legend { font-size: 12px; color: var(--garden-gold); padding: 0 8px; letter-spacing: 2px; }
+.settings-group .slider-label { margin: 18px 0 24px; }
+.settings-group output { font-variant-numeric: tabular-nums; background: #0c211b; border-radius: 6px; padding: 3px 8px; min-width: 48px; text-align: center; }
+.settings-group input[type=range] { accent-color: #d5c282; cursor: pointer; min-height: 24px; }
+.settings-group .check-label { justify-content: space-between; flex-direction: row-reverse; min-height: 30px; cursor: pointer; }
+.settings-group input[type=checkbox] { width: 20px; height: 20px; accent-color: #b9d198; }
+.settings-group p { margin-bottom: 0; font-size: 11px; }
+.help-content > p { padding: 12px 15px; background: #10291b80; border-radius: 10px; border-left: 2px solid #b1c19a55; }
+.draft-grid > button { border-radius: 14px; }
+.draft-grid > button:hover { background: #294b3e; }
+.draft-grid .pick-label { color: var(--garden-gold); }
+@supports ((backdrop-filter: blur(8px)) or (-webkit-backdrop-filter: blur(8px))) {
+  #archive > header { background: #10251fe8; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+  .modal-layer { backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+}
+@keyframes surface-enter { from { opacity: 0; } to { opacity: 1; } }
+.modal-layer:not(.hidden) .dialog { animation: surface-enter .18s ease-out; }
+.reduced-motion .modal-layer .dialog { animation: none; }
+@media (prefers-reduced-motion: reduce) { .modal-layer .dialog { animation: none; } }
+@media (max-width: 900px) {
+  #archive .milestones { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  #archive .recipes { grid-template-columns: 1fr; }
+  #archive > header { padding: 12px 20px; }
+  #archive > header > span { font-size: 8px; letter-spacing: 1px; }
+}
+@media (max-width: 600px) {
+  #archive-content { padding: 28px 20px 50px; }
+  #archive > header > span { display: none; }
+  .discovery-hero { grid-template-columns: 1fr; padding: 24px; }
+  .discovery-plant { display: none; }
+  #archive .record-grid, #archive .milestones { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+  #archive .record-grid article, #archive .milestone { padding: 16px; }
+  #archive .research-notes { grid-template-columns: 1fr; }
+  .modal-layer { padding: 12px; }
+  .modal-layer .dialog { padding: 20px; max-height: calc(100svh - 24px); }
+  .modal-layer .dialog-actions { bottom: -20px; gap: 8px; }
+  .settings-group { padding-inline: 14px; }
+  #overlay .draft-dialog { padding: 12px; }
+}
+/* State accents override the shared card surface, without changing its geometry. */
+#archive .archive-grid > article.mutation-card {
+  border-top: 3px solid #b48ccf;
+  background: linear-gradient(135deg, #352b40f5, #1b2c29f5);
+}
+#archive .archive-grid > article.gene-card { border-top: 2px solid #6bab9f; }
+#archive .archive-grid > article.milestone { border-top: 3px solid #73897d; }
+#archive .archive-grid > article.milestone.complete {
+  border-top-color: var(--garden-gold);
+  background: linear-gradient(140deg, #384b2d, #193128);
+}
+#archive .research-notes > article.evolution-notes { border-top: 3px solid var(--garden-cyan); }
+.reduced-motion :is(#archive, .home, .modal-layer, .draft-dialog) button { transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  :is(#archive, .home, .modal-layer, .draft-dialog) button { transform: none; transition: none; }
+}
+#archive .archive-grid > article.mutation-card { border-top-color: #b48ccf !important; }

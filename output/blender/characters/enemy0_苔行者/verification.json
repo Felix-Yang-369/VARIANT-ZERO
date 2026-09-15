@@ -1,0 +1,15 @@
+{
+  "character": "苔行者",
+  "checks": {
+    "correct_name": true,
+    "independent_scene": true,
+    "organized_character": true,
+    "has_real_meshes": true,
+    "packed_reference": true,
+    "no_external_textures": true,
+    "gpu_render_setting": true,
+    "two_cameras": true,
+    "previews_exist": true
+  },
+  "passed": true
+}

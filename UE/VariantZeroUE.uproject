@@ -1,0 +1,40 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "",
+  "Description": "Variant Zero P0 native foundation - prototype assets",
+  "Plugins": [
+    {
+      "Name": "ModelingToolsEditorMode",
+      "Enabled": true,
+      "TargetAllowList": [
+        "Editor"
+      ]
+    },
+    {
+      "Name": "GameplayStateTree",
+      "Enabled": true
+    },
+    {
+      "TargetAllowList": [
+        "Editor"
+      ],
+      "Name": "PythonScriptPlugin",
+      "Enabled": true
+    },
+    {
+      "TargetAllowList": [
+        "Editor"
+      ],
+      "Name": "EditorScriptingUtilities",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "Name": "VariantZeroUE"
+    }
+  ]
+}

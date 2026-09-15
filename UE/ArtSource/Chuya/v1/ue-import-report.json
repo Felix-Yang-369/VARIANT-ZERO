@@ -1,0 +1,15 @@
+{
+  "mesh": "/Game/VariantZero/Characters/Chuya/SK_Chuya.SK_Chuya",
+  "skeleton": "/Game/VariantZero/Characters/Chuya/SK_Chuya_Skeleton.SK_Chuya_Skeleton",
+  "materials": 1,
+  "lod_vertices": [
+    24945,
+    7666,
+    3909
+  ],
+  "animations": [
+    "A_Chuya_Idle",
+    "A_Chuya_Walk"
+  ],
+  "status": "imported candidate; runtime deformation check pending"
+}

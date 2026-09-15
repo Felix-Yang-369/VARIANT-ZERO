@@ -1,0 +1,38 @@
+[
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\prologue-VZStoryTest.log",
+    "test": "VZStoryTest",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\prologue-VZHeroTest.log",
+    "test": "VZHeroTest",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\prologue-VZSmokeTest.log",
+    "test": "VZSmokeTest",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\prologue-VZCombatTest.log",
+    "test": "VZCombatTest",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\prologue-VZOrderTest.log",
+    "test": "VZOrderTest",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "log": "D:\\Projects\\VariantZeroUE\\prologue-VZMenuTest.log",
+    "test": "VZMenuTest",
+    "exitCode": 0,
+    "passed": true
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "src/variant/art.ts": "0ae333046db2573bea9c36abb4385083e3af366a263a4839e2c403ea7e29601c",
+  "src/variant/audio.ts": "6b75d9bf1d5998c8f0ffd590170b27755d61e1ce00fcb1127f128e339b031894",
+  "src/variant/battle.ts": "053e3b9e12c4b6fbaebc66d913c89c34ea9aba82bed31ace9961c1dbe431b39d",
+  "src/variant/content.ts": "7c345f5b1a749f8494f2d6702abba0e138aa1a73ecc1f2c5afe57e69d6404ab8",
+  "src/variant/expedition.ts": "8c28f06c148136893bb6d5a0f8401fa4b2d77d4c1976305bb612f110f2e87fd1",
+  "src/variant/main.ts": "231a9d773fcfa99adbe0b90e7c6f2f4a075edd66414684f5c3ed624d45697c27",
+  "src/variant/random.ts": "5611313b2889ee08f6099d94669c1c8e41b89b40fd11fcf94454e42c2f8b3a8e",
+  "src/variant/renderer.ts": "ca64e007fd334c699de766d95a5d14f87473f652490ab5fb6adb972862bdddea",
+  "src/variant/research.ts": "4ffd2c3063b0efec9f8e3b75b31e916cf2a0fbe133516a1c2e56cae9c8359de5",
+  "src/variant/storage.ts": "2fbd0ade74d4ca41357e8d8dcd4ad91d7be28ed356ad83242d1f40abf4284252",
+  "package.json": "b02f5181bfe891dc316fe143d6dc41f88dabf049c3908cce8150371388dbca31",
+  "package-lock.json": "4a6bafc4d3dd302e1c0232e9ed98a46596cb4abf4d4cce0d7dcd5a256baebe20"
+}
